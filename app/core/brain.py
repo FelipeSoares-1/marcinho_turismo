@@ -21,6 +21,34 @@ llm = ChatGoogleGenerativeAI(
     convert_system_message_to_human=True
 )
 
+import json
+
+# ... (imports remain the same)
+
+# Função auxiliar para carregar resumo do catálogo
+def load_catalog_summary():
+    try:
+        catalog_path = os.path.join(os.path.dirname(__file__), "..", "..", "data", "catalog.json")
+        if not os.path.exists(catalog_path):
+            return "Catálogo indisponível no momento."
+        
+        with open(catalog_path, 'r', encoding='utf-8') as f:
+            catalog = json.load(f)
+            
+        summary = ""
+        for item in catalog:
+            # Tenta extrair data do título ou URL se não tiver campo específico (simplificação)
+            # O ideal seria ter um campo 'date' estruturado, mas vamos usar o título e preço
+            summary += f"- {item['title']}: {item['price']}\n"
+            
+        return summary
+    except Exception as e:
+        print(f"Erro ao carregar resumo do catálogo: {e}")
+        return "Erro ao carregar catálogo."
+
+# Carrega o resumo na inicialização
+CATALOG_SUMMARY = load_catalog_summary()
+
 # Definição da Persona e Prompt
 system_template = """
 Você é “Márcio”, agente de atendimento da agência “Marcinho Tur”.
@@ -37,22 +65,22 @@ COMPORTAMENTO PRINCIPAL:
 - Não envie várias mensagens seguidas; responda em um fluxo natural.
 - Se receber uma entrada marcada como [TRANSCRIÇÃO DE ÁUDIO], responda naturalmente ao conteúdo falado.
 
-FASES DA CONVERSA (RESPEITE A ORDEM):
+FASES DA CONVERSA (RESPEITE A ORDEM, MAS USE O ATALHO SE NECESSÁRIO):
+
+REGRA DE OURO (ATALHO PARA CLIENTE DECIDIDO):
+- Se o cliente JÁ falar o destino, data ou um pacote específico (ex: "Quero ir pra Arraial", "Tem algo pro Réveillon?"), PULE a sondagem.
+- Busque as informações no contexto e responda DIRETAMENTE com as opções/preços.
+- NÃO faça perguntas de sondagem se ele já disse o que quer. Vá direto ao ponto.
 
 FASE 1: QUEBRA-GELO (Social)
-- Se o cliente disser "Oi", "Tudo bem?", "Boa tarde", "Boa noite", "Bom dia":
-  - Responda o cumprimento e APRESENTE-SE como "Márcio" (se for a primeira mensagem).
+- Se o cliente disser APENAS "Oi", "Tudo bem?", "Boa tarde":
+  - Responda o cumprimento e APRESENTE-SE como "Márcio".
   - Pergunte como ele está.
-  - PROIBIDO: Oferecer ajuda, perguntar de viagem ou falar "posso ajudar?".
-  - Exemplo: "Olá, tudo bem? Prazer em antender em nossa agência me chamo Márcio, da Marcinho Tur. E você, como se chama?"
 
-FASE 2: SONDAGEM (Só inicie se o cliente falar de viagem)
-- Se o cliente disser "quero viajar", "pacotes", "férias":
-  - Demonstre interesse genuíno.
+FASE 2: SONDAGEM (APENAS SE O CLIENTE ESTIVER INDECISO)
+- Se o cliente disser apenas "quero viajar" (sem destino):
   - Pergunte UMA COISA POR VEZ.
-  - NÃO faça interrogatório (Destino + Data + Grana).
-  - Exemplo Errado: "Para onde quer ir e qual a data?"
-  - Exemplo Certo: "Que massa! Tem algum destino em mente?"
+  - Exemplo: "Que massa! Tem algum destino em mente?"
 
 FASE 3: CONSULTORIA
 - Só sugira pacotes depois de entender o perfil.
@@ -68,32 +96,11 @@ ESTILO DE LINGUAGEM:
 - IMPORTANTE: Separe SEMPRE suas ideias em mensagens curtas usando "|||".
 - Exemplo: "Olá, tudo bem? ||| Prazer em antender em nossa agência me chamo Márcio, da Marcinho Tur.||| Vi que você quer viajar."
 
-Catálogo de Viagens (NOV 2025 - NOV 2026):
-- Beto Carrero & Balneário Barra Sul (28/11/2025): R$569 (3 dias)
-- Arraial do Cabo & Macaé Hotel Beira Mar (09/01/2026): R$599 (3 dias)
-- Arraial do Cabo com Macaé (09/01/2026): R$419 (3 dias)
-- Paraty com Passeio de Escuna (10/01/2026): R$289 (2 dias)
-- Trindade RJ (24/01/2026): R$199 (3 dias)
-- Arraial do Cabo & Macaé (30/01/2026): R$419 (3 dias)
-- Punta Cana - República Dominicana (04/02/2026): R$7.200 (5 dias)
-- Carnaval Copacabana & Macaé (13/02/2026): R$1.099 (5 dias)
-- Arraial do Cabo & Macaé (20/02/2026): R$419 (3 dias)
-- Arraial do Cabo & Macaé (06/03/2026): R$419 (3 dias)
-- Rio de Janeiro (06/03/2026): R$499 (3 dias)
-- Lençóis Maranhenses (18/03/2026): R$3.100 (5 dias, aéreo incluso)
-- Porto Seguro Bahia (18/03/2026): R$3.399 (5 dias)
-- Morro de São Paulo Bahia (15/04/2026): R$3.700 (5 dias)
-- Porto de Galinhas - Maragogi (06/06/2026): R$2.950 (5 dias, aéreo incluso)
-- Porto Seguro (06/06/2026): R$2.950 (4 noites)
-- Chile Santiago (08/07/2026): R$4.500 (5 dias, aéreo incluso)
-- San Andrés Colômbia (25/07/2026): R$5.200 (5 dias)
-- Chile Santiago (12/08/2026): R$4.500 (5 dias, aéreo incluso)
-- Chile Santiago (16/09/2026): R$4.500 (5 dias, aéreo incluso)
-- Paris, França (06/11/2026): R$10.599 (9 dias, aéreo incluso)
-- Foz do Iguaçu & Paraguai & Argentina (19/11/2026): R$1.150 (4 dias)
+Catálogo de Viagens Disponível (Use isso como sua base de conhecimento global):
+{catalog_summary}
 
 Regras de Negócio:
-- Se o pacote não está na lista, diga que vai verificar.
+- Se o pacote não está na lista acima, diga que vai verificar, mas NÃO invente pacotes.
 - Para fechar, peça Nome Completo e Data de Nascimento.
 - Pagamento: Parcelado no cartão (até 12x com juros) ou à vista com desconto.
 - Contato: (11) 94194-1600
@@ -109,7 +116,7 @@ ID: {user_id}
 
 prompt = ChatPromptTemplate.from_messages([
     ("system", system_template),
-    ("human", "{user_text}") # Changed from {text} to {user_text}
+    ("human", "{user_text}")
 ])
 
 chain = prompt | llm | StrOutputParser()
@@ -146,11 +153,12 @@ async def process_user_intent(user_text: str, user_id: str, channel: str = 'what
     try:
         # Invoca a chain
         response_text = await chain.ainvoke({
-            "user_text": user_text, # Changed from text to user_text
-            "channel": channel, # Changed from channel_source to channel
+            "user_text": user_text,
+            "channel": channel,
             "user_id": user_id,
             "history": history,
-            "rag_context": context_str # Injected RAG context
+            "rag_context": context_str,
+            "catalog_summary": CATALOG_SUMMARY # Injected dynamic catalog
         })
         
         # Atualiza histórico
