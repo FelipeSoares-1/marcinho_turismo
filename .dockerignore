@@ -1,0 +1,16 @@
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+.git
+.gitignore
+.vscode
+test_output.txt
+test_result.txt
+test_whatsapp_send.py
+test_api_direct.py
+run_simulation.py

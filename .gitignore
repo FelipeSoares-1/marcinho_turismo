@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Variáveis de Ambiente e Segredos (CRÍTICO)
+.env
+.env.local
+ngrok_url.txt
+
+# Logs e Arquivos Temporários
+*.log
+test_output.txt
+test_result.txt
+simulacao_*.md
+temp_audio_*.ogg
+
+# IDEs
+.vscode/
+.idea/
+
+# Sistema Operacional
+.DS_Store
+Thumbs.db

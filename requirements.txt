@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+python-dotenv
+requests
+httpx
+langchain
+langchain-google-genai
+google-generativeai
