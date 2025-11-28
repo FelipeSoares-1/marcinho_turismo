@@ -53,6 +53,45 @@ class MetaClient:
                 logger.error(f"Erro inesperado WhatsApp: {e}")
                 return None
 
+    async def send_whatsapp_image(self, to: str, image_url: str, caption: str = None) -> Optional[Dict[str, Any]]:
+        """
+        Envia uma imagem para o WhatsApp.
+        """
+        if not self.whatsapp_token or not self.whatsapp_phone_id:
+            logger.error("Credenciais do WhatsApp não configuradas.")
+            return None
+
+        url = f"{self.base_url}/{self.whatsapp_phone_id}/messages"
+        headers = {
+            "Authorization": f"Bearer {self.whatsapp_token}",
+            "Content-Type": "application/json"
+        }
+        
+        image_obj = {"link": image_url}
+        if caption:
+            image_obj["caption"] = caption
+
+        payload = {
+            "messaging_product": "whatsapp",
+            "recipient_type": "individual",
+            "to": to,
+            "type": "image",
+            "image": image_obj
+        }
+
+        async with httpx.AsyncClient() as client:
+            try:
+                response = await client.post(url, headers=headers, json=payload)
+                response.raise_for_status()
+                logger.info(f"Imagem WhatsApp enviada para {to}: {image_url}")
+                return response.json()
+            except httpx.HTTPStatusError as e:
+                logger.error(f"Erro API WhatsApp (Imagem): {e.response.text}")
+                return None
+            except Exception as e:
+                logger.error(f"Erro inesperado WhatsApp (Imagem): {e}")
+                return None
+
     async def send_whatsapp_typing_action(self, to: str) -> Optional[Dict[str, Any]]:
         """
         Envia ação de 'digitando...' para o WhatsApp.

@@ -6,3 +6,7 @@ httpx
 langchain
 langchain-google-genai
 google-generativeai
+beautifulsoup4
+faiss-cpu
+fastembed
+langchain-community

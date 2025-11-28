@@ -9,29 +9,12 @@ Para testar a inteligência do bot sem depender do WhatsApp:
 1.  Abra o terminal na pasta raiz do projeto.
 2.  Execute o script de simulação:
     ```powershell
-    .\.venv\Scripts\python.exe scripts/simulate_whatsapp.py
-    ```
-3.  Converse com o Marcinho diretamente no terminal!
+    .\scripts\start_tunnel.ps1
 
-## 📁 Estrutura do Projeto
-
-- **`app/`**: Código principal da aplicação (Cérebro, Rotas, Serviços).
-- **`scripts/`**: Scripts utilitários e de teste.
-  - `simulate_whatsapp.py`: Chat local no terminal.
-  - `test_whatsapp_send.py`: Teste de envio de mensagem real.
-  - `start_tunnel.ps1`: Inicia servidor + Ngrok (para Webhook).
-- **`.env`**: Credenciais e Tokens (Não compartilhe!).
-
-## 🛠️ Comandos Úteis
-
-**Iniciar Servidor + Ngrok (Para WhatsApp Real):**
-
-```powershell
-.\scripts\start_tunnel.ps1
-```
+````
 
 **Testar Envio de Mensagem:**
 
 ```powershell
 .\.venv\Scripts\python.exe scripts/test_whatsapp_send.py 5511999999999
-```
+````

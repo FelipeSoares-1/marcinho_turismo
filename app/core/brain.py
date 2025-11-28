@@ -4,6 +4,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 from dotenv import load_dotenv
+from app.services.rag_service import rag_service # Added import
 
 load_dotenv()
 
@@ -22,7 +23,7 @@ llm = ChatGoogleGenerativeAI(
 
 # Definição da Persona e Prompt
 system_template = """
-Você é “Marcinho”, agente de atendimento da agência “Marcinho Tur”.
+Você é “Márcio”, agente de atendimento da agência “Marcinho Tur”.
 Sua missão é ajudar o cliente a descobrir, planejar e refinar a viagem ideal, de forma leve e acolhedora.
 
 COMPORTAMENTO PRINCIPAL:
@@ -30,7 +31,7 @@ COMPORTAMENTO PRINCIPAL:
 - Se perguntar "tudo bem?", responda que está tudo bem e pergunte como ele está.
 - Fale com frases curtas e simples.
 - Sem pontos de exclamação. Use ponto final.
-- Apresente-se como “Marcinho” apenas na primeira mensagem
+- Apresente-se como “Márcio” apenas na primeira mensagem
 - Mantenha tom amigável, descontraído e espontâneo, como um amigo que entende de viagens.
 - Faça humor leve quando natural.
 - Não envie várias mensagens seguidas; responda em um fluxo natural.
@@ -40,10 +41,10 @@ FASES DA CONVERSA (RESPEITE A ORDEM):
 
 FASE 1: QUEBRA-GELO (Social)
 - Se o cliente disser "Oi", "Tudo bem?", "Boa tarde", "Boa noite", "Bom dia":
-  - Responda o cumprimento e APRESENTE-SE como "Marcinho" (se for a primeira mensagem).
+  - Responda o cumprimento e APRESENTE-SE como "Márcio" (se for a primeira mensagem).
   - Pergunte como ele está.
   - PROIBIDO: Oferecer ajuda, perguntar de viagem ou falar "posso ajudar?".
-  - Exemplo: "Opa, tudo certo por aqui! Eu me chamo Marcinho. E contigo?"
+  - Exemplo: "Olá, tudo bem? Prazer em antender em nossa agência me chamo Márcio, da Marcinho Tur. E você, como se chama?"
 
 FASE 2: SONDAGEM (Só inicie se o cliente falar de viagem)
 - Se o cliente disser "quero viajar", "pacotes", "férias":
@@ -64,11 +65,8 @@ ESTILO DE LINGUAGEM:
 - Naturalidade acima de rigidez.
 - NÃO use emojis em todas as frases. 
 - NÃO termine frases com emoji. Use-os raramente, apenas para dar um toque leve.
-- Envie as frases depois da pontuação ou de enter para começar na linha de baixo.  Exemplo: "Show! Deixa eu te explicar como funciona o roteiro do pacote de Santiago." 
-
-EXEMPLO DE INTERAÇÃO:
-Cliente: "Oi, tudo bem?"
-Marcinho: "Oi, tudo tranquilo por aqui e com você tudo certo?"
+- IMPORTANTE: Separe SEMPRE suas ideias em mensagens curtas usando "|||".
+- Exemplo: "Olá, tudo bem? ||| Prazer em antender em nossa agência me chamo Márcio, da Marcinho Tur.||| Vi que você quer viajar."
 
 Catálogo de Viagens (NOV 2025 - NOV 2026):
 - Beto Carrero & Balneário Barra Sul (28/11/2025): R$569 (3 dias)
@@ -105,38 +103,58 @@ Histórico da Conversa:
 
 Canal: {channel}
 ID: {user_id}
+
+{rag_context}
 """
 
 prompt = ChatPromptTemplate.from_messages([
     ("system", system_template),
-    ("human", "{text}")
+    ("human", "{user_text}") # Changed from {text} to {user_text}
 ])
 
 chain = prompt | llm | StrOutputParser()
 
 # Memória simples em tempo de execução (para teste/MVP)
-MEMORY = {}
+MEMORY = {} # Renamed to conversation_memory in the instruction, but keeping MEMORY for consistency with existing code.
 
-async def process_user_intent(text: str, user_id: str, channel_source: str) -> Dict[str, Any]:
+async def process_user_intent(user_text: str, user_id: str, channel: str = 'whatsapp') -> Dict[str, Any]: # Changed signature
     """
     Processa a intenção do usuário e retorna múltiplas mensagens.
     """
-    # print(f"[{channel_source.upper()}] Processando mensagem de {user_id}: {text}")
+    # print(f"[{channel.upper()}] Processando mensagem de {user_id}: {user_text}") # Updated variable name
     
-    # Recupera histórico
-    history = MEMORY.get(user_id, "")
+    # 1. Recupera histórico
+    history = MEMORY.get(user_id, "") # Kept MEMORY for consistency
+    
+    # 2. RAG: Busca contexto relevante no catálogo
+    context_str = ""
+    images_to_send = []
+    rag_results = rag_service.search(user_text, k=3)
+    
+    if rag_results:
+        context_str = "\n\n[CATÁLOGO DE VIAGENS ENCONTRADO NO SISTEMA]:\n"
+        # Pega a imagem do resultado mais relevante (primeiro item)
+        top_item = rag_results[0]['item']
+        if top_item.get('images'):
+            # Adiciona a primeira imagem à lista de envio
+            images_to_send.append(top_item['images'][0])
+
+        for res in rag_results:
+            item = res['item']
+            context_str += f"- {item['title']} | Preço: {item['price']} | Detalhes: {item['description'][:200]}...\n"
     
     try:
         # Invoca a chain
         response_text = await chain.ainvoke({
-            "text": text,
-            "channel": channel_source,
+            "user_text": user_text, # Changed from text to user_text
+            "channel": channel, # Changed from channel_source to channel
             "user_id": user_id,
-            "history": history
+            "history": history,
+            "rag_context": context_str # Injected RAG context
         })
         
         # Atualiza histórico
-        new_history = f"Cliente: {text}\nMarcinho: {response_text.replace('|||', ' ')}\n"
+        new_history = f"Cliente: {user_text}\nMarcinho: {response_text.replace('|||', ' ')}\n" # Updated variable name
         MEMORY[user_id] = history + new_history
         
         # Quebra a resposta em múltiplas mensagens
@@ -156,7 +174,8 @@ async def process_user_intent(text: str, user_id: str, channel_source: str) -> D
         
         return {
             "messages": messages,
-            "action": "reply"
+            "action": "reply",
+            "images": images_to_send
         }
         
     except Exception as e:

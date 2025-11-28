@@ -163,9 +163,19 @@ async def handle_whatsapp_event(payload: Dict[str, Any]):
             if text_to_process:
                 result = await process_user_intent(text_to_process, user_id, 'whatsapp')
                 messages = result.get('messages', [])
-                
+                images = result.get('images', [])
+
                 # Envia as mensagens com delay
                 await send_messages_with_delay(messages, user_id, 'whatsapp')
+                
+                # Envia imagens (se houver) APÓS as mensagens de texto
+                # Isso garante que o contexto textual chegue antes da foto
+                if images:
+                    for img_url in images:
+                        print(f"Enviando imagem para {user_id}: {img_url}")
+                        await meta_client.send_whatsapp_image(user_id, img_url)
+                        # Pequeno delay entre imagem e próxima ação (se houvesse)
+                        await asyncio.sleep(1)
                 
     except (IndexError, KeyError) as e:
         print(f"Erro ao processar payload do WhatsApp: {e}")
