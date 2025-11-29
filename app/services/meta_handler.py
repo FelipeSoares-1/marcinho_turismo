@@ -2,55 +2,11 @@ from typing import Dict, Any, Optional, List
 import asyncio
 import os
 import tempfile
-import google.generativeai as genai
-from app.core.brain import process_user_intent
-
 from app.services.meta_client import MetaClient
-
-# Configuração do Gemini para Transcrição
-GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
-if GOOGLE_API_KEY:
-    genai.configure(api_key=GOOGLE_API_KEY)
 
 meta_client = MetaClient()
 
-async def transcribe_audio(audio_bytes: bytes) -> str:
-    """
-    Transcreve áudio usando o Gemini 1.5 Flash.
-    """
-    temp_path = None
-    try:
-        # Salva em arquivo temporário (Gemini precisa de arquivo)
-        with tempfile.NamedTemporaryFile(suffix=".ogg", delete=False) as temp_audio:
-            temp_audio.write(audio_bytes)
-            temp_path = temp_audio.name
-        
-        print(f"Áudio salvo em: {temp_path}")
 
-        # Upload para o Gemini
-        myfile = genai.upload_file(temp_path, mime_type="audio/ogg")
-        
-        # Modelo para transcrição
-        model = genai.GenerativeModel("gemini-1.5-flash")
-        
-        # Prompt para transcrição fiel
-        result = model.generate_content(
-            [myfile, "Transcreva este áudio exatamente como foi falado. Se não houver fala, descreva o som."],
-            request_options={"timeout": 600}
-        )
-        
-        return result.text
-    except Exception as e:
-        import traceback
-        print(f"Erro na transcrição: {e}")
-        traceback.print_exc()
-        return "[Erro ao transcrever áudio]"
-    finally:
-        if temp_path and os.path.exists(temp_path):
-            try:
-                os.unlink(temp_path)
-            except Exception as cleanup_error:
-                print(f"Erro ao limpar arquivo temporário: {cleanup_error}")
 
 async def send_messages_with_delay(messages: List[str], user_id: str, channel: str):
     """
@@ -114,51 +70,44 @@ async def handle_whatsapp_event(payload: Dict[str, Any]):
                 text_to_process = message.get('text', {}).get('body', '')
             
             elif msg_type == 'audio':
-                # Simulação de falha humana/técnica baseada no horário para máxima credibilidade
-                from datetime import datetime, timedelta
-                import random
-
-                # Fuso horário simples BRT (UTC-3) sem dependência extra
-                now = datetime.utcnow() - timedelta(hours=3)
-                hour = now.hour
-                
-                print(f"Áudio recebido às {hour}h (BRT). Selecionando resposta humanizada...")
-
-                fallback_messages = []
-
-                if 8 <= hour < 19:
-                    # Horário Comercial (08h às 19h): Correria, Barulho, Agência
-                    options = [
-                        ["Opa! Tô na correria aqui na agência e tá muito barulho.", "Consegue escrever pra mim rapidinho?"],
-                        ["Eita, meu áudio aqui não tá querendo baixar de jeito nenhum.", "Manda em texto por favor?"],
-                        ["Tô atendendo um cliente aqui e não consigo ouvir áudio agora.", "Pode escrever?"],
-                        ["Minha internet móvel tá oscilando pra áudio...", "Escreve pra mim que é mais garantido!"]
-                    ]
-                    fallback_messages = random.choice(options)
-
-                elif 19 <= hour < 23:
-                    # Noite (19h às 23h): Sem fone, em casa, descansando
-                    options = [
-                        ["Opa! Tô sem fone agora e não consigo ouvir.", "Pode mandar escrito?"],
-                        ["Meu volume aqui tá pifado, acredita?", "Consegue escrever pra mim?"],
-                        ["Tô num lugar que não dá pra ouvir áudio agora...", "Manda texto por favor!"]
-                    ]
-                    fallback_messages = random.choice(options)
-
-                else:
-                    # Madrugada (23h às 08h): Silêncio, gente dormindo
-                    options = [
-                        ["Fala! Tô falando baixo aqui que o pessoal já dormiu.", "Escreve pra mim por favor?"],
-                        ["Madrugadão e eu sem fone...", "Manda texto que eu te respondo na hora!"],
-                        ["Opa! Nesse horário não consigo ouvir áudio.", "Consegue digitar?"]
-                    ]
-                    fallback_messages = random.choice(options)
-                
-                await send_messages_with_delay(
-                    fallback_messages, 
-                    user_id, 
-                    'whatsapp'
-                )
+                audio_id = message.get('audio', {}).get('id')
+                if audio_id:
+                    print(f"🎧 Áudio recebido (ID: {audio_id}). Iniciando transcrição...")
+                    
+                    # 1. Obtém URL de download
+                    audio_url = await meta_client.get_media_url(audio_id)
+                    
+                    if audio_url:
+                        # 2. Baixa o áudio (bytes)
+                        audio_bytes = await meta_client.download_media(audio_url)
+                        
+                        if audio_bytes:
+                            # 3. Salva em arquivo temporário para o Gemini processar
+                            import tempfile
+                            from app.services.audio_service import audio_service
+                            
+                            with tempfile.NamedTemporaryFile(suffix=".ogg", delete=False) as temp_audio:
+                                temp_audio.write(audio_bytes)
+                                temp_path = temp_audio.name
+                            
+                            # 4. Transcreve
+                            transcription = audio_service.transcribe_audio(temp_path)
+                            print(f"📝 Transcrição: {transcription}")
+                            
+                            # 5. Adiciona prefixo para o Brain saber que é áudio
+                            text_to_process = f"[TRANSCRIÇÃO DE ÁUDIO]: {transcription}"
+                        else:
+                            print("❌ Falha ao baixar bytes do áudio.")
+                            await send_messages_with_delay(
+                                ["Tive um problema técnico para ouvir seu áudio.", "Pode escrever para mim?"],
+                                user_id, 'whatsapp'
+                            )
+                    else:
+                        print("❌ Falha ao obter URL do áudio.")
+                        await send_messages_with_delay(
+                            ["Não consegui carregar seu áudio.", "Pode digitar por favor?"],
+                            user_id, 'whatsapp'
+                        )
             
             if text_to_process:
                 result = await process_user_intent(text_to_process, user_id, 'whatsapp')

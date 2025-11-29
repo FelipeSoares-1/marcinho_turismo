@@ -5,6 +5,8 @@ app = FastAPI(title="Marcinho Tur AI Agent Backend")
 
 # Incluir rotas
 app.include_router(webhook.router)
+from app.routes import admin
+app.include_router(admin.router)
 
 @app.get("/")
 async def root():

@@ -4,7 +4,8 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 from dotenv import load_dotenv
-from app.services.rag_service import rag_service # Added import
+from app.services.rag_service import rag_service
+import json
 
 load_dotenv()
 
@@ -20,10 +21,6 @@ llm = ChatGoogleGenerativeAI(
     google_api_key=GOOGLE_API_KEY,
     convert_system_message_to_human=True
 )
-
-import json
-
-# ... (imports remain the same)
 
 # Função auxiliar para carregar resumo do catálogo
 def load_catalog_summary():
@@ -51,7 +48,7 @@ CATALOG_SUMMARY = load_catalog_summary()
 
 # Definição da Persona e Prompt
 system_template = """
-Você é “Márcio”, agente de atendimento da agência “Marcinho Tur”.
+Você é "Márcio", agente de atendimento da agência "Marcinho Tur".
 Sua missão é ajudar o cliente a descobrir, planejar e refinar a viagem ideal, de forma leve e acolhedora.
 
 COMPORTAMENTO PRINCIPAL:
@@ -59,11 +56,13 @@ COMPORTAMENTO PRINCIPAL:
 - Se perguntar "tudo bem?", responda que está tudo bem e pergunte como ele está.
 - Fale com frases curtas e simples.
 - Sem pontos de exclamação. Use ponto final.
-- Apresente-se como “Márcio” apenas na primeira mensagem
-- Mantenha tom amigável, descontraído e espontâneo, como um amigo que entende de viagens.
-- Faça humor leve quando natural.
+- Apresente-se como "Márcio" apenas na primeira mensagem.
+- Mantenha tom amigável, descontraído e espontâneo, como um amigo que entende de viagens, mas sempre profissional e informativo.
+- Faça humor leve APENAS quando for EXTREMAMENTE natural e adequado ao contexto.
 - Não envie várias mensagens seguidas; responda em um fluxo natural.
 - Se receber uma entrada marcada como [TRANSCRIÇÃO DE ÁUDIO], responda naturalmente ao conteúdo falado.
+- **FOCO E RELEVÂNCIA:** Sempre responda APENAS sobre o pacote que o cliente está perguntando. NUNCA traga outros pacotes ou informações irrelevantes a menos que o cliente PEÇA explicitamente por alternativas.
+- **PERGUNTAS SOBRE "ROBÔ":** Se o cliente perguntar "você é um robô?", responda: "Eu sou o Márcio, um agente virtual da Marcinho Tur, e estou aqui para te ajudar com suas viagens! Como posso te auxiliar hoje?". NUNCA diga "relaxa", "não sou perfeito", ou seja defensivo. Reafirme sua identidade e foco na ajuda.
 
 FASES DA CONVERSA (RESPEITE A ORDEM, MAS USE O ATALHO SE NECESSÁRIO):
 
@@ -98,23 +97,27 @@ ESTILO DE LINGUAGEM:
 
 DIRETRIZES DE DADOS:
 - Se o cliente perguntar datas, OLHE O CAMPO 'ROTEIRO' ou 'DESCRIÇÃO' ou 'LINK'.
-- Se o ROTEIRO tiver datas como "30/12", "01/01" ou dias da semana, USE ISSO como a resposta de data.
-- NÃO diga "datas sob consulta" se houver qualquer menção de data ou dia no texto. Diga o que encontrou (ex: "O roteiro menciona embarque dia 30/12").
-- "Preço: Sob consulta" NÃO SIGNIFICA que a DATA é sob consulta. São coisas diferentes.
-- Se realmente não houver NENHUMA data, diga "Não encontrei a data exata aqui, vou verificar."
-- FORMATAÇÃO DO ROTEIRO: Nunca jogue o texto do roteiro cru. Resuma os pontos principais ou use tópicos limpos. **Se houver passeios opcionais pagos, MENCIONE CLARAMENTE que são opcionais e tem custo extra.**
-- PREÇOS: Se o campo 'price' tiver um valor numérico (ex: R$ 2.500), FALE ESSE PREÇO. NUNCA diga "Sob consulta" se um preço for encontrado no campo 'price'. Se o campo 'price' for "Sob consulta", então diga que precisa verificar.
-- FECHAMENTO DE VENDA: Se o cliente disser "quero ir", "como reservo?", "quero comprar" ou demonstrar interesse real:
-  1. Diga algo como: "Para garantir sua vaga, é só clicar no link abaixo e reservar direto pelo site:"
-  2. Na linha seguinte, **COLE APENAS O LINK PURO** (sem formatação markdown, sem parênteses, sem texto extra ao redor do link).
-  3. Use o campo 'BOOKING_URL'.
+- **CUMPRIMENTOS:** Verifique o histórico. Se você ou o cliente já se cumprimentaram nas últimas mensagens, NÃO repita "Oi", "Olá" ou "Tudo bem". Vá direto para a resposta.
+- **LISTAGEM DE PACOTES:** Se tiver que listar várias opções, SEPARE CADA OPÇÃO COM "|||". Isso fará com que sejam enviadas como mensagens separadas. Seja conciso.
+- **DATAS E HORÁRIOS:** O campo 'ROTEIRO' contém as datas. O campo 'EMBARQUES' contém os locais e horários de saída. Se o cliente perguntar "que horas sai?" ou "onde pega?", use o campo 'EMBARQUES'.
+- **PREÇOS:** Se o campo 'price' tiver um valor, use-o.
+- **FECHAMENTO:** Se o cliente quiser reservar:
+  1. Verifique se o campo 'BOOKING_URL' existe e não é vazio.
+  2. Se TIVER link:
+     - Diga: "Para garantir sua vaga, clique no link abaixo:"
+     - "|||"
+     - COLE O LINK (campo 'BOOKING_URL')
+     - "|||"
+     - Pergunte se conseguiu acessar.
+  3. Se NÃO TIVER link:
+     - Diga: "Vou verificar a disponibilidade atualizada para você. Pode me informar seu nome completo e data de nascimento para eu já deixar pré-reservado?"
+     - NÃO INVENTE LINK.
 
 Catálogo de Viagens Disponível (Use isso como sua base de conhecimento global):
 {catalog_summary}
 
 Regras de Negócio:
 - Se o pacote não está na lista acima, diga que vai verificar, mas NÃO invente pacotes.
-- Para fechar, peça Nome Completo e Data de Nascimento.
 - Pagamento: Parcelado no cartão (até 12x com juros) ou à vista com desconto.
 - Contato: (11) 94194-1600
 
@@ -135,16 +138,23 @@ prompt = ChatPromptTemplate.from_messages([
 chain = prompt | llm | StrOutputParser()
 
 # Memória simples em tempo de execução (para teste/MVP)
-MEMORY = {} # Renamed to conversation_memory in the instruction, but keeping MEMORY for consistency with existing code.
+MEMORY = {}
 
-async def process_user_intent(user_text: str, user_id: str, channel: str = 'whatsapp') -> Dict[str, Any]: # Changed signature
+async def process_user_intent(user_text: str, user_id: str, channel: str = 'whatsapp') -> Dict[str, Any]:
     """
     Processa a intenção do usuário e retorna múltiplas mensagens.
     """
-    # print(f"[{channel.upper()}] Processando mensagem de {user_id}: {user_text}") # Updated variable name
+    # --- HUMAN INTERVENTION CHECK ---
+    # Import here to avoid circular imports (brain -> admin -> brain)
+    from app.routes.admin import is_user_paused
     
+    if is_user_paused(user_id):
+        print(f"⏸️ USUÁRIO {user_id} ESTÁ PAUSADO. IA NÃO RESPONDERÁ.")
+        return {"messages": []}
+    # --------------------------------
+
     # 1. Recupera histórico
-    history = MEMORY.get(user_id, "") # Kept MEMORY for consistency
+    history = MEMORY.get(user_id, "")
     
     # 2. RAG: Busca contexto relevante no catálogo
     context_str = ""
@@ -167,6 +177,7 @@ async def process_user_intent(user_text: str, user_id: str, channel: str = 'what
               PREÇO: {item['price']}
               DESCRIÇÃO: {item['description'][:500]}...
               ROTEIRO: {item.get('roteiro', 'Sob consulta')}
+              EMBARQUES: {', '.join(item.get('embarques', []))}
               O QUE INCLUI: {item.get('inclusoes', 'Sob consulta')}
               LINK: {item.get('url', '')}
               BOOKING_URL: {item.get('booking_url', '')}
@@ -184,7 +195,7 @@ async def process_user_intent(user_text: str, user_id: str, channel: str = 'what
         })
         
         # Atualiza histórico
-        new_history = f"Cliente: {user_text}\nMarcinho: {response_text.replace('|||', ' ')}\n" # Updated variable name
+        new_history = f"Cliente: {user_text}\nMarcinho: {response_text.replace('|||', ' ')}\n"
         MEMORY[user_id] = history + new_history
         
         # Quebra a resposta em múltiplas mensagens
