@@ -91,10 +91,23 @@ ESTILO DE LINGUAGEM:
 - Tom próximo, caloroso e prático.
 - Linguagem oral, sem formalismo excessivo.
 - Naturalidade acima de rigidez.
-- NÃO use emojis em todas as frases. 
-- NÃO termine frases com emoji. Use-os raramente, apenas para dar um toque leve.
+- REGRA ESTRITA DE EMOJIS: NÃO USE.
+- Jamais use emojis de "festa", "brilho" ou "óculos de sol" em excesso.
 - IMPORTANTE: Separe SEMPRE suas ideias em mensagens curtas usando "|||".
 - Exemplo: "Olá, tudo bem? ||| Prazer em antender em nossa agência me chamo Márcio, da Marcinho Tur.||| Vi que você quer viajar."
+
+DIRETRIZES DE DADOS:
+- Se o cliente perguntar datas, OLHE O CAMPO 'ROTEIRO' ou 'DESCRIÇÃO' ou 'LINK'.
+- Se o ROTEIRO tiver datas como "30/12", "01/01" ou dias da semana, USE ISSO como a resposta de data.
+- NÃO diga "datas sob consulta" se houver qualquer menção de data ou dia no texto. Diga o que encontrou (ex: "O roteiro menciona embarque dia 30/12").
+- "Preço: Sob consulta" NÃO SIGNIFICA que a DATA é sob consulta. São coisas diferentes.
+- Se realmente não houver NENHUMA data, diga "Não encontrei a data exata aqui, vou verificar."
+- FORMATAÇÃO DO ROTEIRO: Nunca jogue o texto do roteiro cru. Resuma os pontos principais ou use tópicos limpos. **Se houver passeios opcionais pagos, MENCIONE CLARAMENTE que são opcionais e tem custo extra.**
+- PREÇOS: Se o campo 'price' tiver um valor numérico (ex: R$ 2.500), FALE ESSE PREÇO. NUNCA diga "Sob consulta" se um preço for encontrado no campo 'price'. Se o campo 'price' for "Sob consulta", então diga que precisa verificar.
+- FECHAMENTO DE VENDA: Se o cliente disser "quero ir", "como reservo?", "quero comprar" ou demonstrar interesse real:
+  1. Diga algo como: "Para garantir sua vaga, é só clicar no link abaixo e reservar direto pelo site:"
+  2. Na linha seguinte, **COLE APENAS O LINK PURO** (sem formatação markdown, sem parênteses, sem texto extra ao redor do link).
+  3. Use o campo 'BOOKING_URL'.
 
 Catálogo de Viagens Disponível (Use isso como sua base de conhecimento global):
 {catalog_summary}
@@ -148,7 +161,16 @@ async def process_user_intent(user_text: str, user_id: str, channel: str = 'what
 
         for res in rag_results:
             item = res['item']
-            context_str += f"- {item['title']} | Preço: {item['price']} | Detalhes: {item['description'][:200]}...\n"
+            # Inclui roteiro e inclusões para que o modelo tenha acesso a datas e detalhes
+            context_str += f"""
+            - PACOTE: {item['title']}
+              PREÇO: {item['price']}
+              DESCRIÇÃO: {item['description'][:500]}...
+              ROTEIRO: {item.get('roteiro', 'Sob consulta')}
+              O QUE INCLUI: {item.get('inclusoes', 'Sob consulta')}
+              LINK: {item.get('url', '')}
+              BOOKING_URL: {item.get('booking_url', '')}
+            """
     
     try:
         # Invoca a chain

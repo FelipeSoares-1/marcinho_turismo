@@ -118,6 +118,12 @@ def get_package_details(package_url):
 
         # Imagens (Pega as 3 primeiras do carrossel ou conteúdo)
         images = []
+        
+        # Tenta pegar imagem de alta qualidade do OG:IMAGE
+        og_image = soup.find("meta", property="og:image")
+        if og_image and og_image.get("content"):
+             images.append(og_image["content"])
+
         for img in soup.find_all('img'):
             src = img.get('src')
             if src and 'uploads' in src:
@@ -130,6 +136,9 @@ def get_package_details(package_url):
         inclusoes = ""
         embarques = []
         descricao = ""
+        
+        # Gera Link de Reserva (Carrinho)
+        booking_url = package_url.replace('/pacote/', '/carrinho_compra/')
 
         # Descrição
         desc_div = soup.find('div', class_='cart_destaque')
@@ -164,6 +173,7 @@ def get_package_details(package_url):
 
         return {
             "url": package_url,
+            "booking_url": booking_url,
             "title": title,
             "price": price,
             "images": images[:3],

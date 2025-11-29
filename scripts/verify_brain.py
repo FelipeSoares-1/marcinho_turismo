@@ -33,8 +33,13 @@ async def test_brain():
 
     for text, channel in scenarios:
         print(f"\n👤 Usuário ({channel}): {text}")
-        result = await process_user_intent(text, "cliente_real_01", channel)
-        print(f"🤖 Marcinho: {result['response_text']}")
+        result = await process_user_intent(text, "cliente_teste_01", channel)
+        
+        if 'messages' in result:
+            for msg in result['messages']:
+                 print(f"🤖 Marcinho: {msg}")
+        else:
+             print(f"🤖 Marcinho (Raw): {result}")
 
 if __name__ == "__main__":
     asyncio.run(test_brain())

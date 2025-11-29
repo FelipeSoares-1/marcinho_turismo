@@ -1,0 +1,50 @@
+# Lista de Links de Pagamento (booking_url)
+
+Aqui está a lista completa de todos os `booking_url` do seu `catalog.json`:
+
+*   https://marcinhotur.com.br/carrinho_compra/rio-de-janeiro-data_06-03-2026h21_30p432/47662
+*   https://marcinhotur.com.br/carrinho_compra/angra-dos-reis-data_20-12-2025h21_00p411/47662
+*   https://marcinhotur.com.br/carrinho_compra/ilha-bela-litoral-norte-data_20-12-2025h22_00p410/47662
+*   https://marcinhotur.com.br/carrinho_compra/arraial-do-cabo-macae-hotel-beira-mar-data_09-01-2026h18_45p418/47662
+*   https://marcinhotur.com.br/carrinho_compra/punta-cana-republica-dominicana-data_04-02-2026h00_00p380/47662
+*   https://marcinhotur.com.br/carrinho_compra/copacabana-rj-data_03-01-2026h21_30p422/47662
+*   https://marcinhotur.com.br/carrinho_compra/forteleza-jericoacora-data_25-03-2026h00_00p419/47662
+*   https://marcinhotur.com.br/carrinho_compra/paraty-com-passeio-de-escuna-data_10-01-2026h21_30p424/47662
+*   https://marcinhotur.com.br/carrinho_compra/arraial-do-cabo-macae-data_20-02-2026h18_45p431/47662
+*   https://marcinhotur.com.br/carrinho_compra/reveillon-arrail-do-cabo-macae-buzios-data_30-12-2025h18_30p349/47662
+*   https://marcinhotur.com.br/carrinho_compra/arraial-do-cabo-macae-data_28-11-2025h19_00p403/47662
+*   https://marcinhotur.com.br/carrinho_compra/trindade-rj-data_24-01-2026h21_30p425/47662
+*   https://marcinhotur.com.br/carrinho_compra/ilha-bela-litoral-norte-data_29-11-2025h22_00p400/47662
+*   https://marcinhotur.com.br/carrinho_compra/porto-seguro-ba-reveillon-2026-data_27-12-2025h04_00p394/47662
+*   https://marcinhotur.com.br/carrinho_compra/beto-carreiro-balneario-barra-sul-data_28-11-2025h19_00p364/47662
+*   https://marcinhotur.com.br/carrinho_compra/paraty-trindade-data_05-12-2025h21_30p408/47662
+*   https://marcinhotur.com.br/carrinho_compra/rio-de-janeiro-data_29-12-2025h20_00p396/47662
+*   https://marcinhotur.com.br/carrinho_compra/paraty-e-trindade-data_27-03-2026h21_30p428/47662
+*   https://marcinhotur.com.br/carrinho_compra/copacabana-rj-data_13-12-2025h21_30p409/47662
+*   https://marcinhotur.com.br/carrinho_compra/santa-catarina-balneario-barra-sul-data_30-12-2025h17_00p378/47662
+*   https://marcinhotur.com.br/carrinho_compra/carnaval-copacabana-macae-data_13-02-2026h21_00p427/47662
+*   https://marcinhotur.com.br/carrinho_compra/arraial-do-cabo-macae-data_30-01-2026h19_00p414/47662
+*   https://marcinhotur.com.br/carrinho_compra/arraial-do-cabo-macae-rio-das-ostra-data_22-12-2025h18_30p417/47662
+*   https://marcinhotur.com.br/carrinho_compra/arraial-do-cabo-macae-data_23-01-2026h19_00p413/47662
+*   https://marcinhotur.com.br/carrinho_compra/chile-santiago-data_12-08-2026h00_00p383/47662
+*   https://marcinhotur.com.br/carrinho_compra/campos-do-jordao-natal-luz-data_14-12-2025h07_00p407/47662
+*   https://marcinhotur.com.br/carrinho_compra/paris-france-novembro-2026-2-edicao-data_06-11-2026h00_00p405/47662
+*   https://marcinhotur.com.br/carrinho_compra/copacabana-reveillon-data_30-12-2025h21_00p377/47662
+*   https://marcinhotur.com.br/carrinho_compra/foz-do-iguacu-paraguai-argentina-data_19-11-2026h16_00p435/47662
+*   https://marcinhotur.com.br/carrinho_compra/ilha-bela-litoral-norte-data_17-01-2026h22_00p426/47662
+*   https://marcinhotur.com.br/carrinho_compra/capitolio-mar-de-minas-data_27-03-2026h21_00p430/47662
+*   https://marcinhotur.com.br/carrinho_compra/chile-santiago-data_16-09-2026h00_00p383/47662
+*   https://marcinhotur.com.br/carrinho_compra/angra-dos-reis-rio-de-janeiro-data_16-01-2026h21_30p423/47662
+*   https://marcinhotur.com.br/carrinho_compra/san-andres-colombia-2026-data_25-07-2026h00_00p395/47662
+*   https://marcinhotur.com.br/carrinho_compra/arraial-do-cabo-com-macae-data_09-01-2026h19_00p412/47662
+*   https://marcinhotur.com.br/carrinho_compra/arraial-do-cabo-com-macae-data_05-12-2025h19_00p313/47662
+*   https://marcinhotur.com.br/carrinho_compra/porto-de-galinhas-maragogi-prias-dos-caneiros-data_14-01-2026h00_00p379/47662
+*   https://marcinhotur.com.br/carrinho_compra/porto-seguro-data_06-06-2026h00_00p415/47662
+*   https://marcinhotur.com.br/carrinho_compra/lencois-maranheses-data_18-03-2026h00_00p381/47662
+*   https://marcinhotur.com.br/carrinho_compra/porto-seguro-bahia-data_18-03-2026h15_00p421/47662
+*   https://marcinhotur.com.br/carrinho_compra/arraial-do-cabo-macae-data_06-03-2026h18_45p433/47662
+*   https://marcinhotur.com.br/carrinho_compra/beto-carrerio-e-balneario-barra-sul-data_20-03-2026h18_45p429/47662
+*   https://marcinhotur.com.br/carrinho_compra/morro-de-sao-paulo-bahia-data_15-04-2026h14_00p420/47662
+*   https://marcinhotur.com.br/carrinho_compra/chile-santiago-data_08-07-2026h00_00p383/47662
+*   https://marcinhotur.com.br/carrinho_compra/porto-seguro-bahia-data_05-12-2025h00_00p373/47662
+*   https://marcinhotur.com.br/carrinho_compra/porto-de-galinhas-maragogi-prias-dos-caneiros-data_06-06-2026h00_00p382/47662

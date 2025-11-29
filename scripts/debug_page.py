@@ -1,10 +1,21 @@
 import requests
+from bs4 import BeautifulSoup
 
-url = "https://marcinhotur.com.br/pacote/reveillon-arrail-do-cabo-macae-buzios-data_30-12-2025h18_30p349/44041"
-print(f"Fetching {url}")
-try:
-    r = requests.get(url, headers={"User-Agent": "Mozilla/5.0"})
-    print(f"Status: {r.status_code}")
-    print(r.text[:2000]) # Print first 2000 chars
-except Exception as e:
-    print(e)
+url = "https://marcinhotur.com.br/pacote/copacabana-rj-data_13-12-2025h21_30p409/44041"
+headers = {"User-Agent": "Mozilla/5.0"}
+response = requests.get(url, headers=headers)
+
+soup = BeautifulSoup(response.content, 'html.parser')
+
+# Find all links
+print("--- Searching for 'carrinho_compra' links ---")
+for a in soup.find_all('a', href=True):
+    if 'carrinho_compra' in a['href']:
+        print(f"Found Payment Link: {a['href']}")
+
+# Find Images
+print("\n--- Searching for Images ---")
+for img in soup.find_all('img'):
+    src = img.get('src')
+    if src and 'uploads' in src:
+        print(f"Found Image: {src}")
