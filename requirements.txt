@@ -10,3 +10,4 @@ beautifulsoup4
 faiss-cpu
 fastembed
 langchain-community
+pytz

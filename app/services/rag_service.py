@@ -25,12 +25,9 @@ class RAGService:
         #     print("RAG: GOOGLE_API_KEY não configurada.")
         #     return
 
-        # Inicializa Embeddings (Local e Rápido)
-        # Configura cache para /tmp (necessário no Cloud Run)
-        os.environ["FASTEMBED_CACHE_PATH"] = "/tmp"
-        from langchain_community.embeddings import FastEmbedEmbeddings
+        # Inicializa Embeddings (Gemini API - Mais leve para Cloud Run)
         try:
-            self.embeddings_model = FastEmbedEmbeddings(model_name="BAAI/bge-small-en-v1.5")
+            self.embeddings_model = GoogleGenerativeAIEmbeddings(model="models/embedding-001", google_api_key=GOOGLE_API_KEY)
         except Exception as e:
             print(f"RAG: Erro ao carregar modelo de embeddings: {e}")
             return

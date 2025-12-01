@@ -1,6 +1,7 @@
 import httpx
 import os
 import logging
+import asyncio
 from typing import Optional, Dict, Any
 
 # Configuração de Logs

@@ -3,6 +3,7 @@ import asyncio
 import os
 import tempfile
 from app.services.meta_client import MetaClient
+from app.core.brain import process_user_intent
 
 meta_client = MetaClient()
 
@@ -49,6 +50,9 @@ async def send_messages_with_delay(messages: List[str], user_id: str, channel: s
         
         print(f"[{channel.upper()}] Enviado para {user_id}: {message}")
 
+# Cache simples em memória para deduplicação (Message ID -> Timestamp)
+PROCESSED_MESSAGES = {}
+
 async def handle_whatsapp_event(payload: Dict[str, Any]):
     """
     Processa eventos recebidos do WhatsApp Business API.
@@ -61,8 +65,25 @@ async def handle_whatsapp_event(payload: Dict[str, Any]):
         
         if 'messages' in value:
             message = value['messages'][0]
+            message_id = message.get('id')
+            
+            # 1. Deduplicação
+            if message_id in PROCESSED_MESSAGES:
+                print(f"🔄 Mensagem duplicada ignorada: {message_id}")
+                return
+            
+            # Marca como processada
+            PROCESSED_MESSAGES[message_id] = True
+            
+            # Limpeza simples do cache (se crescer muito)
+            if len(PROCESSED_MESSAGES) > 1000:
+                PROCESSED_MESSAGES.clear()
+
             user_id = message['from']
             msg_type = message.get('type')
+            
+            print(f"📩 Mensagem recebida. Tipo: {msg_type}")
+            print(f"📦 Payload da mensagem: {message}")
             
             text_to_process = ""
 
@@ -72,16 +93,19 @@ async def handle_whatsapp_event(payload: Dict[str, Any]):
             elif msg_type == 'audio':
                 audio_id = message.get('audio', {}).get('id')
                 if audio_id:
-                    print(f"🎧 Áudio recebido (ID: {audio_id}). Iniciando transcrição...")
+                    print(f"🎧 Áudio recebido (ID: {audio_id}). Buscando URL...")
                     
                     # 1. Obtém URL de download
                     audio_url = await meta_client.get_media_url(audio_id)
+                    print(f"🔗 URL do Áudio: {audio_url}")
                     
                     if audio_url:
                         # 2. Baixa o áudio (bytes)
+                        print("⬇️ Baixando áudio...")
                         audio_bytes = await meta_client.download_media(audio_url)
                         
                         if audio_bytes:
+                            print(f"✅ Áudio baixado: {len(audio_bytes)} bytes. Salvando temp...")
                             # 3. Salva em arquivo temporário para o Gemini processar
                             import tempfile
                             from app.services.audio_service import audio_service
@@ -90,14 +114,15 @@ async def handle_whatsapp_event(payload: Dict[str, Any]):
                                 temp_audio.write(audio_bytes)
                                 temp_path = temp_audio.name
                             
+                            print(f"📁 Arquivo temp salvo: {temp_path}. Transcrevendo...")
                             # 4. Transcreve
                             transcription = audio_service.transcribe_audio(temp_path)
-                            print(f"📝 Transcrição: {transcription}")
+                            print(f"📝 Transcrição Resultante: {transcription}")
                             
                             # 5. Adiciona prefixo para o Brain saber que é áudio
                             text_to_process = f"[TRANSCRIÇÃO DE ÁUDIO]: {transcription}"
                         else:
-                            print("❌ Falha ao baixar bytes do áudio.")
+                            print("❌ Falha crítica: Download retornou bytes vazios.")
                             await send_messages_with_delay(
                                 ["Tive um problema técnico para ouvir seu áudio.", "Pode escrever para mim?"],
                                 user_id, 'whatsapp'

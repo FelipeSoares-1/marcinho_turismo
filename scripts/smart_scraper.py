@@ -2,94 +2,6 @@ import os
 import json
 import time
 import requests
-from bs4 import BeautifulSoup
-from langchain_google_genai import ChatGoogleGenerativeAI
-from dotenv import load_dotenv
-from pydantic import BaseModel, Field
-from typing import List, Optional
-
-load_dotenv()
-
-# Configuração do Modelo
-GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
-llm = ChatGoogleGenerativeAI(
-    model="gemini-2.0-flash",
-    temperature=0, # Temperatura 0 para extração precisa
-    google_api_key=GOOGLE_API_KEY
-)
-
-# Definição do Schema de Saída (Estruturado)
-class TravelPackage(BaseModel):
-    title: str = Field(description="O título do pacote de viagem")
-    price: str = Field(description="O preço do pacote. Se houver opções (duplo, triplo), liste todas. Ex: 'R$ 2.500 (Duplo) / R$ 2.100 (Quádruplo)'. Se não achar, use 'Sob consulta'.")
-    description: str = Field(description="Um resumo atrativo do pacote, mencionando os principais destaques.")
-    roteiro: str = Field(description="O roteiro detalhado dia a dia. Formate com quebras de linha e tópicos claros. Ex: 'Dia 1: Chegada... \n Dia 2: Passeio...'")
-    inclusoes: str = Field(description="Lista do que está incluso no pacote (transporte, hospedagem, alimentação, etc).")
-    embarques: List[str] = Field(description="Lista dos locais e horários de embarque mencionados.")
-
-def fetch_page_content(url):
-    """Baixa o HTML e limpa para texto puro para economizar tokens"""
-    try:
-        headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"}
-        response = requests.get(url, headers=headers)
-        if response.status_code != 200:
-            print(f"❌ Erro {response.status_code} ao acessar {url}")
-            return None
-        
-        soup = BeautifulSoup(response.content, 'html.parser')
-        
-        # Remove scripts, styles e navegação irrelevante
-        for script in soup(["script", "style", "nav", "footer", "header"]):
-            script.decompose()
-            
-        # Pega o texto principal (focando no conteúdo do pacote)
-        # Tenta focar na div de conteúdo se existir (ajuste conforme site)
-        content_div = soup.find('div', class_='elementor-widget-wrap') or soup.body
-        
-        text = content_div.get_text(separator="\n")
-        
-        # Limpeza básica de espaços vazios excessivos
-        clean_text = "\n".join([line.strip() for line in text.splitlines() if line.strip()])
-        return clean_text[:30000] # Limite de caracteres para não estourar contexto (embora Gemini aguente muito)
-    except Exception as e:
-        print(f"Erro ao processar {url}: {e}")
-        return None
-
-def extract_data_with_llm(url, raw_text):
-    """Usa o Gemini para extrair dados estruturados do texto bruto"""
-    print(f"🧠 Analisando com IA: {url}...")
-    
-    prompt = f"""
-    Você é um especialista em extração de dados de turismo.
-    Analise o texto abaixo, extraído de uma página de venda de pacote de viagem.
-    
-    Sua missão é extrair e estruturar as informações para um catálogo de vendas.
-    
-    TEXTO DA PÁGINA:
-    {raw_text}
-    
-    INSTRUÇÕES ESPECÍFICAS:
-    1. PREÇO: Procure valores em R$ no texto. Muitas vezes estão no meio da descrição (ex: "Investimento: R$ 2.000"). Se tiver valores diferentes para quarto duplo/triplo/quádruplo, liste todos.
-    2. ROTEIRO: Resuma o roteiro dia a dia de forma clara e organizada.
-    3. INCLUSÕES: Liste tudo que o pacote oferece.
-    4. EMBARQUES: Procure por locais de saída (ex: Tatuapé, Barra Funda) e horários.
-    
-    Retorne APENAS o JSON seguindo o schema solicitado.
-    """
-    
-    structured_llm = llm.with_structured_output(TravelPackage)
-    
-    try:
-        result = structured_llm.invoke(prompt)
-        return result.dict()
-    except Exception as e:
-        print(f"❌ Erro na extração LLM: {e}")
-        return None
-
-import os
-import json
-import time
-import requests
 import re
 from bs4 import BeautifulSoup
 from langchain_google_genai import ChatGoogleGenerativeAI
@@ -115,9 +27,10 @@ OUTPUT_FILE = os.path.join(os.path.dirname(__file__), "..", "data", "catalog.jso
 class TravelPackage(BaseModel):
     title: str = Field(description="O título do pacote de viagem")
     price: str = Field(description="O preço do pacote. Se houver opções (duplo, triplo), liste todas. Ex: 'R$ 2.500 (Duplo) / R$ 2.100 (Quádruplo)'. Se não achar, use 'Sob consulta'.")
+    payment_conditions: str = Field(description="Condições de pagamento, parcelamento, taxas e formas de pagamento (ex: '12x no cartão', 'à vista com desconto'). Procure por seções como 'INVESTIMENTO' ou 'FORMA DE PAGAMENTO'.")
     description: str = Field(description="Um resumo atrativo do pacote, mencionando os principais destaques.")
-    roteiro: str = Field(description="O roteiro detalhado dia a dia. Formate com quebras de linha e tópicos claros. Ex: 'Dia 1: Chegada... \n Dia 2: Passeio...'")
-    inclusoes: str = Field(description="Lista do que está incluso no pacote (transporte, hospedagem, alimentação, etc).")
+    roteiro: str = Field(description="O roteiro detalhado dia a dia. IMPORTANTE: Copie o texto integral dos dias (Dia 1, Dia 2, etc) para não perder detalhes. Formate com quebras de linha.")
+    inclusoes: str = Field(description="Lista completa do que está incluso e NÃO incluso (ex: ingressos, taxas extras).")
     embarques: List[str] = Field(description="Lista dos locais e horários de embarque mencionados.")
 
 visited_pages = set()
@@ -204,10 +117,11 @@ def extract_data_with_llm(url, raw_text):
     {raw_text}
     
     INSTRUÇÕES ESPECÍFICAS:
-    1. PREÇO: Procure valores em R$ no texto. Muitas vezes estão no meio da descrição (ex: "Investimento: R$ 2.000"). Se tiver valores diferentes para quarto duplo/triplo/quádruplo, liste todos.
-    2. ROTEIRO: Resuma o roteiro dia a dia de forma clara e organizada. **SEMPRE INCLUA TODOS OS PASSEIOS OPCIONAIS E SEUS RESPECTIVOS CUSTOS SE ESTIVEREM ESPECIFICADOS NO TEXTO ORIGINAL.**
-    3. INCLUSÕES: Liste tudo que está incluso no pacote. **SEMPRE INCLUA TODOS OS CUSTOS ADICIONAIS OU ITENS NÃO INCLUSOS SE ESTIVEREM ESPECIFICADOS NO TEXTO ORIGINAL.**
-    4. EMBARQUES: Procure por locais de saída (ex: Tatuapé, Barra Funda) e horários.
+    1. PREÇO: Procure valores em R$ no texto. Muitas vezes estão no meio da descrição ou na seção "INVESTIMENTO".
+    2. PAGAMENTO: Extraia todas as condições de parcelamento, taxas de adesão e descontos à vista.
+    3. ROTEIRO: Resuma o roteiro dia a dia de forma clara e organizada. **SEMPRE INCLUA TODOS OS PASSEIOS OPCIONAIS E SEUS RESPECTIVOS CUSTOS SE ESTIVEREM ESPECIFICADOS NO TEXTO ORIGINAL.**
+    4. INCLUSÕES: Liste tudo que está incluso no pacote. **SEMPRE INCLUA TODOS OS CUSTOS ADICIONAIS OU ITENS NÃO INCLUSOS SE ESTIVEREM ESPECIFICADOS NO TEXTO ORIGINAL.**
+    5. EMBARQUES: Procure por locais de saída (ex: Tatuapé, Barra Funda) e horários.
     
     Retorne APENAS o JSON seguindo o schema solicitado.
     """
@@ -228,7 +142,7 @@ def main():
     
     # Fase 1: Descoberta de Links
     print("--- FASE 1: Mapeando Site ---")
-    max_pages = 15 # Limite de segurança para não ficar rodando eternamente no teste
+    max_pages = 50 # Aumentado para garantir varredura completa
     count = 0
     
     while pages_to_visit and count < max_pages:

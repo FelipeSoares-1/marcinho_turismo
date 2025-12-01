@@ -49,9 +49,8 @@ def main():
         metadatas = []
         start_index = 0
 
-    # Inicializa Embeddings (Local e Rápido)
-    from langchain_community.embeddings import FastEmbedEmbeddings
-    embeddings_model = FastEmbedEmbeddings(model_name="BAAI/bge-small-en-v1.5") # Modelo leve e eficiente
+    # Inicializa Embeddings (Gemini API)
+    embeddings_model = GoogleGenerativeAIEmbeddings(model="models/embedding-001", google_api_key=GOOGLE_API_KEY)
 
     texts = []
     # Prepara textos

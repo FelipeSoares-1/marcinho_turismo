@@ -26,7 +26,6 @@ $envString = $envString -join ","
 Write-Host "Iniciando deploy para o Google Cloud Run..." -ForegroundColor Green
 
 # Executa o deploy
-# Substitua SEU_PROJETO_ID pelo ID do seu projeto se necessário, ou configure via gcloud config set project
 gcloud run deploy marcinho-tur-api `
     --project marcinho-tur-ai `
     --source . `
@@ -39,6 +38,17 @@ gcloud run deploy marcinho-tur-api `
 
 if ($LASTEXITCODE -eq 0) {
     Write-Host "Deploy concluído com sucesso!" -ForegroundColor Green
+    
+    # Obtém a URL do serviço
+    $serviceUrl = gcloud run services describe marcinho-tur-api --platform managed --region us-central1 --format 'value(status.url)'
+    
+    Write-Host ""
+    Write-Host "--------------------------------------------------" -ForegroundColor Cyan
+    Write-Host "📍 ACESSO RÁPIDO:" -ForegroundColor Cyan
+    Write-Host "🔗 Painel Admin: $serviceUrl/admin" -ForegroundColor Yellow
+    Write-Host "🔗 Webhook URL:  $serviceUrl/webhook" -ForegroundColor Yellow
+    Write-Host "--------------------------------------------------" -ForegroundColor Cyan
+    Write-Host ""
 }
 else {
     Write-Host "Erro no deploy." -ForegroundColor Red

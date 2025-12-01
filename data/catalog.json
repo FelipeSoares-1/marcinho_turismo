@@ -1,746 +1,359 @@
 [
   {
-    "title": "RIO DE JANEIRO - FINAL DE SEMANA INCRÍVEL!",
-    "price": "R$499,99 /por pessoa",
-    "description": "Pacote turístico para o Rio de Janeiro, com hospedagem em hotel categoria turística, transporte em ônibus executivo climatizado e acompanhamento de monitores.",
-    "roteiro": "Sexta-feira: Embarque à noite em ônibus executivo climatizado com destino ao Rio de Janeiro.\nSábado: Chegada em Copacabana. Dia livre para atividades. Opcional: City Tour Rio de Janeiro (R$ 230,00 por pessoa) visitando Cristo Redentor, Pão de Açúcar, Escadaria Selarón, Sambódromo, Maracanã (vista externa) e Mirante do Leme. Ponto de encontro à tarde para embarque para o hotel, check-in e acomodação.",
-    "inclusoes": "Transporte rodoviário em veículo executivo climatizado com acompanhamento de monitores especializados. Hospedagem em hotel categoria turística (SCORIAL OU CASA NOVA) com acomodações modernas e climatizadas, Wi-Fi, TV a cabo, piscina, área de lazer, serviço de recepção 24h e estacionamento (mediante disponibilidade). Café da manhã incluso (buffet). Equipe de monitores.",
-    "embarques": [
-      "AV PIRAPORINHA 1767 AGENCIA MARCINHO TUR - 06/03/2026 às 21h00",
-      "CARAPICUIBA - 06/03/2026 às 22h00",
-      "BARRA FUNDA MEMORIAL DA AMERICA LATINA PORTÃO 8 - 06/03/2026 às 23h00",
-      "TATUAPE RUA DOMINGO AGOSTINHO - 06/03/2026 às 23h30"
-    ],
-    "url": "https://marcinhotur.com.br/pacote/rio-de-janeiro-data_06-03-2026h21_30p432/47662",
-    "booking_url": "https://marcinhotur.com.br/carrinho_compra/rio-de-janeiro-data_06-03-2026h21_30p432/47662",
-    "images": [
-      "https://img.suareservaonline.com.br/marcinhotur/shop/products/featured/c908691b15fe60fafa6f92fb01ae3888.webp"
-    ]
-  },
-  {
-    "title": "ANGRA DOS REIS",
-    "price": "R$289,00",
-    "description": "Pacote turístico para Angra dos Reis com passeio de escuna.",
-    "roteiro": "Dia 20/12 (Sábado): Embarque em Diadema (21:00), Carapicuíba (22h00), Barra Funda (22:40), Tatuapé (23:215).\nDia 21/12 (Domingo): Chegada prevista em Angra (07:00). Tempo livre até 09:00. Passeio de Escuna (09:10) com paradas na Lagoa Azul, Praia Freguesia de Santana e Praia de Japariz. Retorno para SP (17:00), chegada prevista entre 01:00 e 02:00 AM.",
-    "inclusoes": "Transporte ida e volta, seguro viagem, passeio de escuna. Não incluso: Almoço em Ilha Grande (R$49,99).",
-    "embarques": [
-      "Diadema 21:00",
-      "Carapicuíba 22h00",
-      "Barra Funda 22:40",
-      "Tatuapé 23:30"
-    ],
-    "url": "https://marcinhotur.com.br/pacote/angra-dos-reis-data_20-12-2025h21_00p411/47662",
-    "booking_url": "https://marcinhotur.com.br/carrinho_compra/angra-dos-reis-data_20-12-2025h21_00p411/47662",
-    "images": [
-      "https://img.suareservaonline.com.br/marcinhotur/shop/products/featured/19a761de1720e84ba5e3942f179f846f.jpeg"
-    ]
-  },
-  {
-    "title": "ILHA BELA LITORAL NORTE",
-    "price": "R$ 149,00",
-    "description": "Bate e volta para Ilhabela, litoral norte de São Paulo. Inclui transporte executivo e travessia da balsa a pé.",
-    "roteiro": "Dia 20/12 (Sábado):\n- Saída de Diadema às 22:00\n- Saída de Carapicuíba às 23h00\n- Saída da Barra Funda às 23h30\n\nDia 21/12 (Domingo):\n- Chegada prevista em São Sebastião às 05h30.\n- Travessia da Balsa (20 minutos).\n- Passeio livre em Ilhabela.\n- 16h30: Retorno para o ponto de encontro.\n- 17h30: Partida de volta para SP.\n- 00:00: Chegada prevista em SP.",
-    "inclusoes": "Transporte Executivo, Travessia da Balsa a pé. Não inclui: Translado até às praias, Almoço ou qualquer tipo de alimentação, Qualquer item não mencionado acima.",
-    "embarques": [
-      "Av Piraporinha 1767 Agência Marcinho Tur - 20/12/2025 às 22h00",
-      "Carapicuíba - 20/12/2025 às 23h00",
-      "Barra Funda Memorial da America Latina Portão 8 - 20/12/2025 às 23h30",
-      "Tatuapé Rua Domingo Agostinho - 20/12/2025 às 23h50"
-    ],
-    "url": "https://marcinhotur.com.br/pacote/ilha-bela-litoral-norte-data_20-12-2025h22_00p410/47662",
-    "booking_url": "https://marcinhotur.com.br/carrinho_compra/ilha-bela-litoral-norte-data_20-12-2025h22_00p410/47662",
-    "images": [
-      "https://img.suareservaonline.com.br/marcinhotur/shop/products/featured/860ebca30f5ee3d80fdb6e0d31509e83.jpeg"
-    ]
-  },
-  {
-    "title": "ARRAIAL DO CABO & MACAE HOTEL BEIRA MAR",
-    "price": "R$599,99 /por pessoa",
-    "description": "Pacote turístico para Arraial do Cabo e Macaé, explorando as belas praias e paisagens da Região dos Lagos.",
-    "roteiro": "Dia 1 (sexta): Embarques em Diadema (19:00), Carapicuíba (20:00), Barra Funda (20:30) e Tatuapé (21:00).\nDia 2 (sábado): Chegada prevista às 6:30 no Graal Oasis para café e troca de roupa. Saída para Arraial às 7:30, chegada no portal da cidade às 8:30 e no estacionamento local às 8:50. Passeio de barco (R$ 180,00 por pessoa com as taxas). Início do passeio de barco às 10:00, término às 14:30 e almoço. Retorno para Macaé às 16:30 (2h30 de viagem). Chegada prevista em Macaé às 18:30, noite livre.\nDia 3 (domingo): Café da manhã incluso (6:00 às 10:30). Dia livre em Macaé. Checkout às 16:00 e retorno para SP. Chegada prevista entre 00:30 e 01:00 AM.",
-    "inclusoes": "Transporte Ida e Volta, Hospedagem - Hotel Royal macae beira mar, Café da Manhã (domingo), Guia de turismo, City Tour. Taxa municipal R$60,00 (não inclusa). Quarto com vista suíte master fica a mais R$ 300.00",
-    "embarques": [
-      "DIADEMA 19:00",
-      "CARAPICUÍBA 20:00",
-      "BARRA FUNDA 20:30",
-      "TATUAPE 21:00",
-      "BARRA FUNDA MEMORIAL DA AMERICA LATINA PORTÃO 8 saída 09/01/2025 às 20h15",
-      "AV PIRAPORINHA 1767 AGENCIA MARCINHO TUR saída 09/01/2026 às 18h45",
-      "CARAPICUIBA saída 09/01/2026 às 19h45",
-      "TATUAPE RUA DOMINGO AGOSTINHO saída 09/01/2026 às 20h35"
-    ],
-    "url": "https://marcinhotur.com.br/pacote/arraial-do-cabo-macae-hotel-beira-mar-data_09-01-2026h18_45p418/47662",
-    "booking_url": "https://marcinhotur.com.br/carrinho_compra/arraial-do-cabo-macae-hotel-beira-mar-data_09-01-2026h18_45p418/47662",
-    "images": [
-      "https://img.suareservaonline.com.br/marcinhotur/shop/products/featured/dff57465b4fbf827351d4cf12f8352c8.jpg"
-    ]
-  },
-  {
-    "title": "PUNTA CANA - REPUBLICA DOMINICANA",
-    "price": "R$7.200,00 /por pessoa",
-    "description": "Pacote turístico para Punta Cana, região conhecida por suas praias e resorts all-inclusive. Inclui atividades como tirolesa, windsurfe, caiaque e vela.",
-    "roteiro": "Dia 1: Chegada em Punta Cana, restante do dia livre para climatização. Opção de saída noturna: COCO BONGO ou IMAGINE CAVE.\nDia 2: ILHA DE SAONA - Saída às 07hrs para Ilha de Saona. Retorno previsto às 19hrs. Noite livre. Investimento: R$ 370,00 por pessoa.\nDia 3: SCAPE PARK - Saída às 07:30hrs para o parque Scape Park. Retorno previsto às 18hrs. Noite livre. Investimento: R$ 725,00 por pessoa.\nDia 4: Golfinhos - Saída às 07hrs e retorno previsto às 17hrs. Noite livre. Investimento: R$ 610,00 por pessoa.\nDia 5: Retorno ao Brasil.",
-    "inclusoes": "Aéreo ida e volta em classe econômica e bagagem de mão incluída; Hospedagem; Guia brasileiro desde o embarque; Guia Local bilíngue; City Tour; Transfer Aeroporto/ Hotel",
-    "embarques": [
-      "AEROPORTO DE GUARULHOS saída 04/02/2026"
-    ],
-    "url": "https://marcinhotur.com.br/pacote/punta-cana-republica-dominicana-data_04-02-2026h00_00p380/47662",
-    "booking_url": "https://marcinhotur.com.br/carrinho_compra/punta-cana-republica-dominicana-data_04-02-2026h00_00p380/47662",
-    "images": [
-      "https://img.suareservaonline.com.br/marcinhotur/shop/products/featured/13d73b119adf7af25c44495a05bb8206.jpg"
-    ]
-  },
-  {
-    "title": "COPACABANA RJ",
-    "price": "R$215,00 /por pessoa",
-    "description": "Pacote turístico para Copacabana, Rio de Janeiro. Inclui transporte executivo, seguro viagem e 1 dia livre para aproveitar o destino.",
-    "roteiro": "Saída: São Paulo – 03/01\nChegada prevista: Rio de Janeiro às 07h00 da manhã\nDia livre até 17h00 para aproveitar Copacabana, caminhar no calçadão, curtir a praia ou fazer passeios opcionais.",
-    "inclusoes": "Transporte executivo ida e volta, Monitores acompanhando todo o trajeto, Seguro viagem, 1 dia livre para aproveitar o destino da melhor forma",
-    "embarques": [
-      "AV PIRAPORINHA 1767 AGENCIA MARCINHO TUR saída 03/01/2026 às 21h30",
-      "CARAPICUIBA saída 03/01/2026 às 22h30",
-      "BARRA FUNDA MEMORIAL DA AMERICA LATINA PORTÃO 8 saída 03/01/2026 às 23h00",
-      "TATUAPE RUA DOMINGO AGOSTINHO saída 03/01/2026 às 23h30"
-    ],
-    "url": "https://marcinhotur.com.br/pacote/copacabana-rj-data_03-01-2026h21_30p422/47662",
-    "booking_url": "https://marcinhotur.com.br/carrinho_compra/copacabana-rj-data_03-01-2026h21_30p422/47662",
-    "images": [
-      "https://img.suareservaonline.com.br/marcinhotur/shop/products/featured/615b4c83d4251e170f95b2b2ff0ac467.jpg"
-    ]
-  },
-  {
-    "title": "FORTELEZA & JERICOACOARA",
-    "price": "R$3.980,00 /por pessoa",
-    "description": "Conheça a orla de Fortaleza e a Av. Beira Mar. As principais praias, Beach Park e a paradisíaca Jericoacoara em 5 dias.",
-    "roteiro": "Dia 1: Encontro do grupo no aeroporto (horário a confirmar). Voo para Fortaleza. Traslado para o hotel. Noite livre na Beira-Mar.\nDia 2: Dia livre para aproveitar as praias locais (Praia do Futuro, Beach Park ou City Tour opcional). Show de humor cearense à noite (opcional).\nDia 3: Saída para Jericoacoara. Paradas para fotos e almoço (não incluso). Chegada em Jeri, check-in e pôr do sol nas dunas.\nDia 4: Passeio opcional de buggy pelas lagoas (Lagoa Azul, Lagoa do Paraíso e Pedra Furada). Tempo livre para banho e fotos. Noite livre.\nDia 5: Manhã livre. Check-out e retorno para Fortaleza. Embarque de volta para casa.",
-    "inclusoes": "Passagens aéreas ida e volta, Hospedagem em Fortaleza e Jericoacoara, Transporte entre os destinos, Café da manhã diário, Monitor da equipe, Seguro viagem. Não incluso: Almoços e jantares, Passeios opcionais (Beach Park, buggy, etc.)",
-    "embarques": [
-      "AEROPORTO DE GUARULHOS saída 25/03/2026"
-    ],
-    "url": "https://marcinhotur.com.br/pacote/forteleza-jericoacora-data_25-03-2026h00_00p419/47662",
-    "booking_url": "https://marcinhotur.com.br/carrinho_compra/forteleza-jericoacora-data_25-03-2026h00_00p419/47662",
-    "images": [
-      "https://img.suareservaonline.com.br/marcinhotur/shop/products/featured/f09732b50455f0b4dbb58521d88d95b4.jpg"
-    ]
-  },
-  {
-    "title": "PARATY COM PASSEIO DE ESCUNA",
-    "price": "R$289,00",
-    "description": "Paraty é uma cidade colonial localizada no litoral sul do Rio de Janeiro, conhecida por sua rica arquitetura colonial e belas praias. A cidade é um Patrimônio da Humanidade da UNESCO devido à sua beleza natural e cultural. Oferece diversas opções de turismo, incluindo passeios de escuna pelas praias, visitas a cachoeiras e eventos culturais ao longo do ano.",
-    "roteiro": "Roteiro Tradicional:\nPraia da Lula\nPraia Vermelha\nLagoa Azul\nIlha Comprida\nDurante o trajeto, é possível mergulhar, relaxar e aproveitar o som da natureza com vista para o mar de tons verde-esmeralda.",
-    "inclusoes": "Transporte executivo ida e volta, Monitores acompanhando todo o trajeto, Seguro viagem, Tripulação, coletes salva-vidas e música ambiente. Não incluso: Alimentação e bebidas (disponíveis para compra a bordo).",
-    "embarques": [
-      "CARAPICUIBA - saída 10/12/0026 às 22h30",
-      "BARRA FUNDA MEMORIAL DA AMERICA LATINA PORTÃO 8 - saída 10/12/0026 às 23h00",
-      "AV PIRAPORINHA 1767 AGENCIA MARCINHO TUR - saída 10/01/2026 às 21h30",
-      "TATUAPE RUA DOMINGO AGOSTINHO - saída 10/01/2026 às 23h30"
-    ],
-    "url": "https://marcinhotur.com.br/pacote/paraty-com-passeio-de-escuna-data_10-01-2026h21_30p424/47662",
-    "booking_url": "https://marcinhotur.com.br/carrinho_compra/paraty-com-passeio-de-escuna-data_10-01-2026h21_30p424/47662",
-    "images": [
-      "https://img.suareservaonline.com.br/marcinhotur/shop/products/featured/5f8e79e327488092e2cf4a3efe3fbc6b.jpg"
-    ]
-  },
-  {
-    "title": "ARRAIAL DO CABO & MACAE",
-    "price": "R$419,00/por pessoa",
-    "description": "Pacote turístico para Arraial do Cabo e Macaé com transporte, hospedagem em Macaé (Hotel Royal Urban com piscina) e café da manhã no domingo.",
-    "roteiro": "Sexta-feira: Embarque em diversos pontos de São Paulo (Diadema, Carapicuíba, Barra Funda, Tatuapé).\nSábado: Chegada em Arraial do Cabo, passeio de barco (opcional, R$ 180,00 por pessoa + taxas locais), almoço e viagem para Macaé. Noite livre em Macaé.\nDomingo: Café da manhã no hotel, dia livre em Macaé e retorno para São Paulo.",
-    "inclusoes": "Transporte executivo ida e volta, monitor da equipe, hospedagem em Macaé (Hotel Royal Urban com piscina), café da manhã no domingo. Não incluso: Café da manhã de sábado, almoços e jantares, passeio de barco (opcional, R$ 180,00/pessoa + taxas locais), Taxas municipais e passeios opcionais.",
-    "embarques": [
-      "Diadema - 19:00",
-      "Carapicuíba - 20:00",
-      "Barra Funda - 20:30",
-      "Tatuapé - 21:00"
-    ],
-    "url": "https://marcinhotur.com.br/pacote/arraial-do-cabo-macae-data_20-02-2026h18_45p431/47662",
-    "booking_url": "https://marcinhotur.com.br/carrinho_compra/arraial-do-cabo-macae-data_20-02-2026h18_45p431/47662",
-    "images": [
-      "https://img.suareservaonline.com.br/marcinhotur/shop/products/featured/e2cc4d9780ded2a4d29fd34165d9b26f.webp"
-    ]
-  },
-  {
-    "title": "REVEILLON ARRAIAL DO CABO & MACAÉ & BUZIOS",
-    "price": "R$ 2.500 (Duplo) / R$ 2.500 (Triplo) / R$ 2.100 (Quádruplo)",
-    "description": "Pacote de Réveillon para Arraial do Cabo, Macaé e Búzios, explorando as belas praias e paisagens da Região dos Lagos.",
-    "roteiro": "30/12: Embarque.\n31/12: Búzios. Transfer até o centro da cidade (R$ 40,00 - OBRIGATÓRIO). Opção de passeio de buggy (R$ 130,00). Noite livre na Praia dos Calaveiros.\n02/01/2025: Café da manhã. Saída para Arraial do Cabo. Passeio de barco com taxas (R$ 180,00). Tarde livre. Partida para Macaé. Noite livre.\n03/01/2025: Dia livre. Opções: Praia dos Cavaleiros, Praia Hollywood, Praia de Imbitiba, Lagoa de Iboasica.\n04/01/2025: Café da manhã. Dia livre.\n01/01/2026: Café da manhã. Dia livre. Partida para São Paulo.",
-    "inclusoes": "Transporte Ida e Volta, Hospedagem - Hotel Royal Atlantica, Café da Manhã (4 cafés), Guia de turismo, City Tour, Seguro viagem, Brinde, Ceia de reveillon com bebidas. NÃO INCLUSO: Passeio de escuna em Arraial do Cabo (R$180,00), passeio de Buggy (R$130,00), Transfer de buzios obrigatorio (R$40,00 por pessoa)",
-    "embarques": [
-      "AV PIRAPORINHA 1767 AGENCIA MARCINHO TUR - saída 30/12/2025 às 18h30",
-      "CARAPICUIBA - saída 30/12/2025 às 19h30",
-      "BARRA FUNDA MEMORIAL DA AMERICA LATINA PORTÃO 8 - saída 30/12/2025 às 20h00",
-      "TATUAPE RUA DOMINGO AGOSTINHO - saída 30/12/2025 às 20h30"
-    ],
-    "url": "https://marcinhotur.com.br/pacote/reveillon-arrail-do-cabo-macae-buzios-data_30-12-2025h18_30p349/47662",
-    "booking_url": "https://marcinhotur.com.br/carrinho_compra/reveillon-arrail-do-cabo-macae-buzios-data_30-12-2025h18_30p349/47662",
-    "images": [
-      "https://img.suareservaonline.com.br/marcinhotur/shop/products/featured/84cdc200126eecef340ba9dccddce3af.jpeg"
-    ]
-  },
-  {
-    "title": "ARRAIAL DO CABO & MACAE",
-    "price": "R$419,00 /por pessoa",
-    "description": "Pacote turístico para Arraial do Cabo e Macaé com transporte, hospedagem em hotel 4 estrelas com piscina e café da manhã no domingo.",
-    "roteiro": "Sexta-feira: Embarque em Diadema (19:00), Carapicuíba (20:00), Barra Funda (20:30) e Tatuapé (21:00).\nSábado: Chegada em Arraial do Cabo (06:30), passeio de barco (R$ 180,00 por pessoa + taxas locais), almoço e viagem para Macaé (16:30). Noite livre em Macaé.\nDomingo: Café da manhã no hotel (06:00 às 10:30), dia livre em Macaé e retorno para São Paulo (14:00).",
-    "inclusoes": "Transporte executivo ida e volta, monitor da equipe, hospedagem em Macaé (hotel 4 estrelas com piscina), café da manhã no domingo. Não incluso: Café da manhã de sábado, almoços e jantares, passeio de barco (opcional, R$ 180,00/pessoa + taxas locais), Taxa municipal: R$ 60,00 por pessoa (não inclusa)",
-    "embarques": [
-      "Diadema (19:00)",
-      "Carapicuíba (20:00)",
-      "Barra Funda (20:30)",
-      "Tatuapé (21:00)"
-    ],
-    "url": "https://marcinhotur.com.br/pacote/arraial-do-cabo-macae-data_28-11-2025h19_00p403/47662",
-    "booking_url": "https://marcinhotur.com.br/carrinho_compra/arraial-do-cabo-macae-data_28-11-2025h19_00p403/47662",
-    "images": [
-      "https://img.suareservaonline.com.br/marcinhotur/shop/products/featured/acefc31e1f1afc46b231b473fc411528.jpeg"
-    ]
-  },
-  {
-    "title": "TRINDADE – PARAÍSO NATURAL NO LITORAL CARIOCA",
-    "price": "R$199,00 /por pessoa",
-    "description": "Pacote turístico para Trindade, localizada a 30 km de Paraty, com praias paradisíacas, trilhas e natureza preservada. Ideal para quem busca tranquilidade e contato com a Mata Atlântica.",
-    "roteiro": "Roteiro Day Use:\n- Embarque em transporte turístico com destino a Trindade.\n- Chegada em Trindade: 07h30.\n- Passeio pelas principais praias: Praia dos Ranchos, Praia do Meio.\n- Trilha até a Praia do Cachadaço (15 minutos de caminhada leve).\n- Piscina Natural do Cachadaço: parada para banho e mergulho.\n- Almoço livre: 12h30.\n- Tarde livre para aproveitar a vila.\n- Retorno a SÃO PAULO: 16h30 (chegada prevista por volta das 17h00).",
-    "inclusoes": "Transporte executivo ida e volta, Monitores acompanhando todo o trajeto, Seguro viagem, 1 dia livre para aproveitar o destino. Não incluso: Transfer até Trindade (R$40,00 por pessoa).",
-    "embarques": [
-      "AV PIRAPORINHA 1767 AGENCIA MARCINHO TUR – saída 24/01/2026 às 21h30",
-      "CARAPICUIBA – saída 24/01/2026 às 22h30",
-      "BARRA FUNDA MEMORIAL DA AMERICA LATINA PORTÃO 8 – saída 24/01/2026 às 23h00",
-      "TATUAPE RUA DOMINGO AGOSTINHO – saída 24/01/2026 às 23h30"
-    ],
-    "url": "https://marcinhotur.com.br/pacote/trindade-rj-data_24-01-2026h21_30p425/47662",
-    "booking_url": "https://marcinhotur.com.br/carrinho_compra/trindade-rj-data_24-01-2026h21_30p425/47662",
-    "images": [
-      "https://img.suareservaonline.com.br/marcinhotur/shop/products/featured/a8312c623e97540e6f82a85d3422822a.jpg"
-    ]
-  },
-  {
-    "title": "Ilha Bela Litoral Norte",
-    "price": "R$149,00 /por pessoa",
-    "description": "Pacote turístico para Ilhabela, um dos únicos municípios-arquipélagos marinhos brasileiros, localizado no litoral norte de São Paulo. Inclui dias livres para curtir e aproveitar a ilha.",
-    "roteiro": "Dia 1: Saída de Diadema (22h00), Carapicuíba (23h00) e Barra Funda (23h55).\nDia 2: Chegada prevista em São Sebastião (05h30), travessia da balsa (06h00). Passeio livre pela ilha. Retorno ao ponto de encontro (16h30). Saída do ônibus de volta para SP (17h30). Chegada prevista em SP (00h00).",
-    "inclusoes": "Transporte confortável ida e volta, monitores acompanhando todo o grupo, seguro viagem incluso.",
-    "embarques": [
-      "Barra Funda Memorial da America Latina Portão 8 (saída 29/11/2025)",
-      "Av Piraporinha 1767 Agencia Marcinho Tur (saída 29/11/2025 às 22h00)",
-      "Tatuapé Rua Domingo Agostinho (saída 29/11/2025 às 23h00)",
-      "Carapicuíba (saída 29/11/2025 às 23h30)"
-    ],
-    "url": "https://marcinhotur.com.br/pacote/ilha-bela-litoral-norte-data_29-11-2025h22_00p400/47662",
-    "booking_url": "https://marcinhotur.com.br/carrinho_compra/ilha-bela-litoral-norte-data_29-11-2025h22_00p400/47662",
-    "images": [
-      "https://img.suareservaonline.com.br/marcinhotur/shop/products/featured/073fdb93f23437df84de8e96b1d81458.jpeg"
-    ]
-  },
-  {
-    "title": "PORTO SEGURO BA REVEILLON 2026",
-    "price": "R$2.700,00 /por pessoa",
-    "description": "Pacote completo para Porto Seguro no Reveillon 2026 com 5 diárias, incluindo ecoturismo, aventura, vida noturna e gastronomia.",
-    "roteiro": "Dia 1: Chegada em Porto Seguro.\nDia 2: Parque Marinho de Recife de Fora: passeio de escuna até recifes vivos, ideal para snorkeling e mergulho com vistas impressionantes da fauna marinha.\nDia 3: Reserva da Jaqueira: trilhas na Mata Atlântica, observação de fauna e flora e contato profundo com a natureza baiana.\nDia 4: Passeios de quadriciclo e barco, caiaque, stand-up paddle e até paramotor em regiões como Trancoso e Caraíva.\nDia 5: Passarela do Descobrimento (antiga Passarela do Álcool), Rua do Mucugê, quiosques como Axe Moi e Tôa Tôa.",
-    "inclusoes": "Transporte Semi-Leito – Ida e Volta (Ônibus com ar-condicionado, poltronas reclináveis, Wi-Fi, tomadas e banheiro), Hospedagem (5 noites) em hotéis ou pousadas com piscina, café da manhã incluso (quartos coletivos, normalmente duplos ou quádruplos), Seguro Viagem, Monitores / Guias, Kit Lanche + Café da Manhã, Brindes, Festas temáticas todas as noites (luau, festa na praia, balada de branco), City tour, visita ao centro histórico, aldeia Pataxó.",
-    "embarques": [
-      "AV PIRAPORINHA 1767 AGENCIA MARCINHO TUR - saída 27/12/2025 às 04h00",
-      "CARAPICUIBA - saída 27/12/2025 às 04h40",
-      "BARRA FUNDA MEMORIAL DA AMERICA LATINA PORTÃO 8 - saída 27/12/2025 às 05h30",
-      "TATUAPE RUA DOMINGO AGOSTINHO - saída 27/12/2025 às 06h00"
-    ],
-    "url": "https://marcinhotur.com.br/pacote/porto-seguro-ba-reveillon-2026-data_27-12-2025h04_00p394/47662",
-    "booking_url": "https://marcinhotur.com.br/carrinho_compra/porto-seguro-ba-reveillon-2026-data_27-12-2025h04_00p394/47662",
-    "images": [
-      "https://img.suareservaonline.com.br/marcinhotur/shop/products/featured/921b5151c05660a93734a30ea111884b.png"
-    ]
-  },
-  {
-    "title": "BETO CARREIRO & BALNEARIO BARRA SUL",
-    "price": "R$599,99 / R$569,00 por pessoa",
-    "description": "Pacote turístico para Beto Carrero World, um parque temático localizado em Santa Catarina, com hospedagem em Balneário Barra Sul.",
-    "roteiro": "Sexta: 19h00 Diadema, 19h40 Tatuapé, 20h00 Saída Barra Funda, 21h00 Saída Carapicuíba - SP. Sábado: Ida direta ao parque, 06:30 Parada (troca de roupa), 08:40 Chegada no parque, 18h00 Hotel (CHECK-IN NO HOTEL EM BALNEARIO BARRA SUL - SC). Domingo: 07h00 às 10h00 Café Da Manhã (Incluso), Dia Livre (Praia de frente ao hotel), 13:30 Hotel Retorno, 14h30 CHECKOUT, 15h00 SAÍDA PARA SP, Chegada em SP 03:00 AM. Atenção: Roteiro sujeito a alterações.",
-    "inclusoes": "Transporte executivo ida e volta, Hospedagem em hotel em Balneário Barra Sul - SC, 01 Café da Manhã, Monitor da Agência, 1 dia de park beto carrero. Não inclui: Atividades não citadas acima, Ingresso do Parque.",
-    "embarques": [
-      "AV PIRAPORINHA 1767 AGENCIA MARCINHO TUR - saída 15/08/2025 às 19h00",
-      "TATUAPE RUA DOMINGO AGOSTINHO - saída 15/08/2025 às 20h00",
-      "BARRA FUNDA MEMORIAL DA AMERICA LATINA PORTÃO 8 - saída 15/08/2025 às 21h00",
-      "CARAPICUIBA - saída 15/08/2025 às 21h30"
-    ],
-    "url": "https://marcinhotur.com.br/pacote/beto-carreiro-balneario-barra-sul-data_28-11-2025h19_00p364/47662",
-    "booking_url": "https://marcinhotur.com.br/carrinho_compra/beto-carreiro-balneario-barra-sul-data_28-11-2025h19_00p364/47662",
-    "images": [
-      "https://img.suareservaonline.com.br/marcinhotur/shop/products/featured/88e9b14584d5061cf554d06ad83c9bb4.jpeg"
-    ]
-  },
-  {
-    "title": "PARATY & TRINDADE",
-    "price": "R$ 399,00 (compartilhado 5 a 6 pessoas) / R$ 450,00 (quarto quádruplo) / R$ 499,00 (quarto duplo ou triplo)",
-    "description": "Visite Paraty, uma das mais belas cidades do Brasil, com arquitetura colonial preservada, entre o mar e a montanha. Desfrute de história, cultura, gastronomia, praias e cachoeiras em um só lugar.",
-    "roteiro": "Sexta (05/12):\n21:30 - Diadema\n22:30 - Saída de Carapicuíba\n23:30 - Saída da Barra Funda\n23:50 - Saída Tatuapé\n\nSábado (06/12):\n06h30 - Chegada prevista em Paraty\n08:00 - Check-in\n09:00 - Ida até o centro de Paraty\nPasseio de escuna opcional (R$ 100,00 por pessoa)\n17:00 - Retorno para a pousada\nNoite livre no centro histórico (custo adicional de R$ 30,00 por pessoa para translado)\n\nDomingo (07/12):\n07:30 às 08:30 - Café da manhã\n08h40 - Saída para Trindade\nOpcional: Van para Trindade (R$ 25,00 não incluso)\n15:00 - Retorno à pousada\n18:00 - Retorno a São Paulo\nChegada prevista 23:30",
-    "inclusoes": "Transporte executivo ida e volta, hospedagem com piscina, 02 cafés da manhã, 01 transfer até o centro de Paraty (para quem for ao passeio de escuna), monitor da Agência, seguro viagem, muita diversão e praia. Não incluso: Passeio de escuna (R$ 100,00 por pessoa), translado para Trindade no domingo (R$ 25,00 por pessoa).",
-    "embarques": [
-      "Diadema - 21:30",
-      "Carapicuíba - 22:30",
-      "Barra Funda - 23:30",
-      "Tatuapé - 23:50"
-    ],
-    "url": "https://marcinhotur.com.br/pacote/paraty-trindade-data_05-12-2025h21_30p408/47662",
-    "booking_url": "https://marcinhotur.com.br/carrinho_compra/paraty-trindade-data_05-12-2025h21_30p408/47662",
-    "images": [
-      "https://img.suareservaonline.com.br/marcinhotur/shop/products/featured/a04bb63a722fa37292c4f84e108e0a9f.jpeg"
-    ]
-  },
-  {
-    "title": "RÉVEILLON DOS SONHOS EM COPACABANA!",
-    "price": "R$1,999 (Quarto compartilhado) / R$2,300 (Quarto duplo, casal ou triplo)",
-    "description": "Pacote para celebrar o Réveillon no Rio de Janeiro, com hospedagem em Copacabana e shows na praia.",
-    "roteiro": "Dia 29 DE DEZEMBRO: Partida de São Paulo nos locais e horários combinados. Parada na Rede Graal.\nDia 30 DE DEZEMBRO: Chegada ao Rio de Janeiro (previsão 08h00). Ida para Copacabana. Check-in a partir das 14h. Dia livre (sugestão: passeio opcional ao Cristo Redentor + City Tour completo).\nDia 31 DE DEZEMBRO: Café da manhã incluso. Dia livre para aproveitar o Rio ou fazer passeios com a agência. Show gratuito na praia de Copacabana, queima de fogos e celebração.\nDia 01 DE JANEIRO: Café da manhã incluso. Manhã e tarde livre.\nDia 02 DE JANEIRO: Café da manhã incluso. Check-out até 12h (malas serão guardadas). Tarde livre até o embarque. Retorno para São Paulo entre 15h e 16h.",
-    "inclusoes": "Transporte de ida e volta em ônibus de alto padrão, café da manhã incluso durante todo o período da estadia, hotel com piscina, sala de jogos, sauna e academia, brindes exclusivos, monitores acompanhando o grupo durante toda a viagem, seguro ANTT incluso.",
-    "embarques": [
-      "AV PIRAPORINHA 1767 AGENCIA MARCINHO TUR - 29/12/2025 às 20h00",
-      "CARAPICUIBA - 29/12/2025 às 21h00",
-      "BARRA FUNDA MEMORIAL DA AMERICA LATINA PORTÃO 8 - 29/12/2025 às 22h00",
-      "TATUAPE RUA DOMINGO AGOSTINHO - 29/12/2025 às 22h30"
-    ],
-    "url": "https://marcinhotur.com.br/pacote/rio-de-janeiro-data_29-12-2025h20_00p396/47662",
-    "booking_url": "https://marcinhotur.com.br/carrinho_compra/rio-de-janeiro-data_29-12-2025h20_00p396/47662",
-    "images": [
-      "https://img.suareservaonline.com.br/marcinhotur/shop/products/featured/45229756ad7b449c802f6c1bf6328c58.jpeg"
-    ]
-  },
-  {
-    "title": "PARATY E TRINDADE",
-    "price": "R$399,99 /por pessoa",
-    "description": "Te convidamos a visitar Paraty uma das mais belas cidades do Brasil, com um conjunto arquitetônico colonial preservado entre o azul do mar e o verde da montanha, e um povo hospitaleiro que festeja a cultura, a arte, a gastronomia e a tradição. Apaixone-se por Paraty - RJ. A cidade histórica de Paraty é Patrimônio Mundial pela Unesco devido à sua cultura e biodiversidade excepcionais.",
-    "roteiro": "Sexta:\n21:30 Diadema\n22:30 Saída de Carapicuíba\n23:30 Saída da Barra Funda\n23:50 Saída Tatuapé\n\nSábado:\n06h30 chegada prevista em Paraty\n08:00 Check-in\n09:00 ida até o centro de Paraty\nPasseio de escuna opcional: R$ 130,00 por pessoa\n17:00 Retorno para a pousada\nNoite livre com sugestão de ida até o centro histórico de Paraty. Custo adicional de R$ 30,00 por pessoa, referente à tradução de ida e volta.\n\nDomingo\nCafé 07:30 às 08:30\n08h40 Saída até ao vilarejo de Trindade\nOpcional (Van R$ 25,00) não incluso.\n15:00 Retorno à pousada\n18:00 Retorno a São Paulo\nChegada prevista 23:30",
-    "inclusoes": "Transporte executivo ida e volta\nHospedagem com piscina NO BAIRRO DO PATRIMÔNIO\n02 Café da manhã\n01 Transfer até a o centro de Paraty (para quem for realizar o passeio de escuna)\nMonitor da Agência\nMuita diversão e praia\n\nNÃO INCLUSO:\nPASSEIO DE ESCUNA NO CENTRO DE PARATY - R$ 130,00 por pessoa\nTRANSLADO ATÉ O VILAREJO DE TRINDADE NO DOMINGO - R$ 25,00 por pessoa pago no dia.",
-    "embarques": [
-      "AV PIRAPORINHA 1767 AGENCIA MARCINHO TUR – saída 27/03/2026 às 21h30",
-      "CARAPICUIBA – saída 27/03/2026 às 22h30",
-      "BARRA FUNDA MEMORIAL DA AMERICA LATINA PORTÃO 8 – saída 27/03/2026 às 23h30",
-      "TATUAPE RUA DOMINGO AGOSTINHO – saída 27/03/2026 às 23h45"
-    ],
-    "url": "https://marcinhotur.com.br/pacote/paraty-e-trindade-data_27-03-2026h21_30p428/47662",
-    "booking_url": "https://marcinhotur.com.br/carrinho_compra/paraty-e-trindade-data_27-03-2026h21_30p428/47662",
-    "images": [
-      "https://img.suareservaonline.com.br/marcinhotur/shop/products/featured/2cbfa92c12fccaf255771e17fa8f30f9.webp"
-    ]
-  },
-  {
-    "title": "COPACABANA RJ",
-    "price": "R$199,99",
-    "description": "Pacote turístico para Copacabana e Ipanema, com opcional de ida ao Cristo Redentor.",
-    "roteiro": "Dia 1 (13/12 - Sábado): Saída de Diadema (21:30), Carapicuíba (22:30), Barra Funda - SP (23:20), Tatuapé (23:40).\nDia 2 (14/12 - Domingo): Chegada prevista em Copacabana (07:00). Dia livre nas praias de Copacabana e Ipanema. Opcional: Ida ao Cristo Redentor (pago no dia, direto ao receptivo). Retorno para SP (17:00), chegada prevista para 00:30.",
-    "inclusoes": "Transporte Executivo ida e volta, Monitor da Agência, Seguro Rodoviária. Não incluso: Ingresso para o Cristo Redentor (pago no dia).",
-    "embarques": [
-      "AV PIRAPORINHA 1767 AGENCIA MARCINHO TUR (13/12/2025 às 21h30)",
-      "CARAPICUIBA (13/12/2025 às 22h30)",
-      "BARRA FUNDA MEMORIAL DA AMERICA LATINA PORTÃO 8 (13/12/2025 às 23h00)",
-      "TATUAPE RUA DOMINGO AGOSTINHO (13/12/2025 às 23h30)"
-    ],
-    "url": "https://marcinhotur.com.br/pacote/copacabana-rj-data_13-12-2025h21_30p409/47662",
-    "booking_url": "https://marcinhotur.com.br/carrinho_compra/copacabana-rj-data_13-12-2025h21_30p409/47662",
-    "images": [
-      "https://img.suareservaonline.com.br/marcinhotur/shop/products/featured/37823ca7b1af479dd6357ded447c8b2f.jpeg"
-    ]
-  },
-  {
-    "title": "SANTA CATARINA / BALNEARIO BARRA SUL - Queima de fogos & show de drones",
-    "price": "R$1.890,00 /por pessoa",
-    "description": "Pacote turístico para Santa Catarina, Balneário Barra Sul, com queima de fogos e show de drones. Inclui atrações como a Praia Central, Molhe da Barra Sul e opções mais tranquilas em praias próximas.",
-    "roteiro": "Dia 30/12: Embarques em Caieiras (17h30), Barra Funda (18h30) e Carapicuíba (19h30).\nDia 31/12: Chegada ao hotel, dia livre e queima de fogos.\nDia 01/01: Dia livre na praia.\nDia 02/01: Passeio a Balneário Camboriú.\nDia 03/01: Dia inteiro no Beto Carrero.\nDia 04/01: Retorno às 12h",
-    "inclusoes": "Transporte semi leito, hotel de frente pro mar com piscina, 01 ingresso Beto Carrero World, passeio em Balneário Camboriú, 04 cafés da manhã, brindes exclusivos da agência, guia acompanhando o grupo",
-    "embarques": [
-      "Caieiras: 17h30",
-      "Barra Funda: 18h30",
-      "Carapicuíba: 19h30",
-      "AV PIRAPORINHA 1767 AGENCIA MARCINHO TUR: 17h00"
-    ],
-    "url": "https://marcinhotur.com.br/pacote/santa-catarina-balneario-barra-sul-data_30-12-2025h17_00p378/47662",
-    "booking_url": "https://marcinhotur.com.br/carrinho_compra/santa-catarina-balneario-barra-sul-data_30-12-2025h17_00p378/47662",
-    "images": [
-      "https://img.suareservaonline.com.br/marcinhotur/shop/products/featured/8e55026d0af253317b1b23bb1e51bd33.jpeg"
-    ]
-  },
-  {
-    "title": "CARNAVAL COPACABANA & MACAE",
-    "price": "R$1.099,00 /por pessoa",
-    "description": "Pacote turístico para o Carnaval 2026 em Copacabana e Macaé, incluindo transporte, hospedagem no Macaé Royal Atlântico Hotel e acompanhamento de monitores.",
-    "roteiro": "Dia 1 (13/02): Embarque noturno em São Paulo com destino ao Rio de Janeiro.\nDia 2 (14/02): Chegada em Copacabana. Dia livre para atividades na praia e arredores. À tarde, embarque para Macaé e hospedagem no Macaé Royal Atlântico Hotel.\nDia 3 (15/02): Café da manhã. Dia livre para aproveitar os bloquinhos de Carnaval de Macaé.\nDia 4 (16/02): Café da manhã. Dia livre para lazer e descanso em Macaé. Sugestões: Praia dos Cavaleiros, Praia Campista ou Lagoa de Imboassica.\nDia 5 (17/02): Café da manhã. Check-out do hotel e embarque de retorno a São Paulo.",
-    "inclusoes": "Transporte rodoviário em veículo executivo climatizado, hospedagem no Macaé Royal Atlântico Hotel com café da manhã, acompanhamento de monitores especializados, kit de viagem personalizado.",
-    "embarques": [
-      "AV PIRAPORINHA 1767 AGENCIA MARCINHO TUR - 13/02/2026 às 21h00",
-      "CARAPICUIBA - 13/02/2026 às 22h00",
-      "BARRA FUNDA MEMORIAL DA AMERICA LATINA PORTÃO 8 - 13/02/2026 às 23h00",
-      "TATUAPE RUA DOMINGO AGOSTINHO - 13/02/2026 às 23h30"
-    ],
-    "url": "https://marcinhotur.com.br/pacote/carnaval-copacabana-macae-data_13-02-2026h21_00p427/47662",
-    "booking_url": "https://marcinhotur.com.br/carrinho_compra/carnaval-copacabana-macae-data_13-02-2026h21_00p427/47662",
-    "images": [
-      "https://img.suareservaonline.com.br/marcinhotur/shop/products/featured/0abe21c6eb20b89d68140a7cd78be3c1.jpg"
-    ]
-  },
-  {
-    "title": "ARRAIAL DO CABO & MACAE",
-    "price": "R$419,00 /por pessoa",
-    "description": "Arraial do Cabo é uma cidade brasileira localizada na Região dos Lagos, no estado do Rio de Janeiro. O lugar tem uma excelente fama, por isso ganhou até alguns apelidos, como “Capital do Mergulho”, “Paraíso do Atlântico”, “Caribe Fluminense” e “Caribe Brasileiro”.",
-    "roteiro": "sexta: Embarques (19:00 Diadema, 20:00 Carapicuíba, 20:30 Barra Funda, 21:00 Tatuapé)\nsabado: Chegada prevista às 6:30 da manhã no Graal Oasis para café e troca de roupa. 07:30 saída até Arraial (50 minutos). 08:30 chegada no portal da cidade. 08:50 chegada no estacionamento local. Passeio de barco (R$ 180,00 por pessoa com as taxas). 10:00 início do passeio de barco. 14:30 término e almoço. 16:30 retorno ao ônibus e seguimos sentido a cidade de Macaé - RJ (2h30 de viagem). 18:30 chegada prevista e noite livre.\ndomingo: 06:00 às 10:30 café da manhã incluso. Dia livre em Macaé. 16:00 checkout e retorno para SP. Chegada prevista entre 00:30 a 01:00 AM",
-    "inclusoes": "Transporte Ida e Volta\nHospedagem - Hotel Royal urban\nCafé da Manhã (domingo)\nGuia de turismo\nCity Tour\nTaxa municipal: R$60,00\nQuarto com vista suíte master: R$ 300.00",
-    "embarques": [
-      "19:00 DIADEMA",
-      "20:00 CARAPICUÍBA",
-      "20:30 BARRA FUNDA",
-      "21:00 TATUAPE"
-    ],
-    "url": "https://marcinhotur.com.br/pacote/arraial-do-cabo-macae-data_30-01-2026h19_00p414/47662",
-    "booking_url": "https://marcinhotur.com.br/carrinho_compra/arraial-do-cabo-macae-data_30-01-2026h19_00p414/47662",
-    "images": [
-      "https://img.suareservaonline.com.br/marcinhotur/shop/products/featured/6294c64bf0a97eb26e9d898bdf641bcf.jpg"
-    ]
-  },
-  {
-    "title": "ARRAIAL DO CABO MACAÉ & RIO DAS OSTRAS",
-    "price": "R$ 999,99 à vista (PIX) / 12x de R$ 99,99 (Cartão)",
-    "description": "Pacote turístico com duração de 2 noites, explorando Arraial do Cabo, Macaé e Rio das Ostras. Inclui hospedagem, transporte executivo e transfer.",
-    "roteiro": "Dia 22/12: Embarque. Chegada prevista em Arraial do Cabo em 23/12 às 08h00. Passeio de barco (opcional - R$ 399,99). Tempo livre nas praias. 17h00: Saída para hospedagem em Macaé.\nDia 24/12: Café da manhã. 09h30: Saída para Rio das Ostras - dia livre nas praias. 16h00: Retorno para a hospedagem. Ceia de Natal (opcional - R$ 399,99).\nDia 25/12: Café da manhã. Dia livre. 18h00: Saída para São Paulo.\nDia 26/12: Chegada prevista às 06h00.",
-    "inclusoes": "Transporte rodoviário, hospedagem beira-mar, café da manhã, monitores durante toda a viagem, seguro viagem, transfer Rio das Ostras, transfer Macaé. Não incluso: Ceia (R$ 399,99) + Passeio de barco (com taxas) (R$ 399,99).",
-    "embarques": [
-      "AV PIRAPORINHA 1767 AGENCIA MARCINHO TUR - 22/12/2025 às 18h30",
-      "BARRA FUNDA MEMORIAL DA AMERICA LATINA PORTÃO 8 - 22/12/2025 às 19h45",
-      "TATUAPE RUA DOMINGO AGOSTINHO - 22/12/2025 às 20h10"
-    ],
-    "url": "https://marcinhotur.com.br/pacote/arraial-do-cabo-macae-rio-das-ostra-data_22-12-2025h18_30p417/47662",
-    "booking_url": "https://marcinhotur.com.br/carrinho_compra/arraial-do-cabo-macae-rio-das-ostra-data_22-12-2025h18_30p417/47662",
-    "images": [
-      "https://img.suareservaonline.com.br/marcinhotur/shop/products/featured/b437baa1e7fcf6b70dbfa33f0a705798.jpg"
-    ]
-  },
-  {
-    "title": "ARRAIAL DO CABO & MACAE",
-    "price": "R$419,00 /por pessoa",
-    "description": "Arraial do Cabo é uma cidade brasileira localizada na Região dos Lagos, no estado do Rio de Janeiro. O lugar tem uma excelente fama, por isso ganhou até alguns apelidos, como “Capital do Mergulho”, “Paraíso do Atlântico”, “Caribe Fluminense” e “Caribe Brasileiro”.",
-    "roteiro": "Dia 1 (sexta): Embarques em Diadema (19:00), Carapicuíba (20:00), Barra Funda (20:30), Tatuapé (21:00).\nDia 2 (sábado): Chegada prevista às 6:30 da manhã no Graal Oasis para café e troca de roupa. Saída para Arraial às 7:30 (50 minutos). Chegada no portal da cidade às 8:30 e no estacionamento local às 8:50. Passeio de barco (R$ 180,00 por pessoa com as taxas) com início às 10:00 e término às 14:30, seguido de almoço. Retorno para Macaé às 16:30 (2h30 de viagem). Chegada prevista em Macaé às 18:30, noite livre.\nDia 3 (domingo): Café da manhã incluso (6:00 às 10:30). Dia livre em Macaé. Checkout às 16:00 e retorno para SP. Chegada prevista entre 00:30 a 01:00 AM.",
-    "inclusoes": "Transporte Ida e Volta, Hospedagem - Hotel Royal urban, Café da Manhã (domingo), Guia de turismo, City Tour. Não incluso: Taxa municipal R$60,00, Quarto com vista suíte master fica a mais R$ 300.00",
-    "embarques": [
-      "DIADEMA 19:00",
-      "CARAPICUÍBA 20:00",
-      "BARRA FUNDA 20:30",
-      "TATUAPE 21:00",
-      "CARAPICUIBA saída 23/01/2025 às 19h50",
-      "AV PIRAPORINHA 1767 AGENCIA MARCINHO TUR saída 23/01/2026 às 19h00",
-      "BARRA FUNDA MEMORIAL DA AMERICA LATINA PORTÃO 8 saída 23/01/2026 às 20h20",
-      "TATUAPE RUA DOMINGO AGOSTINHO saída 23/01/2026 às 20h45"
-    ],
-    "url": "https://marcinhotur.com.br/pacote/arraial-do-cabo-macae-data_23-01-2026h19_00p413/47662",
-    "booking_url": "https://marcinhotur.com.br/carrinho_compra/arraial-do-cabo-macae-data_23-01-2026h19_00p413/47662",
-    "images": [
-      "https://img.suareservaonline.com.br/marcinhotur/shop/products/featured/f1bbbe882b4bcf35051ae81e4bc213f5.jpg"
-    ]
-  },
-  {
-    "title": "CHILE SANTIAGO",
-    "price": "R$4.500,00 /por pessoa",
-    "description": "Pacote turístico para Santiago, Capital do Chile, com 04 noites de hospedagem, aéreo incluso e transfer.",
-    "roteiro": "Dia do voo: Chegada em Santiago, Check-in no Hotel (após as 15:00h).\nDIA 1: Livres após o check-in.\nDIA 2: Passeios opcionais.\nDIA 3: Passeios opcionais.\nDIA 4: Check-out no Hotel (12:00h) e tempo livre até o horário do voo.",
-    "inclusoes": "Aéreo ida e volta em classe econômica e bagagem de mão incluída; Hospedagem (Ibis Budget Santiago Providencia) com café da manhã; Guia Brasileiro desde o embarque; Guia Local bilíngue; City Tour em Santiago (a pé).  NÃO INCLUSO: Passeios opcionais e traslados (serão ofertados e liberados para compra quando estiver mais próximo da viagem). Está incluso apenas 1 bolsa de mão com itens pessoais. Caso o passageiro deseje despachar ou levar mala de até 10kg, o pagamento deverá ser feito diretamente no aeroporto à companhia aérea. A agência não se responsabiliza por esse custo adicional.",
-    "embarques": [
-      "AEROPORTO DE GUARULHOS saída 08/07/2026"
-    ],
-    "url": "https://marcinhotur.com.br/pacote/chile-santiago-data_12-08-2026h00_00p383/47662",
-    "booking_url": "https://marcinhotur.com.br/carrinho_compra/chile-santiago-data_12-08-2026h00_00p383/47662",
-    "images": [
-      "https://img.suareservaonline.com.br/marcinhotur/shop/products/featured/a1438320af449fb4793a9d4da5600a0b.jpg"
-    ]
-  },
-  {
-    "title": "CAMPOS DO JORDÃO NATAL LUZ",
-    "price": "R$ 169,00 por pessoa via pix. No cartão contém taxa da maquina",
-    "description": "Pacote turístico para Campos do Jordão no Natal Luz, com city tour pelos principais pontos turísticos.",
-    "roteiro": "07:00 embarque diadema\n08:00 Embarque em Carapicuíba\n08:40 Embarque na Barra Funda\n09:10 Embarque Tatuapé\n11:00 Chegada em Campos Do Jordão e início do City Tour:\nDucha de Prata\nAlto do Capivari (mansões)\nFabrica Dá Cacau Show\nSpinassi: degustação de queijos e vinhos\n16:00 Tempo livre no centro de Campos do Jordão (Feirinha de artesanatos, passeio de pedalinho, jantar no centrinho de Capivari).\nRetorno 20:30",
-    "inclusoes": "Ônibus Executivo, City Tour nos principais pontos turísticos, Guia Credenciado, Monitor da Agencia. NÃO INCLUI: REFEIÇÕES",
-    "embarques": [
-      "AV PIRAPORINHA 1767 AGENCIA MARCINHO TUR - 14/12/2025 às 07h00",
-      "CARAPICUIBA - 14/12/2025 às 08h00",
-      "BARRA FUNDA MEMORIAL DA AMERICA LATINA PORTÃO 8 - 14/12/2025 às 08h20",
-      "TATUAPE RUA DOMINGO AGOSTINHO - 14/12/2025 às 09h20"
-    ],
-    "url": "https://marcinhotur.com.br/pacote/campos-do-jordao-natal-luz-data_14-12-2025h07_00p407/47662",
-    "booking_url": "https://marcinhotur.com.br/carrinho_compra/campos-do-jordao-natal-luz-data_14-12-2025h07_00p407/47662",
-    "images": [
-      "https://img.suareservaonline.com.br/marcinhotur/shop/products/featured/ac8cddb03848c3b9d47a95cf70a0e889.jpg"
-    ]
-  },
-  {
-    "title": "PARIS, FRANCE NOVEMBRO 2026   2 EDIÇÃO",
-    "price": "SINGLE: R$13.499,99 (por pessoa) / CASAL: R$10.599,99 (por pessoa) / DUPLO: R$10.599,99 (por pessoa) / TRIPLO: R$10.599 (por pessoa) / COMPARTILHADO: R$10.999,99 (por pessoa)",
-    "description": "Paris é o destino que reúne charme, história e sofisticação. A Cidade Luz encanta com monumentos icônicos como a Torre Eiffel, o Arco do Triunfo e o Museu do Louvre. Desfrute de passeios às margens do Rio Sena, cafés charmosos, bairros boêmios e compras em boutiques renomadas.",
-    "roteiro": "Dia 1 (06/11): Embarque no Aeroporto de Guarulhos com destino a Paris.\nDia 2 (07/11): Chegada em Paris e traslado até o hotel. Dia e noite livres para descanso e adaptação.\nDia 3 (08/11): Walking Tour pelos principais pontos turísticos: Torre Eiffel (parte externa), Arco do Triunfo, Catedral de Notre-Dame, Museu do Louvre (parte externa), Jardim de Luxemburgo, Ponte Alexandre III e região do Rio Sena. À noite, cruzeiro pelo Rio Sena (incluso).\nDia 4 (09/11): Dia livre – Opcional: Palácio de Versalhes.\nDia 5 (10/11): Dia livre – Opcional: Disneyland Paris.\nDia 6 (11/11): Dia livre – Sugestão: Sacré-Cœur e bairro de Montmartre.\nDia 7 (12/11): Dia livre – Sugestão: Champs-Élysées e compras.\nDia 8 (13/11): Dia livre – Sugestão: Museu d’Orsay.\nDia 9 (14/11): Dia livre para aproveitar a cidade. Traslado para o aeroporto e retorno ao Brasil.",
-    "inclusoes": "- PASSAGEM AÉREA (IDA E VOLTA)\n- HOSPEDAGEM EM HOTEL\n- CAFÉ DA MANHÃ COMPLETO\n- MALA DE BORDO DE 10KG\n- PASSEIO DE CRUZEIRO PELO SENA\n- TRASLADO IDA E VOLTA P/HOTEL\n- SEGURO VIAGEM INTERNACIONAL\n- MONITORES",
-    "embarques": [
-      "AEROPORTO DE GUARULHOS - 06/11/2026"
-    ],
-    "url": "https://marcinhotur.com.br/pacote/paris-france-novembro-2026-2-edicao-data_06-11-2026h00_00p405/47662",
-    "booking_url": "https://marcinhotur.com.br/carrinho_compra/paris-france-novembro-2026-2-edicao-data_06-11-2026h00_00p405/47662",
-    "images": [
-      "https://img.suareservaonline.com.br/marcinhotur/shop/products/featured/acb39f8da01962e4fdbaaa299f5c9849.jpeg"
-    ]
-  },
-  {
-    "title": "COPACABANA REVEILLON",
-    "price": "R$399,99 /por pessoa",
-    "description": "Comemoração do réveillon (o ano Novo) no Rio de Janeiro é realmente uma experiência inesquecível, mais ainda em Copacabana. A festa, se você quiser, dura a noite inteira na praia, além da fantástica queima de fogos comemorando a entrada do Ano Novo. Há várias atrações musicais, em diversos palcos, que começam já às 18h do dia 31 de dezembro. Avança pela noite, até o amanhecer.",
-    "roteiro": "Dia 30/12: Saída de São Paulo. Horário e ponto de embarque a confirmar.\nDia 31/12: Chegada no Rio de Janeiro pela manhã. Dia Livre. City Tour opcional com parada nos principais pontos turísticos da cidade (Cristo, Pão de Açúcar, Maracanã, Escadaria Selarón, entre outros).\nDia 01/01/2026: 04h00 - Ponto de Encontro para retorno a São Paulo. Previsão de chegada: 12h00",
-    "inclusoes": "Transporte ida e volta, Monitores acompanhantes, Dia livre nas praias do RJ, Muita diversão garantida. Custos adicionais: Reserva com entrada de R$ 150,00, Saldo restante até 10 dias antes da viagem ou no cartão de crédito (com acréscimo da máquina).",
-    "embarques": [
-      "AV PIRAPORINHA 1767 AGENCIA MARCINHO TUR - saída 30/12/2025 às 21h00",
-      "CARAPICUIBA - saída 30/12/2025 às 22h00",
-      "BARRA FUNDA MEMORIAL DA AMERICA LATINA PORTÃO 8 - saída 30/12/2025 às 23h00",
-      "TATUAPE RUA DOMINGO AGOSTINHO - saída 30/12/2025 às 23h45"
-    ],
-    "url": "https://marcinhotur.com.br/pacote/copacabana-reveillon-data_30-12-2025h21_00p377/47662",
-    "booking_url": "https://marcinhotur.com.br/carrinho_compra/copacabana-reveillon-data_30-12-2025h21_00p377/47662",
-    "images": [
-      "https://img.suareservaonline.com.br/marcinhotur/shop/products/featured/1da1cc3b6f7713589f85f47cfeecbca0.jpeg"
-    ]
-  },
-  {
-    "title": "FOZ DO IGUAÇU & PARAGUAI & ARGENTINA",
-    "price": "A partir de R$1.150,00 /por pessoa",
-    "description": "Pacote turístico para Foz do Iguaçu, Paraguai e Argentina.",
-    "roteiro": "Dia 1 (19/11): Saída de São Paulo às 16:00.\nDia 2 (20/11): Chegada em Foz do Iguaçu (12:00). Almoço opcional (R$ 90,00). Ida para Argentina – Puerto Iguazú (R$ 100,00).\nDia 3 (21/11): Paraguai (R$ 100,00) + Marco das 3 Fronteiras (R$ 75,00).\nDia 4 (22/11): Cataratas do Iguaçu (R$ 160,00) + Retorno para São Paulo (12:00).",
-    "inclusoes": "Transporte ida e volta em veículo de turismo, Hospedagem em Foz do Iguaçu, Seguro viagem para todo o período, Monitores acompanhantes durante todo o roteiro, Brindes exclusivos do grupo/pacote. Custos adicionais: Almoço opcional em Foz do Iguaçu (R$ 90,00), Argentina – Puerto Iguazú (R$ 100,00), Paraguai (R$ 100,00), Marco das 3 Fronteiras (R$ 75,00), Cataratas do Iguaçu (R$ 160,00).",
-    "embarques": [
-      "AV PIRAPORINHA 1767 AGENCIA MARCINHO TUR - 19/11/2026 às 16h00",
-      "BARRA FUNDA MEMORIAL DA AMERICA LATINA PORTÃO 8 - 19/11/2026 às 17h00"
-    ],
-    "url": "https://marcinhotur.com.br/pacote/foz-do-iguacu-paraguai-argentina-data_19-11-2026h16_00p435/47662",
-    "booking_url": "https://marcinhotur.com.br/carrinho_compra/foz-do-iguacu-paraguai-argentina-data_19-11-2026h16_00p435/47662",
-    "images": [
-      "https://img.suareservaonline.com.br/marcinhotur/shop/products/featured/1589d04e2cd680ef423fad966a2df107.jpeg"
-    ]
-  },
-  {
-    "title": "ILHA BELA LITORAL NORTE",
-    "price": "R$169,00 /por pessoa",
-    "description": "Conhecida por suas praias paradisíacas, cachoeiras e clima de ilha tropical, Ilhabela é um dos destinos mais encantadores do litoral paulista. O local combina natureza exuberante, aventura e charme, atraindo tanto quem busca descanso quanto quem gosta de explorar. Principais atrações: Praia do Curral, Praia de Castelhanos, Cachoeira do Gato, Centro Histórico (Vila). O que fazer: Passeios de lancha, mergulho, trilhas ecológicas, visita a cachoeiras e tardes relaxantes à beira-mar.",
-    "roteiro": "22h00 – Saída de Diadema\n23h00 – Saída de Carapicuíba\n23h55 – Saída da Barra Funda\n05h30 – Chegada prevista em São Sebastião\n06h00 – Travessia da Balsa (20 minutos)\nApós a travessia → Passeio livre pela ilha\n16h30 – Retorno ao ponto de encontro (local informado no dia)\n17h30 – Saída do ônibus de volta para SP\n00h00 – Chegada prevista em SP",
-    "inclusoes": "Transporte confortável ida e volta, Monitores acompanhando todo o grupo, Seguro Viagem incluso, Dias livres para curtir e aproveitar como quiser. Não incluso: Alimentação e despesas de caráter pessoal.",
-    "embarques": [
-      "AV PIRAPORINHA 1767 AGENCIA MARCINHO TUR - saída 17/01/2026 às 22h00",
-      "CARAPICUIBA - saída 17/01/2026 às 23h00",
-      "BARRA FUNDA MEMORIAL DA AMERICA LATINA PORTÃO 8 - saída 17/01/2026 às 23h30",
-      "TATUAPE RUA DOMINGO AGOSTINHO - saída 17/01/2026 às 23h55"
-    ],
-    "url": "https://marcinhotur.com.br/pacote/ilha-bela-litoral-norte-data_17-01-2026h22_00p426/47662",
-    "booking_url": "https://marcinhotur.com.br/carrinho_compra/ilha-bela-litoral-norte-data_17-01-2026h22_00p426/47662",
-    "images": [
-      "https://img.suareservaonline.com.br/marcinhotur/shop/products/featured/7f69f680a301bed47796e4cec7d1297c.jpg"
-    ]
-  },
-  {
-    "title": "CAPITOLIO MAR DE MINAS - Fim de Semana",
-    "price": "R$399,99 /por pessoa",
-    "description": "Viagem de fim de semana para Capitólio/Furnas – MG. Inclui visita à Usina Hidrelétrica de Furnas, Complexo do Mirante e Passeio de Lancha pelo Lago de Furnas.",
-    "roteiro": "Dia 1 (Sexta-feira): Embarque noturno em ônibus executivo climatizado.\nDia 2 (Sábado): Chegada na região de Furnas. Parada para café da manhã (pago à parte). Visita à Usina Hidrelétrica de Furnas. Visita ao Complexo do Mirante (R$ 130,00 por pessoa). Almoço em restaurante local (não incluso). Passeio de Lancha pelo Lago de Furnas (R$ 180,00 por pessoa).",
-    "inclusoes": "Transporte rodoviário em veículo executivo, climatizado e com acompanhamento de monitores especializados. Hospedagem no CLASS PASSOS (acomodações modernas e climatizadas, Wi-Fi e TV a cabo, piscina e área de lazer, serviço de recepção 24h, estacionamento -mediante disponibilidade-). Café da Manhã (estilo buffet). Equipe de monitores e coordenação.",
-    "embarques": [
-      "AV PIRAPORINHA 1767 AGENCIA MARCINHO TUR - saída 27/03/2026 às 21h00",
-      "TATUAPE RUA DOMINGO AGOSTINHO - saída 27/03/2026 às 22h00",
-      "BARRA FUNDA MEMORIAL DA AMERICA LATINA PORTÃO 8 - saída 27/03/2026 às 23h00",
-      "CARAPICUIBA - saída 27/03/2026 às 23h30"
-    ],
-    "url": "https://marcinhotur.com.br/pacote/capitolio-mar-de-minas-data_27-03-2026h21_00p430/47662",
-    "booking_url": "https://marcinhotur.com.br/carrinho_compra/capitolio-mar-de-minas-data_27-03-2026h21_00p430/47662",
-    "images": [
-      "https://img.suareservaonline.com.br/marcinhotur/shop/products/featured/06f0acc1777f4d099bd41f607419fe8a.webp"
-    ]
-  },
-  {
-    "title": "CHILE SANTIAGO",
-    "price": "R$4.500,00 /por pessoa",
-    "description": "Pacote turístico para Santiago, Capital do Chile, com 4 noites de hospedagem, aéreo incluso e transfer.",
-    "roteiro": "Dia do voo: Chegada em Santiago, Check-in no Hotel (após as 15:00h).\nDIA 1: Livres após o check-in.\nDIA 2: Passeios opcionais.\nDIA 3: Passeios opcionais.\nDIA 4: Check-out no Hotel (12:00h), livres até o horário do voo.",
-    "inclusoes": "Aéreo ida e volta em classe econômica e bagagem de mão incluída; Hospedagem (Ibis Budget Santiago Providencia) com café da manhã; Guia Brasileiro desde o embarque; Guia Local bilíngue; City Tour em Santiago (a pé). Não inclui: passeios opcionais e traslados (serão ofertados e liberados para compra quando estiver mais próximo da viagem).",
-    "embarques": [
-      "AEROPORTO DE GUARULHOS - saída 08/07/2026"
-    ],
-    "url": "https://marcinhotur.com.br/pacote/chile-santiago-data_16-09-2026h00_00p383/47662",
-    "booking_url": "https://marcinhotur.com.br/carrinho_compra/chile-santiago-data_16-09-2026h00_00p383/47662",
-    "images": [
-      "https://img.suareservaonline.com.br/marcinhotur/shop/products/featured/a1438320af449fb4793a9d4da5600a0b.jpg"
-    ]
-  },
-  {
-    "title": "ANGRA DOS REIS & RIO DE JANEIRO",
-    "price": "A consultar (opcionais à parte). Passeio de escuna: R$140,00. City tour no Rio: R$ 230,00.",
-    "description": "Descubra as belezas de Angra dos Reis, com suas ilhas paradisíacas e águas cristalinas, e a vibrante cultura do Rio de Janeiro, com seus famosos pontos turísticos como o Cristo Redentor e o Pão de Açúcar.",
-    "roteiro": "Angra dos Reis: Passeio de escuna opcional pelas ilhas paradisíacas. Rio de Janeiro: City Tour panorâmico, Cristo Redentor (ingresso incluso), Escadaria Selarón, Arcos da Lapa, Maracanã panorâmico, Praias da Zona Sul (Copacabana, Ipanema, Leblon).",
-    "inclusoes": "Transporte ida e volta, Monitores acompanhando o grupo, Seguro Viagem incluso, Dias livres para curtir cada destino, 1 café da manhã. Passeio de escuna e City tour no Rio são opcionais e pagos à parte.",
-    "embarques": [
-      "AV PIRAPORINHA 1767 AGENCIA MARCINHO TUR - 16/01/2026 às 21h30",
-      "CARAPICUIBA - 16/01/2026 às 22h30",
-      "BARRA FUNDA MEMORIAL DA AMERICA LATINA PORTÃO 8 - 16/01/2026 às 23h00",
-      "TATUAPE RUA DOMINGO AGOSTINHO - 16/01/2026 às 23h30"
-    ],
-    "url": "https://marcinhotur.com.br/pacote/angra-dos-reis-rio-de-janeiro-data_16-01-2026h21_30p423/47662",
-    "booking_url": "https://marcinhotur.com.br/carrinho_compra/angra-dos-reis-rio-de-janeiro-data_16-01-2026h21_30p423/47662",
-    "images": [
-      "https://img.suareservaonline.com.br/marcinhotur/shop/products/featured/bedaf656f32441417883c7f6cddb813c.jpg"
-    ]
-  },
-  {
-    "title": "SAN ANDRÉS COLOMBIA 2026",
-    "price": "R$5.200,00 /por pessoa",
-    "description": "Pacote turístico para San Andrés, Colômbia, localizada no mar do Caribe. Inclui passagens aéreas, hospedagem, transfer, seguro viagem e brindes.",
-    "roteiro": "Roteiro não especificado no texto.",
-    "inclusoes": "Passagens aéreas ida e volta, hospedagem, transfer aeroporto-hotel-aeroporto, monitores/guias, seguro viagem, brindes.",
-    "embarques": [
-      "AEROPORTO DE GUARULHOS saída 25/06/2026"
-    ],
-    "url": "https://marcinhotur.com.br/pacote/san-andres-colombia-2026-data_25-07-2026h00_00p395/47662",
-    "booking_url": "https://marcinhotur.com.br/carrinho_compra/san-andres-colombia-2026-data_25-07-2026h00_00p395/47662",
-    "images": [
-      "https://img.suareservaonline.com.br/marcinhotur/shop/products/featured/17223636fa86848e2c35a54b383ad64a.png"
-    ]
-  },
-  {
-    "title": "Arraial do Cabo com Macaé",
-    "price": "R$419,00 /por pessoa",
-    "description": "Pacote turístico para Arraial do Cabo e Macaé, explorando as belezas naturais e praias paradisíacas da Região dos Lagos.",
-    "roteiro": "Sexta: Embarques em Diadema (19:00), Carapicuíba (20:00), Barra Funda (20:30) e Tatuapé (21:00).\nSábado: Chegada prevista às 6:30 no Graal Oasis para café e troca de roupa. Saída para Arraial do Cabo (07:30). Chegada no portal da cidade (08:30) e no estacionamento local (08:50). Passeio de barco (R$ 180,00 por pessoa com as taxas) com início às 10:00 e término às 14:30, seguido de almoço. Retorno para Macaé (16:30) com chegada prevista às 18:30 e noite livre.\nDomingo: Café da manhã incluso (06:00 às 10:30). Dia livre em Macaé. Checkout às 16:00 e retorno para SP com chegada prevista entre 00:30 e 01:00 AM.",
-    "inclusoes": "Transporte Ida e Volta, Hospedagem - Hotel Royal urban, Café da Manhã (domingo), Guia de turismo, City Tour. Quarto com vista suíte master fica a mais R$ 300.00. Taxa municipal R$60,00 (não inclusa).",
-    "embarques": [
-      "Diadema - 19:00",
-      "Carapicuíba - 20:00",
-      "Barra Funda - 20:30",
-      "Tatuapé - 21:00"
-    ],
-    "url": "https://marcinhotur.com.br/pacote/arraial-do-cabo-com-macae-data_09-01-2026h19_00p412/47662",
-    "booking_url": "https://marcinhotur.com.br/carrinho_compra/arraial-do-cabo-com-macae-data_09-01-2026h19_00p412/47662",
-    "images": [
-      "https://img.suareservaonline.com.br/marcinhotur/shop/products/featured/8f2d9a56c8e503a3931ae067100176a4.jpg"
-    ]
-  },
-  {
-    "title": "ARRAIAL DO CABO COM MACAE",
-    "price": "R$499,99 / R$419,00 por pessoa",
-    "description": "Pacote turístico para Arraial do Cabo e Macaé, com hospedagem em hotel 4 estrelas com piscina e passeios pelas cidades.",
-    "roteiro": "Dia 1 (sexta): Embarque nos locais e horários definidos. \nDia 2 (sábado): Chegada prevista às 6:30 no Graal Oasis para café e troca de roupa. Saída para Arraial do Cabo às 7:30, chegada no portal da cidade às 8:30 e no estacionamento local às 8:50. Passeio de barco (R$ 180,00 por pessoa com as taxas, taxas locais não inclusas). Almoço e retorno para Macaé às 16:30, com chegada prevista às 18:30 e noite livre. \nDia 3 (domingo): Café da manhã incluso das 6:00 às 10:30. Dia livre em Macaé com sugestões de praias e passeios. Check-out às 14:00 e retorno para SP. Chegada prevista entre 00:30 e 01:00 AM.",
-    "inclusoes": "Transporte executivo ida e volta, monitor da equipe, hospedagem em Macaé - RJ em hotel 4 estrelas com piscina, café da manhã no domingo. Não incluso: Café de sábado, almoços ou jantares, passeio de barco. Taxa municipal: R$60,00.",
-    "embarques": [
-      "19:00 DIADEMA",
-      "20:00 CARAPICUÍBA",
-      "20:30 BARRA FUNDA",
-      "21:00 TATUAPE"
-    ],
-    "url": "https://marcinhotur.com.br/pacote/arraial-do-cabo-com-macae-data_05-12-2025h19_00p313/47662",
-    "booking_url": "https://marcinhotur.com.br/carrinho_compra/arraial-do-cabo-com-macae-data_05-12-2025h19_00p313/47662",
-    "images": [
-      "https://img.suareservaonline.com.br/marcinhotur/shop/products/featured/bd3d13ea985861fd55d2fd90f3fb06c9.jpeg"
-    ]
-  },
-  {
-    "title": "PORTO DE GALINHAS - MARAGOGI -PRIAS DOS CANEIROS",
-    "price": "R$3249,00 (Triplo/Quádruplo) / R$3490,00 (Casal/Duplo)",
-    "description": "Pacote turístico para Porto de Galinhas, Maragogi e Praias dos Carneiros, com 05 noites de hospedagem. Inclui aéreo, traslados, hospedagem com piscina e café da manhã.",
-    "roteiro": "Dia 1: Embarque no aeroporto de Guarulhos ou Congonhas. Desembarque no aeroporto de Recife. Dia livre.\nDia 2: Café da manhã. Passeio de buggy ponta a ponta de Porto de Galinhas (opcional - custo R$180,00 por pessoa). Noite livre.\nDia 3: Café da manhã. Passeio Carneiros + Barco Catamarã (opcional - custo R$180,00 por pessoa). Noite livre.\nDia 4: Café da manhã. Passeio Maragogi + Catamarã (opcional - custo R$199,99 por pessoa).\nDia 5: Café da manhã. Traslado para o aeroporto de Recife. Embarque para SP Guarulhos ou Congonhas.",
-    "inclusoes": "Aéreo ida e volta, Traslado aeroporto - hotel, Hospedagem com piscina, Café da manhã, Guia. Não incluso: Passeio de buggy (custo R$180,00 por pessoa), Passeio Carneiros + Barco Catamarã (custo R$180,00 por pessoa), Passeio Maragogi + Catamarã (custo R$199,99 por pessoa)",
-    "embarques": [
-      "AEROPORTO DE GUARULHOS - 14/01/2026 às 10h00"
-    ],
-    "url": "https://marcinhotur.com.br/pacote/porto-de-galinhas-maragogi-prias-dos-caneiros-data_14-01-2026h00_00p379/47662",
-    "booking_url": "https://marcinhotur.com.br/carrinho_compra/porto-de-galinhas-maragogi-prias-dos-caneiros-data_14-01-2026h00_00p379/47662",
-    "images": [
-      "https://img.suareservaonline.com.br/marcinhotur/shop/products/featured/a8de30d11f50c66903d4333641047b80.jpg"
-    ]
-  },
-  {
-    "title": "PORTO SEGURO",
-    "price": "R$2.950,00 /por pessoa",
-    "description": "Pacote turístico para Porto Seguro, um dos melhores destinos de praia do Litoral Sul da Bahia. Desfrute de novos ares, barracas mais intimistas e beach clubs elegantes.",
-    "roteiro": "Dia 1: Chegada no aeroporto de Porto Seguro, traslado para o hotel e check-in. Dia livre para conhecer o centro de Porto Seguro.\nDia 2: Passeio opcional para Arraial d'Ajuda (custo R$150,00 por pessoa).\nDia 3: Passeio opcional para Caraíva (custo R$150,00 por pessoa). Noite livre.\nDia 4: Passeios opcionais para Trancoso e Coroa Vermelha (custo R$150,00 por pessoa cada).\nDia 5: Dia livre. Traslado para o aeroporto e embarque para retorno.",
-    "inclusoes": "Aéreo ida e volta, hospedagem com piscina, traslado, café da manhã e guia.",
-    "embarques": [
-      "AEROPORTO DE GUARULHOS - saída 06/06/2026"
-    ],
-    "url": "https://marcinhotur.com.br/pacote/porto-seguro-data_06-06-2026h00_00p415/47662",
-    "booking_url": "https://marcinhotur.com.br/carrinho_compra/porto-seguro-data_06-06-2026h00_00p415/47662",
-    "images": [
-      "https://img.suareservaonline.com.br/marcinhotur/shop/products/featured/8145d67258d77adc70286fd711893d89.jpg"
-    ]
-  },
-  {
-    "title": "LENÇOIS MARANHENSES",
-    "price": "R$ 3100,00",
-    "description": "Pacote turístico para os Lençóis Maranhenses com 05 noites de hospedagem, aéreo incluso, acesso a piscina e transfer.",
-    "roteiro": "Dia 01: Embarque/Desembarque em São Luiz e translado para Barreirinhas.\nDia 02: Circuito Lagoa Azul, grandes Lençóis Maranhenses (custo R$120 por pessoa).\nDia 03: Circuito Caburé no Rio das Preguiças (custo R$120 por pessoa).\nDia 04: ATINS, conhecida como Jericoacoara Maranhense (custo R$ 150 por pessoa).\nDia 05: Dia livre e retorno para São Paulo.",
-    "inclusoes": "Aéreo ida e volta em classe econômica e bagagem de mão inclusa, Hospedagem em Barreirinhas, Café da manhã, Guia desde o embarque, City Tour, Transfer Aeroporto/ Hotel. Pacote de passeios não incluso: Circuito Lagoa Azul, grandes Lençóis Maranhenses; Circuito Caburé no Rio das Preguiças; ATINS.",
-    "embarques": [
-      "AEROPORTO DE GUARULHOS OU CONGONHAS saída 18/03/2026"
-    ],
-    "url": "https://marcinhotur.com.br/pacote/lencois-maranheses-data_18-03-2026h00_00p381/47662",
-    "booking_url": "https://marcinhotur.com.br/carrinho_compra/lencois-maranheses-data_18-03-2026h00_00p381/47662",
-    "images": [
-      "https://img.suareservaonline.com.br/marcinhotur/shop/products/featured/aeadba84fcf680060348e6cc5a17cc1e.jpg"
-    ]
-  },
-  {
-    "title": "PORTO SEGURO BAHIA",
-    "price": "R$3.399,00 /por pessoa",
-    "description": "Pacote turístico para Porto Seguro, Bahia. Inclui city tour histórico, Arraial D’Ajuda e tempo livre para explorar as praias e a Passarela do Álcool.",
-    "roteiro": "Dia 1: Chegada em Porto Seguro, transfer para o hotel e noite livre na Passarela do Álcool.\nDia 2: Praia de Taperapuã.\nDia 3: City tour histórico e Arraial d’Ajuda.\nDia 4: Dia livre ou passeios opcionais (Trancoso e Praia do Espelho, Coroa Alta, Rota do Descobrimento).\nDia 5: Retorno.",
-    "inclusoes": "Passagens aéreas ida e volta, hospedagem com café da manhã, transfers aeroporto/hotel/aeroporto, passeio histórico e Arraial d’Ajuda, monitor da equipe, seguro viagem. Não inclui: almoços e jantares, passeios opcionais e taxas locais.",
-    "embarques": [
-      "AEROPORTO DE GUARULHOS saída 18/03/2026 às 15h00"
-    ],
-    "url": "https://marcinhotur.com.br/pacote/porto-seguro-bahia-data_18-03-2026h15_00p421/47662",
-    "booking_url": "https://marcinhotur.com.br/carrinho_compra/porto-seguro-bahia-data_18-03-2026h15_00p421/47662",
-    "images": [
-      "https://img.suareservaonline.com.br/marcinhotur/shop/products/featured/21293cbe4c3f74dc06cf3394969c8698.jpg"
-    ]
-  },
-  {
-    "title": "ARRAIAL DO CABO & MACAE",
-    "price": "R$419,00 /por pessoa",
-    "description": "Pacote turístico para Arraial do Cabo e Macaé com transporte, hospedagem em hotel 4 estrelas com piscina, e café da manhã no domingo.",
-    "roteiro": "Dia 1 (Sexta-feira): Embarque em Diadema (19:00), Carapicuíba (20:00), Barra Funda (20:30) e Tatuapé (21:00).\nDia 2 (Sábado): Chegada em Arraial do Cabo, passeio de barco (opcional, R$ 180,00 por pessoa + taxas locais), almoço e viagem para Macaé. Noite livre em Macaé.\nDia 3 (Domingo): Café da manhã no hotel, dia livre em Macaé e retorno para São Paulo. Check-out às 14:00.",
-    "inclusoes": "Transporte executivo ida e volta, monitor da equipe, hospedagem em Macaé (Hotel 4 estrelas com piscina), café da manhã no domingo. Não incluso: Café da manhã de sábado, almoços e jantares, passeio de barco (opcional, R$ 180,00/pessoa + taxas locais), Taxa municipal: R$ 60,00 por pessoa (não inclusa)",
-    "embarques": [
-      "Diadema - 19:00",
-      "Carapicuíba - 20:00",
-      "Barra Funda - 20:30",
-      "Tatuapé - 21:00"
-    ],
-    "url": "https://marcinhotur.com.br/pacote/arraial-do-cabo-macae-data_06-03-2026h18_45p433/47662",
-    "booking_url": "https://marcinhotur.com.br/carrinho_compra/arraial-do-cabo-macae-data_06-03-2026h18_45p433/47662",
-    "images": [
-      "https://img.suareservaonline.com.br/marcinhotur/shop/products/featured/b76816b90bfebf1b6f408ac4d1bd27a9.webp"
-    ]
-  },
-  {
     "title": "BETO CARRERIO E BALNEARIO BARRA SUL",
     "price": "R$599,99 /por pessoa",
-    "description": "Pacote turístico para Beto Carrero World, um parque temático localizado em Santa Catarina, com hospedagem em Balneário Barra Sul.",
-    "roteiro": "SEXTA: \n19h00 Diadema\n19h40 Tatuapé\n20h00 Saída Barra Funda\n21h00 Saída Carapicuíba - SP\nSÁBADO: \n06:30 PARADA (troca de roupa)\n08:40 Chegada no parque\n18h00 Vamos para o hotel CHECK-IN NO HOTEL EM BALNEARIO BARRA SUL - SC\nDOMINGO:\n07h00 às 10h00 Café Da Manhã (Incluso)\n-DIA LIVRE ( PRAIA DE FRENTE AO HOTEL)\n13:30 Hotel Retorno\n14h30 CHECKOUT\n15h00 SAÍDA PARA SP\nCHEGADA EM SP 03:00 AM\nATENÇÃO SENHORES VIAJANTES O ROTEIRO ACIMA É UMA BASE E PODE SER ALTERADO COM PARQUE NO DOMINGO E DIA LIVRE SÁBADO … A DECISÃO FINAL SERÁ INFORMADO NO GRUPO DE WHATSAPP DA VIAGEM 2 DIAS ANTES.",
-    "inclusoes": "Transporte executivo ida e volta\nHospedagem em hotel com na Cidade de Balneário Barra Sul - SC\n01 Café da Manhã\nMonitor da Agência\n1 dia de park  beto carrero\nNÃO INCLUI:\nAtividades não citadas acima.\nÉ café da manhã no sábado.\nINGRESSO DO PARQUE",
+    "payment_conditions": "Para reservas via cartão de credito ou Pix a vista. (antiga 161/85, de Cancelamento e Devolução) - Para reservas via cartão de credito, boleto ou Pix a vista ou parcelado. (antiga 161/85, de Cancelamento e Devolução).\n80%' até 31 dias do início da viagem - multa de 20% do valor do pacote.\n70%' A menos 30 dias do início da viagem - multa de 30% do valor do pacote\n50%' A menos 20 dias do inicio da viagem - multa de 50% do valor do pacote.\n0%' A menos 10 dias do início da viagem - multa de 100% do valor do pacote.",
+    "description": "Pacote turístico para Beto Carrero World, um parque temático localizado em Santa Catarina, e Balneário Barra Sul.",
+    "roteiro": "SEXTA\n19h00 Diadema\n19h40 Tatuapé\n20h00 Saída Barra Funda\n21h00 Saída Carapicuíba - SP\n\nSÁBADO\nVAMOS DIRETO AO PARQUE\n06:30 PARADA (troca de roupa)\n08:40 Chegada no parque\n18h00 Vamos para o hotel\nCHECK-IN NO HOTEL EM BALNEARIO BARRA SUL - SC\n\nDOMINGO\n07h00 às 10h00 Café Da Manhã (Incluso)\n-DIA LIVRE ( PRAIA DE FRENTE AO HOTEL)\n13:30 Hotel Retorno\n14h30 CHECKOUT\n15h00 SAÍDA PARA SP\nCHEGADA EM SP 03:00 AM\n\nATENÇÃO SENHORES VIAJANTES O ROTEIRO ACIMA É UMA BASE E PODE SER ALTERADO COM PARQUE NO DOMINGO E DIA LIVRE SÁBADO … A DECISÃO FINAL SERÁ INFORMADO NO GRUPO DE WHATSAPP DA VIAGEM 2 DIAS ANTES.",
+    "inclusoes": "INCLUI:\nTransporte executivo ida e volta\nHospedagem em hotel com na Cidade de Balneário Barra Sul - SC\n01 Café da Manhã\nMonitor da Agência\n1 dia de park  beto carrero\n\nNÃO INCLUI:\nAtividades não citadas acima.\nÉ café da manhã no sábado.\nINGRESSO DO PARQUE",
     "embarques": [
       "AV PIRAPORINHA 1767 AGENCIA MARCINHO TUR saída 20/03/2026 às 18h45",
       "TATUAPE RUA DOMINGO AGOSTINHO saída 20/03/2026 às 19h45",
       "BARRA FUNDA MEMORIAL DA AMERICA LATINA PORTÃO 8 saída 20/03/2026 às 20h45",
       "CARAPICUIBA saída 20/03/2026 às 21h30"
     ],
-    "url": "https://marcinhotur.com.br/pacote/beto-carrerio-e-balneario-barra-sul-data_20-03-2026h18_45p429/47662",
-    "booking_url": "https://marcinhotur.com.br/carrinho_compra/beto-carrerio-e-balneario-barra-sul-data_20-03-2026h18_45p429/47662",
+    "url": "https://marcinhotur.com.br/pacote/beto-carrerio-e-balneario-barra-sul-data_20-03-2026h18_45p429/44041",
+    "booking_url": "https://marcinhotur.com.br/carrinho_compra/beto-carrerio-e-balneario-barra-sul-data_20-03-2026h18_45p429/44041",
     "images": [
       "https://img.suareservaonline.com.br/marcinhotur/shop/products/featured/c47349b8313f40e1851256f768a4c7cc.webp"
     ]
   },
   {
-    "title": "MORRO DE SÃO PAULO BAHIA",
+    "title": "PORTO SEGURO",
+    "price": "R$2.950,00 /por pessoa",
+    "payment_conditions": "Sob consulta",
+    "description": "Pacote turístico para Porto Seguro, com duração de 4 noites. Inclui aéreo ida e volta, hospedagem com piscina, traslados, café da manhã e guia.",
+    "roteiro": "Dia 1: Embarque no aeroporto e traslado para o hotel em Porto Seguro. Check-in e dia livre para conhecer o centro.\nDia 2: Passeio opcional para Arraial d'Ajuda (custo R$150,00 por pessoa).\nDia 3: Passeio opcional para Caraíva (custo R$150,00 por pessoa). Noite livre.\nDia 4: Passeio opcional para Trancoso (custo R$150,00 por pessoa) e passeio opcional para Coroa Vermelha (custo R$150,00 por pessoa).\nDia 5: Dia livre e traslado para o aeroporto para embarque de retorno.",
+    "inclusoes": "Inclui: Aéreo ida e volta, hospedagem com piscina, traslados, café da manhã e guia. \nNão Inclui: Passeios opcionais para Arraial d'Ajuda, Caraíva, Trancoso e Coroa Vermelha (R$150,00 por pessoa/por passeio).",
+    "embarques": [
+      "AEROPORTO DE GUARULHOS saída 06/06/2026"
+    ],
+    "url": "https://marcinhotur.com.br/pacote/porto-seguro-data_06-06-2026h00_00p415/44041",
+    "booking_url": "https://marcinhotur.com.br/carrinho_compra/porto-seguro-data_06-06-2026h00_00p415/44041",
+    "images": [
+      "https://img.suareservaonline.com.br/marcinhotur/shop/products/featured/8145d67258d77adc70286fd711893d89.jpg"
+    ]
+  },
+  {
+    "title": "PORTO SEGURO BAHIA",
+    "price": "R$2.600,00 (Quarto 3 ou 4 pessoas) / R$2.950 (Quarto casal ou duplo)",
+    "payment_conditions": "Entrada R$500,00 por pessoa, saldo até 30 dias antes do embarque, podendo ser pago com cartão de crédito ou PIX. Cartão de crédito em até 12x + taxas da credora.",
+    "description": "Pacote turístico para Porto Seguro, um dos melhores destinos de praia do Litoral Sul da Bahia. Desfrute de 4 noites com hospedagem, aéreo incluso e atividades para todas as idades.",
+    "roteiro": "Dia 1: Embarque no aeroporto. Desembarque em Porto Seguro e traslado para o hotel. Check-in e dia livre para conhecer o centro de Porto Seguro.\n\nDia 2: Arraial d'Ajuda. Encontro na recepção da hospedagem às 09h00min. Passeio para Arraial d'Ajuda com duração de 06 horas (custo R$150,00 por pessoa). Retorno à hospedagem às 15h00min.\n\nDia 3: Caraíva. Encontro na recepção da hospedagem às 09h00min. Passeio para Caraíva (custo R$150,00 por pessoa). Retorno à hospedagem às 15h00min. Noite livre.\n\nDia 4: Trancoso. Café da manhã. Encontro na recepção da hospedagem às 09h00min. Passeio para Trancoso (custo R$150,00 por pessoa)\n\nDia 5: Coroa Vermelha. Café da manhã. Encontro na recepção da hospedagem às 09h00min. Passeio para Coroa Vermelha (custo R$150,00 por pessoa)\n\nDia 6: Café da manhã. Dia livre. Encontro na recepção da hospedagem às 11h00min. Traslado para o aeroporto. Embarque para retorno.",
+    "inclusoes": "Aéreo ida e volta, hospedagem com piscina, traslado, café da manhã, guia. Não inclui: Passeios opcionais para Arraial d'Ajuda, Caraíva, Trancoso e Coroa Vermelha (R$150,00 por pessoa/passeio).",
+    "embarques": [
+      "AEROPORTO DE GUARULHOS - saída 05/01/2026"
+    ],
+    "url": "https://marcinhotur.com.br/pacote/porto-seguro-bahia-data_05-12-2025h00_00p373/44041",
+    "booking_url": "https://marcinhotur.com.br/carrinho_compra/porto-seguro-bahia-data_05-12-2025h00_00p373/44041",
+    "images": [
+      "https://img.suareservaonline.com.br/marcinhotur/shop/products/featured/b32947b6a21c8cae7239aa4211926393.webp"
+    ]
+  },
+  {
+    "title": "ARRAIAL DO CABO & MACAE",
+    "price": "R$419,00 /por pessoa",
+    "payment_conditions": "Não especificado",
+    "description": "Pacote turístico para Arraial do Cabo e Macaé com transporte executivo, hospedagem em hotel 4 estrelas com piscina, e café da manhã no domingo.",
+    "roteiro": "Sexta-feira: Embarque em Diadema (19:00), Carapicuíba (20:00), Barra Funda (20:30) e Tatuapé (21:00).\nSábado: Chegada em Arraial do Cabo (06:30), parada para café da manhã. Saída para Arraial do Cabo (07:30). Chegada no portal da cidade (08:30). Chegada no estacionamento local (08:50). Passeio de Barco (10:00 - 14:30) - R$ 180,00 por pessoa (taxas locais não inclusas). Retorno para Macaé (16:30). Chegada em Macaé (18:30). Noite livre.\nDomingo: Café da manhã no hotel (06:00 às 10:30). Dia livre em Macaé. Check-out e retorno para São Paulo (14:00). Chegada prevista em SP (00:30 a 01:00).",
+    "inclusoes": "Incluso: Transporte executivo ida e volta, monitor da equipe, hospedagem em Macaé (Hotel 4 estrelas com piscina), café da manhã no domingo. Não incluso: Café da manhã de sábado, almoços e jantares, passeio de barco (opcional, R$ 180,00/pessoa + taxas locais), Taxa municipal: R$ 60,00 por pessoa (não inclusa)",
+    "embarques": [
+      "Diadema - AV PIRAPORINHA 1767 AGENCIA MARCINHO TUR - saída 06/03/2026 às 18h45",
+      "CARAPICUIBA - saída 06/03/2026 às 19h45",
+      "BARRA FUNDA MEMORIAL DA AMERICA LATINA PORTÃO 8 - saída 06/03/2026 às 20h30",
+      "TATUAPE RUA DOMINGO AGOSTINHO - saída 06/03/2026 às 21h00"
+    ],
+    "url": "https://marcinhotur.com.br/pacote/arraial-do-cabo-macae-data_06-03-2026h18_45p433/44041",
+    "booking_url": "https://marcinhotur.com.br/carrinho_compra/arraial-do-cabo-macae-data_06-03-2026h18_45p433/44041",
+    "images": [
+      "https://img.suareservaonline.com.br/marcinhotur/shop/products/featured/b76816b90bfebf1b6f408ac4d1bd27a9.webp"
+    ]
+  },
+  {
+    "title": "FORTELEZA & JERICOACOARA",
+    "price": "R$3.980,00 /por pessoa",
+    "payment_conditions": "Não especificado no texto.",
+    "description": "Conheça a orla de Fortaleza e Jericoacoara. Desfrute de Iracema, Mucuripe e Meireles, Praia do Futuro, Beach Park e Praia de Porto das Dunas, e a praia de Canoa Quebrada.",
+    "roteiro": "1º DIA – EMBARQUE: Encontro no aeroporto (horário a confirmar). Voo para Fortaleza. Traslado para o hotel. Noite livre na Beira-Mar.\n2º DIA – FORTALEZA: Café da manhã. Dia livre para praias locais (Praia do Futuro, Beach Park ou City Tour opcional). Show de humor cearense à noite (opcional).\n3º DIA – FORTALEZA ➡️ JERICOACOARA: Café da manhã e check-out. Saída para Jericoacoara. Paradas para fotos e almoço (não incluso). Chegada em Jeri, check-in e pôr do sol nas dunas. Noite livre no centrinho de Jeri.\n4º DIA – JERICOACOARA: Café da manhã. Passeio opcional de buggy pelas lagoas (Lagoa Azul, Lagoa do Paraíso e Pedra Furada). Tempo livre. Noite livre nos bares e restaurantes locais.\n5º DIA – RETORNO: Café da manhã e manhã livre. Check-out e retorno para Fortaleza. Embarque de volta.",
+    "inclusoes": "Passagens aéreas ida e volta, hospedagem em Fortaleza e Jericoacoara, transporte entre os destinos, café da manhã diário, monitor da equipe, seguro viagem. Não incluso: Almoços e jantares, passeios opcionais (Beach Park, buggy, etc.).",
+    "embarques": [
+      "AEROPORTO DE GUARULHOS - saída 25/03/2026"
+    ],
+    "url": "https://marcinhotur.com.br/pacote/forteleza-jericoacora-data_25-03-2026h00_00p419/44041",
+    "booking_url": "https://marcinhotur.com.br/carrinho_compra/forteleza-jericoacora-data_25-03-2026h00_00p419/44041",
+    "images": [
+      "https://img.suareservaonline.com.br/marcinhotur/shop/products/featured/f09732b50455f0b4dbb58521d88d95b4.jpg"
+    ]
+  },
+  {
+    "title": "ARRAIAL DO CABO COM MACAE",
+    "price": "R$419,00",
+    "payment_conditions": "Não especificado",
+    "description": "Pacote turístico para Arraial do Cabo com Macaé. Inclui transporte, hospedagem em hotel 4 estrelas com piscina e café da manhã no domingo.",
+    "roteiro": "Sexta: Embarques (19:00 Diadema, 20:00 Carapicuíba, 20:30 Barra Funda, 21:00 Tatuapé). Sábado: Chegada prevista às 6:30, café da manhã no Graal Oasis, saída para Arraial (50 minutos), chegada no portal da cidade (08:30), chegada no estacionamento local (08:50). Passeio de barco (R$ 180,00 por pessoa com as taxas). Translado até o cais para o passeio de barco (taxas locais não inclusas). Início do passeio de barco (10:00), término e almoço (14:30), retorno para Macaé (16:30), chegada prevista (18:30). Noite livre. Domingo: Café da manhã incluso (06:00 às 10:30), dia livre em Macaé, checkout e retorno para SP (14:00), chegada prevista entre 00:30 a 01:00 AM.",
+    "inclusoes": "Incluso: Transporte executivo ida e volta, monitor da equipe, hospedagem em Macaé - RJ (Hotel de 4 estrelas com Piscina), café da manhã no domingo. Não incluso: Café de sábado, almoços ou jantares, passeio de Barco.",
+    "embarques": [
+      "19:00 DIADEMA",
+      "20:00 CARAPICUÍBA",
+      "20:30 BARRA FUNDA",
+      "21:00 TATUAPE",
+      "AV PIRAPORINHA 1767 AGENCIA MARCINHO TUR (saída 05/12/2025 às 19h00)",
+      "BARRA FUNDA MEMORIAL DA AMERICA LATINA PORTÃO 8 (saída 05/12/2025 às 20h45)",
+      "TATUAPE RUA DOMINGO AGOSTINHO (saída 05/12/2025 às 21h00)",
+      "SAKAMOTO SENTIDO RIO (saída 05/12/2025 às 21h30)"
+    ],
+    "url": "https://marcinhotur.com.br/pacote/arraial-do-cabo-com-macae-data_05-12-2025h19_00p313/44041",
+    "booking_url": "https://marcinhotur.com.br/carrinho_compra/arraial-do-cabo-com-macae-data_05-12-2025h19_00p313/44041",
+    "images": [
+      "https://img.suareservaonline.com.br/marcinhotur/shop/products/featured/bd3d13ea985861fd55d2fd90f3fb06c9.jpeg"
+    ]
+  },
+  {
+    "title": "Trindade - Paraíso Natural no Litoral Carioca",
+    "price": "R$199,00/por pessoa",
+    "payment_conditions": "Não especificado",
+    "description": "Descubra Trindade, uma vila de pescadores com praias paradisíacas e trilhas na Mata Atlântica, a 30 km de Paraty. Ideal para relaxar e curtir a natureza.",
+    "roteiro": "Dia Único: Saída em transporte turístico para Trindade. Chegada e passeio pelas praias dos Ranchos, Meio e trilha até a Praia do Cachadaço. Parada na Piscina Natural do Cachadaço para banho e mergulho. Almoço livre. Tarde livre para relaxar e aproveitar a vila. Retorno a São Paulo às 16h30.",
+    "inclusoes": "Transporte executivo ida e volta, Monitores acompanhando todo o trajeto, Seguro viagem, 1 dia livre para aproveitar o destino. NÃO INCLUSO: Transfer até Trindade - R$40,00 por pessoa.",
+    "embarques": [
+      "AV PIRAPORINHA 1767 AGENCIA MARCINHO TUR - saída 24/01/2026 às 21h30",
+      "CARAPICUIBA - saída 24/01/2026 às 22h30",
+      "BARRA FUNDA MEMORIAL DA AMERICA LATINA PORTÃO 8 - saída 24/01/2026 às 23h00",
+      "TATUAPE RUA DOMINGO AGOSTINHO - saída 24/01/2026 às 23h30"
+    ],
+    "url": "https://marcinhotur.com.br/pacote/trindade-rj-data_24-01-2026h21_30p425/44041",
+    "booking_url": "https://marcinhotur.com.br/carrinho_compra/trindade-rj-data_24-01-2026h21_30p425/44041",
+    "images": [
+      "https://img.suareservaonline.com.br/marcinhotur/shop/products/featured/a8312c623e97540e6f82a85d3422822a.jpg"
+    ]
+  },
+  {
+    "title": "ARRAIAL DO CABO COM MACAE",
+    "price": "R$419,00/por pessoa",
+    "payment_conditions": "Para reservas via cartão de credito ou Pix a vista. (antiga 161/85, de Cancelamento e Devolução) - Para reservas via cartão de credito, boleto ou Pix a vista ou parcelado. (antiga 161/85, de Cancelamento e Devolução).\n80%' até 31 dias do início da viagem - multa de 20% do valor do pacote.\n70%' A menos 30 dias do início da viagem - multa de 30% do valor do pacote.\n50%' A menos 20 dias do inicio da viagem - multa de 50% do valor do pacote\n0%' A menos 10 dias do início da viagem - multa de 100% do valor do pacote",
+    "description": "Arraial do Cabo é uma cidade brasileira localizada na Região dos Lagos, no estado do Rio de Janeiro. Conhecida como 'Capital do Mergulho', 'Paraíso do Atlântico', 'Caribe Fluminense' e 'Caribe Brasileiro'.",
+    "roteiro": "sexta: Embarques (19:00 Diadema, 20:00 Carapicuíba, 20:30 Barra Funda, 21:00 Tatuapé)\nsabado: Chegada prevista às 6:30 da manhã no Graal Oasis para café e troca de roupa. 07:30 saída até Arraial (50 minutos). 08:30 chegada no portal da cidade. 08:50 chegada no estacionamento local. Passeio de barco (R$ 180,00 por pessoa com as taxas). Translado até o cais para o passeio de barco (taxas locais não inclusas). 10:00 início do passeio de barco. 14:30 término e almoço. 16:30 retorno ao ônibus e seguimos sentido a cidade de Macaé - RJ (02h30 de viagem). 18:30 chegada prevista e noite livre.\ndomingo: 06:00 às 10:30 café da manhã incluso. Dia livre em Macaé. 16:00 checkout e retorno para SP. Chegada prevista entre 00:30 a 01:00 AM",
+    "inclusoes": "Transporte Ida e Volta, Hospedagem - Hotel Royal urban, Café da Manhã (domingo), Guia de turismo, City Tour. Quarto com vista suíte master fica a mais R$ 300.00. Taxa municipal R$60,00.",
+    "embarques": [
+      "19:00 DIADEMA",
+      "20:00 CARAPICUÍBA",
+      "20:30 BARRA FUNDA",
+      "21:00 TATUAPE",
+      "AV PIRAPORINHA 1767 AGENCIA MARCINHO TUR saída 09/01/2026 às 19h00",
+      "CARAPICUIBA saída 09/01/2026 às 19h50",
+      "BARRA FUNDA MEMORIAL DA AMERICA LATINA PORTÃO 8 saída 09/01/2026 às 20h20",
+      "TATUAPE RUA DOMINGO AGOSTINHO saída 09/01/2026 às 20h45"
+    ],
+    "url": "https://marcinhotur.com.br/pacote/arraial-do-cabo-com-macae-data_09-01-2026h19_00p412/44041",
+    "booking_url": "https://marcinhotur.com.br/carrinho_compra/arraial-do-cabo-com-macae-data_09-01-2026h19_00p412/44041",
+    "images": [
+      "https://img.suareservaonline.com.br/marcinhotur/shop/products/featured/8f2d9a56c8e503a3931ae067100176a4.jpg"
+    ]
+  },
+  {
+    "title": "ARRAIAL DO CABO & MACAE",
+    "price": "R$419,00/por pessoa",
+    "payment_conditions": "Não especificado",
+    "description": "Pacote turístico para Arraial do Cabo e Macaé com transporte executivo, monitor acompanhando o grupo e hospedagem em Macaé com café da manhã no domingo.",
+    "roteiro": "Sexta-feira: Embarque em Diadema (19:00), Carapicuíba (20:00), Barra Funda (20:30) e Tatuapé (21:00).\nSábado: Chegada em Arraial do Cabo (06:30), passeio de barco (R$ 180,00 por pessoa + taxas locais), almoço e viagem para Macaé (16:30). Noite livre em Macaé.\nDomingo: Café da manhã no hotel (06:00 às 10:30), dia livre em Macaé e retorno para São Paulo (15:00).",
+    "inclusoes": "Incluso: Transporte executivo ida e volta, monitor da equipe, hospedagem em Macaé (Hotel com piscina ROYAL URBAN), café da manhã no domingo. Não incluso: Café da manhã de sábado, almoços e jantares, passeio de barco (opcional, R$ 180,00/pessoa + taxas locais), Taxa municipal: R$ 60,00 por pessoa (não inclusa)",
+    "embarques": [
+      "Diadema (19:00)",
+      "Carapicuíba (20:00)",
+      "Barra Funda (20:30)",
+      "Tatuapé (21:00)"
+    ],
+    "url": "https://marcinhotur.com.br/pacote/arraial-do-cabo-macae-data_20-02-2026h18_45p431/44041",
+    "booking_url": "https://marcinhotur.com.br/carrinho_compra/arraial-do-cabo-macae-data_20-02-2026h18_45p431/44041",
+    "images": [
+      "https://img.suareservaonline.com.br/marcinhotur/shop/products/featured/e2cc4d9780ded2a4d29fd34165d9b26f.webp"
+    ]
+  },
+  {
+    "title": "Angra dos Reis & Rio de Janeiro",
+    "price": "A partir de R$499,99 por pessoa (opcionais à parte)",
+    "payment_conditions": "A consultar",
+    "description": "Descubra as belezas de Angra dos Reis, com suas ilhas paradisíacas e águas cristalinas, e a vibrante cidade do Rio de Janeiro, com seus famosos pontos turísticos como o Cristo Redentor e o Pão de Açúcar.",
+    "roteiro": "Dia livre em Angra dos Reis para desfrutar das ilhas paradisíacas e atividades opcionais como o passeio de escuna (R$140,00). Dia livre no Rio de Janeiro para city tour panorâmico, incluindo Cristo Redentor (ingresso incluso), Escadaria Selarón, Arcos da Lapa, Maracanã panorâmico e praias da Zona Sul (Copacabana, Ipanema, Leblon). City tour no Rio opcional por R$230,00.",
+    "inclusoes": "Incluso: Transporte ida e volta, Monitores acompanhando o grupo, Seguro Viagem. Não incluso: Passeios opcionais (escuna em Angra dos Reis e city tour no Rio de Janeiro).",
+    "embarques": [
+      "AV PIRAPORINHA 1767 AGENCIA MARCINHO TUR - saída 16/01/2026 às 21h30",
+      "CARAPICUIBA - saída 16/01/2026 às 22h30",
+      "BARRA FUNDA MEMORIAL DA AMERICA LATINA PORTÃO 8 - saída 16/01/2026 às 23h00",
+      "TATUAPE RUA DOMINGO AGOSTINHO - saída 16/01/2026 às 23h30"
+    ],
+    "url": "https://marcinhotur.com.br/pacote/angra-dos-reis-rio-de-janeiro-data_16-01-2026h21_30p423/44041",
+    "booking_url": "https://marcinhotur.com.br/carrinho_compra/angra-dos-reis-rio-de-janeiro-data_16-01-2026h21_30p423/44041",
+    "images": [
+      "https://img.suareservaonline.com.br/marcinhotur/shop/products/featured/bedaf656f32441417883c7f6cddb813c.jpg"
+    ]
+  },
+  {
+    "title": "PARATY COM PASSEIO DE ESCUNA",
+    "price": "R$289,00/por pessoa",
+    "payment_conditions": "Não especificado no texto.",
+    "description": "Pacote turístico para Paraty, cidade colonial conhecida por sua arquitetura e belas praias, incluindo um passeio de escuna.",
+    "roteiro": "Roteiro Tradicional:\nPraia da Lula\nPraia Vermelha\nLagoa Azul\nIlha Comprida\nDurante o trajeto, é possível mergulhar, relaxar e aproveitar o som da natureza com vista para o mar de tons verde-esmeralda.",
+    "inclusoes": "Incluso no pacote:\nTransporte executivo ida e volta\nMonitores acompanhando todo o trajeto\nSeguro viagem\nPasseio de escuna\nIncluso no passeio de escuna: Tripulação, coletes salva-vidas e música ambiente.\nNão incluso no passeio de escuna: Alimentação e bebidas (disponíveis para compra a bordo).",
+    "embarques": [
+      "CARAPICUIBA saída 10/12/0026 às 22h30",
+      "BARRA FUNDA MEMORIAL DA AMERICA LATINA PORTÃO 8 saída 10/12/0026 às 23h00",
+      "AV PIRAPORINHA 1767 AGENCIA MARCINHO TUR saída 10/01/2026 às 21h30",
+      "TATUAPE RUA DOMINGO AGOSTINHO saída 10/01/2026 às 23h30"
+    ],
+    "url": "https://marcinhotur.com.br/pacote/paraty-com-passeio-de-escuna-data_10-01-2026h21_30p424/44041",
+    "booking_url": "https://marcinhotur.com.br/carrinho_compra/paraty-com-passeio-de-escuna-data_10-01-2026h21_30p424/44041",
+    "images": [
+      "https://img.suareservaonline.com.br/marcinhotur/shop/products/featured/5f8e79e327488092e2cf4a3efe3fbc6b.jpg"
+    ]
+  },
+  {
+    "title": "LENÇOIS MARANHENSES",
+    "price": "R$ 3100,00 por pessoa",
+    "payment_conditions": "Podendo ser pago mensalmente via pix até 30 dias antes do embarque sem juros ou em 12x no cartão de crédito.",
+    "description": "Pacote turístico para os Lençóis Maranhenses com 05 noites de hospedagem, aéreo incluso, acesso a piscina e transfer.",
+    "roteiro": "DIA 01: Embarques / Desembarque em São Luiz e translado para Barreirinhas.\nDIA02: Saída às 09:00hr para o Circuito Lagoa Azul, grandes Lençóis Maranhenses. Chegada prevista: 15:00hrs (custo R$120 por pessoa)\nDIA 03: Saída às 08:30hrs para o Circuito Caburé no Rio das Preguiças. Chegada prevista: 16:00 hrs (custo R$120 por pessoa)\nDIA 04: Saída às 08:30hrs para ATINS, conhecida como Jericoacoara Maranhense, local onde o Parque Nacional dos Lençóis Maranhenses se inicia. Chegada prevista: 17:30hrs (custo R$ 150 por pessoa)\nDIA 05: Dia livre - Retorno para São Paulo",
+    "inclusoes": "Aéreo ida e volta em classe econômica e bagagem de mão inclusa, Hospedagem em Barreirinhas, Café da manhã, Guia desde o embarque, City Tour, Transfer Aeroporto/ Hotel. NÃO INCLUSO: Pacote de passeios (Circuito Lagoa Azul, Circuito Caburé, ATINS) - R$ 390,00.",
+    "embarques": [
+      "AEROPORTO DE GUARULHOS OU CONGONHAS saída 18/03/2026"
+    ],
+    "url": "https://marcinhotur.com.br/pacote/lencois-maranheses-data_18-03-2026h00_00p381/44041",
+    "booking_url": "https://marcinhotur.com.br/carrinho_compra/lencois-maranheses-data_18-03-2026h00_00p381/44041",
+    "images": [
+      "https://img.suareservaonline.com.br/marcinhotur/shop/products/featured/aeadba84fcf680060348e6cc5a17cc1e.jpg"
+    ]
+  },
+  {
+    "title": "ARRAIAL DO CABO & MACAE HOTEL BEIRA MAR",
+    "price": "R$599,99 /por pessoa",
+    "payment_conditions": "Para reservas via cartão de credito ou Pix a vista ou parcelado. (antiga 161/85, de Cancelamento e Devolução).\n80%' até 31 dias do início da viagem - multa de 20% do valor do pacote.\n70%' A menos 30 dias do início da viagem - multa de 30% do valor do pacote.\n50%' A menos 20 dias do inicio da viagem - multa de 50% do valor do pacote\n0%' A menos 10 dias do início da viagem - multa de 100% do valor do pacote.",
+    "description": "Arraial do Cabo é uma cidade brasileira localizada na Região dos Lagos, no estado do Rio de Janeiro. Você vai encontrar algumas das praias mais belas do mundo e muito o que fazer em Arraial do Cabo. O lugar tem uma excelente fama, por isso ganhou até alguns apelidos, como “Capital do Mergulho”, “Paraíso do Atlântico”, “Caribe Fluminense” e “Caribe Brasileiro”.",
+    "roteiro": "sexta: Embarques (19:00 DIADEMA, 20:00 CARAPICUÍBA, 20:30 BARRA FUNDA, 21:00 TATUAPE)\nsabado: Chegada prevista ás 6:30 da manhã no Graal Oasis para tomar café e trocar de roupa. 07:30 saída até Arraial (50 minutos). 08:30 chega no portal da cidade. 08:50 chegada no estacionamento local. Passeio de barco (R$ 180,00 por pessoa com as taxas). 10:00 início do passeio de barco. 14:30 término e almoço. 16:30 retorno ao ônibus e seguimos sentido a cidade de Macaé - RJ (02h30 de viagem). 18:30 chegada prevista e cliente tem a noite livre.\ndomingo: 06 às 10:30 café da manhã incluso. Dia livre em Macaé. 16:00 checkout e retorno para SP. Chegada prevista entre 00:30 a 01:00 AM",
+    "inclusoes": "Transporte Ida e Volta, Hospedagem - Hotel Royal macae beira mar, Café da Manhã (domingo), Guia de turismo, City Tour. NÃO INCLUSO: Taxa municipal R$60,00, Quarto com vista suíte master fica a mais R$ 300.00",
+    "embarques": [
+      "19:00 DIADEMA",
+      "20:00 CARAPICUÍBA",
+      "20:30 BARRA FUNDA",
+      "21:00 TATUAPE",
+      "BARRA FUNDA MEMORIAL DA AMERICA LATINA PORTÃO 8 (saída 09/01/2025 às 20h15)",
+      "AV PIRAPORINHA 1767 AGENCIA MARCINHO TUR (saída 09/01/2026 às 18h45)",
+      "CARAPICUIBA (saída 09/01/2026 às 19h45)",
+      "TATUAPE RUA DOMINGO AGOSTINHO (saída 09/01/2026 às 20h35)"
+    ],
+    "url": "https://marcinhotur.com.br/pacote/arraial-do-cabo-macae-hotel-beira-mar-data_09-01-2026h18_45p418/44041",
+    "booking_url": "https://marcinhotur.com.br/carrinho_compra/arraial-do-cabo-macae-hotel-beira-mar-data_09-01-2026h18_45p418/44041",
+    "images": [
+      "https://img.suareservaonline.com.br/marcinhotur/shop/products/featured/dff57465b4fbf827351d4cf12f8352c8.jpg"
+    ]
+  },
+  {
+    "title": "PORTO SEGURO BA REVEILLON 2026",
+    "price": "R$2.700,00 /por pessoa",
+    "payment_conditions": "Não especificado no texto.",
+    "description": "Pacote completo para Porto Seguro no Reveillon 2026 com 5 noites de hospedagem, transporte semi-leito, seguro viagem, lanche a bordo, festas temáticas e city tour.",
+    "roteiro": "Dia 1: Viagem com saída da sua cidade em ônibus semi-leito com paradas estratégicas.\nDias 2-5: Hospedagem em hotéis ou pousadas com piscina e café da manhã incluso. Festas temáticas todas as noites (luau, festa na praia, balada de branco). City tour, visita ao centro histórico, aldeia Pataxó. Ecoturismo e aventura no Parque Marinho de Recife de Fora, Reserva da Jaqueira e passeios opcionais de quadriciclo, barco, caiaque e stand-up paddle em Trancoso e Caraíva. Vida noturna na Passarela do Descobrimento e Rua do Mucugê.",
+    "inclusoes": "Transporte semi-leito (ida e volta), hospedagem (5 noites) em hotéis ou pousadas com piscina e café da manhã, seguro viagem, monitores/guias, kit lanche, brindes, festas temáticas, city tour.",
+    "embarques": [
+      "AV PIRAPORINHA 1767 AGENCIA MARCINHO TUR - saída 27/12/2025 às 04h00",
+      "CARAPICUIBA - saída 27/12/2025 às 04h40",
+      "BARRA FUNDA MEMORIAL DA AMERICA LATINA PORTÃO 8 - saída 27/12/2025 às 05h30",
+      "TATUAPE RUA DOMINGO AGOSTINHO - saída 27/12/2025 às 06h00"
+    ],
+    "url": "https://marcinhotur.com.br/pacote/porto-seguro-ba-reveillon-2026-data_27-12-2025h04_00p394/44041",
+    "booking_url": "https://marcinhotur.com.br/carrinho_compra/porto-seguro-ba-reveillon-2026-data_27-12-2025h04_00p394/44041",
+    "images": [
+      "https://img.suareservaonline.com.br/marcinhotur/shop/products/featured/921b5151c05660a93734a30ea111884b.png"
+    ]
+  },
+  {
+    "title": "CAMPOS DO JORDÃO NATAL LUZ",
+    "price": "R$ 169,00 por pessoa",
+    "payment_conditions": "- 169,00 por pessoa via pix\n- No cartão contém taxa da maquina\nreservamos mediante sinal de 75,00",
+    "description": "Pacote turístico para Campos do Jordão no Natal Luz, com city tour pelos principais pontos turísticos.",
+    "roteiro": "07:00 embarque diadema\n08:00 Embarque em Carapicuíba\n08:40 Embarque na Barra Funda\n09:10 Embarque Tatuapé\n11:00 Chegada em Campos Do Jordão\nINICIAMOS O CITY TOUR\nROTEIRO:\nDucha de Prata\nAlto do Capivari (mansões)\nFabrica Dá Cacau Show\nSpinassi: degustação de queijos e vinhos\n16:00 finalizamos\no cliente terá um tempo livre no centro de Campos\nO QUE FAZER NO TEMPO LIVRE?\nFeirinha de artesanatos.\nPasseio de pedalinho\nJantar no centrinho de Capivari.\nRetorno 20:30",
+    "inclusoes": "INCLUSO:\nÔnibus Executivo\nCity Tour nos principais pontos turísticos\nGuia Credenciado\nMonitor da Agencia\nNÃO INCLUI:\nREFEIÇÕES",
+    "embarques": [
+      "AV PIRAPORINHA 1767 AGENCIA MARCINHO TUR - saída 14/12/2025 às 07h00",
+      "CARAPICUIBA - saída 14/12/2025 às 08h00",
+      "BARRA FUNDA MEMORIAL DA AMERICA LATINA PORTÃO 8 - saída 14/12/2025 às 08h20",
+      "TATUAPE RUA DOMINGO AGOSTINHO - saída 14/12/2025 às 09h20"
+    ],
+    "url": "https://marcinhotur.com.br/pacote/campos-do-jordao-natal-luz-data_14-12-2025h07_00p407/44041",
+    "booking_url": "https://marcinhotur.com.br/carrinho_compra/campos-do-jordao-natal-luz-data_14-12-2025h07_00p407/44041",
+    "images": [
+      "https://img.suareservaonline.com.br/marcinhotur/shop/products/featured/ac8cddb03848c3b9d47a95cf70a0e889.jpg"
+    ]
+  },
+  {
+    "title": "ANGRA DOS REIS",
+    "price": "R$289,00",
+    "payment_conditions": "PIX OU TRANSFERÊNCIA:sendo á primeira de R$ 150.00 no ato da reserva, o restante pagar 7 dias antes da viagem. CARTÃO DE CRÉDITO: até 12x com taxa da máquina.",
+    "description": "Pacote turístico para Angra dos Reis com passeio de escuna.",
+    "roteiro": "20/12 - sábado: Embarque em Diadema (21:00), Carapicuíba (22h00), Barra Funda (22:40), Tatuapé (23:215).\n21/12 - Domingo: Chegada prevista em Angra (07:00). Tempo livre até 09:00. Passeio de Escuna (09:10) com paradas na Lagoa Azul, Praia Freguesia de Santana e Praia de Japariz (almoço no Restaurante Mandala não incluso). Retorno para SP (17:00), chegada prevista 01:00 a 02:00 AM.",
+    "inclusoes": "INCLUSOS: Transporte ida e volta, Seguro viagem, Passeio de Escuna. NÃO INCLUSOS: Atividades não citadas acima, Almoço em Ilha Grande (R$49,99).",
+    "embarques": [
+      "Diadema 21:00",
+      "Carapicuíba 22h00",
+      "Barra Funda 22:40",
+      "Tatuapé 23:30"
+    ],
+    "url": "https://marcinhotur.com.br/pacote/angra-dos-reis-data_20-12-2025h21_00p411/44041",
+    "booking_url": "https://marcinhotur.com.br/carrinho_compra/angra-dos-reis-data_20-12-2025h21_00p411/44041",
+    "images": [
+      "https://img.suareservaonline.com.br/marcinhotur/shop/products/featured/19a761de1720e84ba5e3942f179f846f.jpeg"
+    ]
+  },
+  {
+    "title": "PUNTA CANA - REPUBLICA DOMINICANA",
+    "price": "R$7.200,00 /por pessoa",
+    "payment_conditions": "Para reservas via cartão de credito ou Pix a vista:\n80%' até 31 dias do início da viagem - multa de 20% do valor do pacote\n70%' A menos 30 dias do início da viagem - multa de 30% do valor do pacote\n50%' A menos 20 dias do inicio da viagem - multa de 50% do valor do pacote\n0%' A menos 10 dias do início da viagem - multa de 100% do valor do pacote.",
+    "description": "Pacote turístico para Punta Cana, República Dominicana. Desfrute de praias paradisíacas, atividades como tirolesa, windsurfe, caiaque e vela, e luxuosos resorts all-inclusive.",
+    "roteiro": "PRIMEIRO DIA:\nEmbarque: Chegada em Punta Cana, restante do dia livre para climatização.\nOpção de saída noturna: COCO BONGO ou IMAGINE CAVE.\nSEGUNDO DIA:\nILHA DE SAONA\nSaída às 07hrs para Ilha de Saona, considerada a maior Ilha Caribenha.\nRetorno previsto às 19hrs.\nNoite livre\nInvestimento: R$ 370,00 por pessoa\nTERCEIRO DIA:\nSCAPE PARK\nPasseio repleto de contemplações, aventuras e gostinho de quero mais. Saída às 07:30hrs para o parque Scape Park.\nRetorno previsto às 18hrs.\nNoite livre\nInvestimento: R$ 725,00 por pessoa\nQUARTO DIA:\nGolfinhos\nEsse passeio é exclusivo para aqueles que querem um contato mais próximo com a natureza.\nSaída às 07hrs e retorno previsto às 17hrs.\nNoite livre\nInvestimento: R$ 610,00 por pessoa\nQUINTO DIA:\nRetorno ao Brasil",
+    "inclusoes": "* Aéreo ida e volta em classe econômica e bagagem de mão incluída;\n* Hospedagem;\n* Guia brasileiro desde o embarque;\n* Guia Local bilíngue;\n* City Tour\n* Transfer Aeroporto/ Hotel",
+    "embarques": [
+      "AEROPORTO DE GUARULHOS saída 04/02/2026"
+    ],
+    "url": "https://marcinhotur.com.br/pacote/punta-cana-republica-dominicana-data_04-02-2026h00_00p380/44041",
+    "booking_url": "https://marcinhotur.com.br/carrinho_compra/punta-cana-republica-dominicana-data_04-02-2026h00_00p380/44041",
+    "images": [
+      "https://img.suareservaonline.com.br/marcinhotur/shop/products/featured/13d73b119adf7af25c44495a05bb8206.jpg"
+    ]
+  },
+  {
+    "title": "ARRAIAL DO CABO & MACAE",
+    "price": "R$419,00 /por pessoa",
+    "payment_conditions": "Para reservas via cartão de credito ou Pix a vista ou parcelado:\n80%' até 31 dias do início da viagem - multa de 20% do valor do pacote.\n70%' A menos 30 dias do início da viagem - multa de 30% do valor do pacote.\n50%' A menos 20 dias do inicio da viagem - multa de 50% do valor do pacote\n0%' A menos 10 dias do início da viagem - multa de 100% do valor do pacote.",
+    "description": "Arraial do Cabo é uma cidade brasileira localizada na Região dos Lagos, no estado do Rio de Janeiro. Você vai encontrar algumas das praias mais belas do mundo e muito o que fazer em Arraial do Cabo.\nO lugar tem uma excelente fama, por isso ganhou até alguns apelidos, como “Capital do Mergulho”, “Paraíso do Atlântico”, “Caribe Fluminense” e “Caribe Brasileiro”.",
+    "roteiro": "sexta: Embarques (19:00 Diadema, 20:00 Carapicuíba, 20:30 Barra Funda, 21:00 Tatuapé)\nsabado: Chegada prevista ás 6:30 da manhã no Graal Oasis para tomar café e trocar de roupa. 07:30 saída até Arraial (50 minutos). 08:30 chega no portal da cidade. 08:50 chegada no estacionamento local. Passeio de barco (R$ 180,00 por pessoa com as taxas, taxas locais não inclusas). 10:00 início do passeio de barco. 14:30 término e almoço. 16:30 retorno ao ônibus e seguimos sentido a cidade de Macaé - RJ (02h30 de viagem). 18:30 chegada prevista e cliente tem a noite livre (baladas na orla e bares).\ndomingo: 06 às 10:30 café da manhã incluso. Dia livre em Macaé. 16:00 checkout e retorno para SP. Chegada prevista entre 00:30 a 01:00 AM",
+    "inclusoes": "Transporte Ida e Volta\nHospedagem - Hotel Royal urban\nCafé da Manhã (domingo)\nGuia de turismo\nCity Tour\nTaxa municipal: R$60,00\nQuarto com vista suíte master fica a mais R$ 300.00",
+    "embarques": [
+      "19:00 DIADEMA",
+      "20:00 CARAPICUÍBA",
+      "20:30 BARRA FUNDA",
+      "21:00 TATUAPE",
+      "CARAPICUIBA saída 23/01/2025 às 19h50",
+      "AV PIRAPORINHA 1767 AGENCIA MARCINHO TUR saída 23/01/2026 às 19h00",
+      "BARRA FUNDA MEMORIAL DA AMERICA LATINA PORTÃO 8 saída 23/01/2026 às 20h20",
+      "TATUAPE RUA DOMINGO AGOSTINHO saída 23/01/2026 às 20h45"
+    ],
+    "url": "https://marcinhotur.com.br/pacote/arraial-do-cabo-macae-data_23-01-2026h19_00p413/44041",
+    "booking_url": "https://marcinhotur.com.br/carrinho_compra/arraial-do-cabo-macae-data_23-01-2026h19_00p413/44041",
+    "images": [
+      "https://img.suareservaonline.com.br/marcinhotur/shop/products/featured/f1bbbe882b4bcf35051ae81e4bc213f5.jpg"
+    ]
+  },
+  {
+    "title": "Morro de São Paulo Bahia",
     "price": "R$3.700,00 /por pessoa",
-    "description": "Pacote turístico para Morro de São Paulo, destino conhecido por suas praias paradisíacas e ambiente relaxante. Inclui atividades como snorkeling, passeios de lancha e gastronomia excelente.",
-    "roteiro": "Dia 1: Chegada em Salvador, transfer marítimo para Morro de São Paulo, check-in no hotel e noite livre.\nDia 2: Passeio pelas Primeira, Segunda e Terceira Praias, subida ao Farol do Morro para o pôr do sol e noite livre.\nDia 3: Passeio opcional de lancha \"Volta à Ilha\" com paradas em Garapuá, Boipeba, Moreré e Cairu (almoço não incluso).\nDia 4: Dia livre para curtir as praias ou fazer passeios opcionais como Tirolesa do Farol, caminhada ecológica até Gamboa, mergulho ou stand up paddle.\nDia 5: Café da manhã, check-out e traslado de volta para Salvador.",
-    "inclusoes": "Passagens aéreas ida e volta, transfer Salvador ⇄ Morro de São Paulo, hospedagem com café da manhã, monitor da equipe, seguro viagem. Não inclui: Almoços e jantares, passeios opcionais e taxas locais.",
+    "payment_conditions": "Não especificado no texto.",
+    "description": "Pacote turístico para Morro de São Paulo, um destino popular na Bahia, conhecido por suas praias paradisíacas e ambiente relaxante. Inclui atividades como snorkeling, passeios de lancha e gastronomia excelente.",
+    "roteiro": "1º DIA – CHEGADA EM SALVADOR / MORRO DE SÃO PAULO\nChegada em Salvador – BA\nTransfer marítimo até Morro de São Paulo (aprox. 2h30)\nCheck-in no hotel\nNoite livre para conhecer o centrinho, feirinha e restaurantes\n\n2º DIA – PRAIAS E MIRANTES\nCafé da manhã no hotel\nPasseio pelas Primeira, Segunda e Terceira Praias\nSubida ao Farol do Morro para ver o pôr do sol\nNoite livre com música ao vivo e bares locais\n\n3º DIA – VOLTA À ILHA (PASSEIO OPCIONAL)\nPasseio de lancha “Volta à Ilha”\nParadas: Garapuá, Boipeba, Moreré e Cairu\nAlmoço em restaurante local (não incluso)\nRetorno ao hotel no final da tarde\n\n4º DIA – DIA LIVRE / OPÇÕES DE PASSEIOS\nAproveite o dia para curtir as praias ou fazer passeios opcionais:\n– Tirolesa do Farol\n– Caminhada ecológica até Gamboa\n– Mergulho ou stand up paddle\nÚltima noite para aproveitar a vila\n\n5º DIA – RETORNO\nCafé da manhã\nCheck-out e traslado de volta para Salvador\nEmbarque de retorno com muitas lembranças incríveis",
+    "inclusoes": "Passagens aéreas ida e volta\nTransfer Salvador ⇄ Morro de São Paulo\nHospedagem com café da manhã\nMonitor da equipe\nSeguro viagem\n\nNÃO INCLUSO:\n– Almoços e jantares\n– Passeios opcionais e taxas locais",
     "embarques": [
       "AEROPORTO DE GUARULHOS saída 15/04/2026 às 14h00"
     ],
-    "url": "https://marcinhotur.com.br/pacote/morro-de-sao-paulo-bahia-data_15-04-2026h14_00p420/47662",
-    "booking_url": "https://marcinhotur.com.br/carrinho_compra/morro-de-sao-paulo-bahia-data_15-04-2026h14_00p420/47662",
+    "url": "https://marcinhotur.com.br/pacote/morro-de-sao-paulo-bahia-data_15-04-2026h14_00p420/44041",
+    "booking_url": "https://marcinhotur.com.br/carrinho_compra/morro-de-sao-paulo-bahia-data_15-04-2026h14_00p420/44041",
     "images": [
       "https://img.suareservaonline.com.br/marcinhotur/shop/products/featured/ac7b3708d5b1c36722d07f2e5111c63d.jpg"
     ]
@@ -748,46 +361,434 @@
   {
     "title": "CHILE SANTIAGO",
     "price": "R$4.500,00 /por pessoa",
-    "description": "Pacote turístico para Santiago, Capital do Chile, com 4 noites de hospedagem, aéreo incluso e transfer.",
-    "roteiro": "Dia do voo: Chegada em Santiago, Check-in no Hotel após as 15:00h.\nDIA 1: Após o check-in, livres.\nDIA 2: Passeios opcionais.\nDIA 3: Passeios opcionais.\nDIA 4: Check-out no Hotel as 12:00h e ficaram livres até horário do voo.",
-    "inclusoes": "Aéreo ida e volta em classe econômica e bagagem de mão incluída; Hospedagem (Ibis Budget Santiago Providencia) com café da manhã; Guia Brasileiro desde o embarque; Guia Local bilíngue; City Tour em Santiago (a pé).  Não inclui: passeios opcionais e traslados (serão ofertados e liberados para compra quando estiver mais próximo da viagem). Está incluso apenas 1 bolsa de mão com itens pessoais. Caso o passageiro deseje despachar ou levar mala de até 10kg, o pagamento deverá ser feito diretamente no aeroporto à companhia aérea. A agência não se responsabiliza por esse custo adicional.",
+    "payment_conditions": "Sinal de R$ 500,00 saldo até 30 dias antes do embarque via Pix ou cartão de crédito (Pagamentos mensais até data limite).\nBoleto ou Pix a vista ou parcelado até 30 dias antes do embarque.\nCartão de crédito 1 a 12x com 1,9% ao mês.",
+    "description": "Pacote turístico para Santiago, Chile, com 4 noites de hospedagem, aéreo incluso e transfer.",
+    "roteiro": "Dia do voo, Chegada em Santiago, Check-in no Hotel só estará liberado após as 15:00h.\nDIA 1 Após o check-in, livres.\nDIA 2 Teremos passeios opcionais;\nDIA 3 Teremos passeios opcionais;\nDIA 4 Check-out no Hotel as 12:00h e ficaram livres até horário do voo.",
+    "inclusoes": "▪️Aéreo ida e volta em classe econômica e bagagem de mão incluída;\n▪️Hospedagem (Ibis Budget Santiago Providencia) com café da manhã\n▪️Guia Brasileiro desde o embarque;\n▪️Guia Local bilíngue;\n▪️City Tour em Santiago; A pé\nOBS: Os passeios opcionais e os traslados, não estão inclusos no pacote, serão ofertados e liberados para compra quando estiver mais próximo da viagem.\nEstá incluso apenas 1 bolsa de mão com itens pessoais.\nCaso o passageiro deseje despachar ou levar mala de até 10kg, o pagamento deverá ser feito diretamente no aeroporto à companhia aérea. A agência não se responsabiliza por esse custo adicional.",
     "embarques": [
       "AEROPORTO DE GUARULHOS saída 08/07/2026"
     ],
-    "url": "https://marcinhotur.com.br/pacote/chile-santiago-data_08-07-2026h00_00p383/47662",
-    "booking_url": "https://marcinhotur.com.br/carrinho_compra/chile-santiago-data_08-07-2026h00_00p383/47662",
+    "url": "https://marcinhotur.com.br/pacote/chile-santiago-data_16-09-2026h00_00p383/44041",
+    "booking_url": "https://marcinhotur.com.br/carrinho_compra/chile-santiago-data_16-09-2026h00_00p383/44041",
     "images": [
       "https://img.suareservaonline.com.br/marcinhotur/shop/products/featured/a1438320af449fb4793a9d4da5600a0b.jpg"
     ]
   },
   {
-    "title": "Porto Seguro Bahia",
-    "price": "R$ 2.600 (Quarto 3 ou 4 pessoas) / R$ 2.950 (Quarto casal ou duplo)",
-    "description": "Pacote turístico para Porto Seguro, um dos melhores destinos de praia do Litoral Sul da Bahia. Inclui aéreo, hospedagem, transfer e passeios.",
-    "roteiro": "Dia 1: Chegada em Porto Seguro, traslado para o hotel e dia livre para conhecer o centro.\nDia 2: Passeio opcional para Arraial d'Ajuda (custo R$150,00 por pessoa).\nDia 3: Passeio opcional para Caraíva (custo R$150,00 por pessoa) e noite livre.\nDia 4: Passeio opcional para Trancoso (custo R$150,00 por pessoa).\nDia 5: Passeio opcional para Coroa Vermelha (custo R$150,00 por pessoa).\nDia 6: Dia livre e traslado para o aeroporto.",
-    "inclusoes": "Aéreo ida e volta, hospedagem com piscina, traslado, café da manhã e guia. Não inclui passeios opcionais.",
+    "title": "ARRAIAL DO CABO MACAÉ & RIO DAS OSTRAS",
+    "price": "R$ 999,99 (à vista) / 12x de R$ 99,99 (cartão)",
+    "payment_conditions": "Pagamento via PIX: R$ 999,99 à vista. Pagamento no cartão: 12x de R$ 99,99",
+    "description": "Pacote turístico com duração de 2 noites, explorando Arraial do Cabo, Macaé e Rio das Ostras. Inclui hospedagem, transporte executivo e passeios pelas belas praias da região.",
+    "roteiro": "Dia 22/12: Embarque e chegada prevista em Arraial do Cabo no dia 23/12 às 08h00. Passeio de barco (opcional, não incluso no pacote, com taxas). Tempo livre para curtir as praias. 17h00: Saída para hospedagem em Macaé.\n\nDia 24/12: Café da manhã (05h30 às 10h00). 09h30: Saída para Rio das Ostras – dia livre nas praias. 16h00: Retorno para a hospedagem. Ceia de Natal – valores à parte.\n\nDia 25/12: Café da manhã (06h00 às 10h00). Dia livre para aproveitar. 18h00: Saída com destino a São Paulo. Chegada prevista: 26/12 às 06h00 da manhã.",
+    "inclusoes": "Inclui: Transporte rodoviário, hospedagem beira-mar, café da manhã, monitores durante toda a viagem, seguro viagem, transfer Rio das Ostras, transfer Macaé. Não Inclui: Ceia + Passeio de barco (com taxas). Combo (Passeio de barco + Ceia de Natal): R$ 399,99 por pessoa.",
     "embarques": [
-      "Aeroporto de Guarulhos - 05/01/2026"
+      "AV PIRAPORINHA 1767 AGENCIA MARCINHO TUR - saída 22/12/2025 às 18h30",
+      "BARRA FUNDA MEMORIAL DA AMERICA LATINA PORTÃO 8 - saída 22/12/2025 às 19h45",
+      "TATUAPE RUA DOMINGO AGOSTINHO - saída 22/12/2025 às 20h10"
     ],
-    "url": "https://marcinhotur.com.br/pacote/porto-seguro-bahia-data_05-12-2025h00_00p373/47662",
-    "booking_url": "https://marcinhotur.com.br/carrinho_compra/porto-seguro-bahia-data_05-12-2025h00_00p373/47662",
+    "url": "https://marcinhotur.com.br/pacote/arraial-do-cabo-macae-rio-das-ostra-data_22-12-2025h18_30p417/44041",
+    "booking_url": "https://marcinhotur.com.br/carrinho_compra/arraial-do-cabo-macae-rio-das-ostra-data_22-12-2025h18_30p417/44041",
     "images": [
-      "https://img.suareservaonline.com.br/marcinhotur/shop/products/featured/b32947b6a21c8cae7239aa4211926393.webp"
+      "https://img.suareservaonline.com.br/marcinhotur/shop/products/featured/b437baa1e7fcf6b70dbfa33f0a705798.jpg"
+    ]
+  },
+  {
+    "title": "REVEILLON ARRAIAL DO CABO & MACAÉ & BUZIOS",
+    "price": "R$ 2.500 (Duplo) / R$ 2.500 (Triplo) / R$ 2.100 (Quádruplo)",
+    "payment_conditions": "Entrada R$250,00, saldo até 10 dias antes do embarque via Pix ou cartão de crédito. Boleto ou Pix à vista ou parcelado até 7 dias antes do embarque. Cartão de crédito até 12x com taxas da credora.",
+    "description": "Pacote de Réveillon para Arraial do Cabo, Macaé e Búzios, explorando as belas praias e paisagens da Região dos Lagos.",
+    "roteiro": "30/12: Embarque.\n31/12: Búzios. Transfer até o centro da cidade R$ 40.00 por pessoa (obrigatório). Opção de passeio de buggy (R$ 130.00 por pessoa). Noite livre com opção na Praia dos Calaveiros.\n02/01/2025: Café da manhã. Saída para Arraial do Cabo. Passeio de barco com taxas (R$ 180.00 por pessoa). Tarde livre. Partida para Macaé. Noite livre.\n03/01/2025: Café da manhã. Dia livre com opções de Praia dos Cavaleiros, Praia Hollywood, Praia de Imbitiba, Lagoa de Iboasica.\n04/01/2025: Café da manhã. Dia livre.\n01/01/2026: Café da manhã. Dia livre. Partida para São Paulo às 14h.",
+    "inclusoes": "Inclui: Transporte Ida e Volta, Hospedagem - Hotel Royal Atlantica, Café da Manhã (4 cafés), Guia de turismo, City Tour, Seguro viagem, Brinde, Ceia de réveillon com bebidas. Não Inclui: Passeio de escuna em Arraial do Cabo R$180,00, passeio de Buggy R$130,00 (pode ser pago até 7 dias antes do embarque, necessário escolher pelo menos um passeio para acesso a Arraial do Cabo), Transfer de Búzios obrigatório R$40,00 por pessoa.",
+    "embarques": [
+      "AV PIRAPORINHA 1767 AGENCIA MARCINHO TUR - saída 30/12/2025 às 18h30",
+      "CARAPICUIBA - saída 30/12/2025 às 19h30",
+      "BARRA FUNDA MEMORIAL DA AMERICA LATINA PORTÃO 8 - saída 30/12/2025 às 20h00",
+      "TATUAPE RUA DOMINGO AGOSTINHO - saída 30/12/2025 às 20h30"
+    ],
+    "url": "https://marcinhotur.com.br/pacote/reveillon-arrail-do-cabo-macae-buzios-data_30-12-2025h18_30p349/44041",
+    "booking_url": "https://marcinhotur.com.br/carrinho_compra/reveillon-arrail-do-cabo-macae-buzios-data_30-12-2025h18_30p349/44041",
+    "images": [
+      "https://img.suareservaonline.com.br/marcinhotur/shop/products/featured/84cdc200126eecef340ba9dccddce3af.jpeg"
+    ]
+  },
+  {
+    "title": "COPACABANA RJ",
+    "price": "R$199,99 /por pessoa",
+    "payment_conditions": "PIX OU TRANSFERÊNCIA: Em 2x, sendo á primeira de R$ 100 no ato da reserva, o restante pagar 7 dias antes da viagem.",
+    "description": "Pacote turístico para Copacabana, Rio de Janeiro.",
+    "roteiro": "13/12 (Sábado):\n21:30 Saída de Diadema\nSaída do Centro de Carapicuíba às 22h30\n23h20 Passando pela Barra Funda - SP.\n23h40 Tatuapé\n------------------------------------\n14/12 (Domingo):\nChegada prevista em Copacabana às 07:00\nDia livre nas Praias de Copacabana e Ipanema. Com opcional de ida ao Cristo Redentor, pago no dia, direto ao receptivo\n17:00 Retorno para SP, chegada prevista para 00:30.",
+    "inclusoes": "Transporte Executivo ida e volta\nMonitor da Agencia\nSeguro Rodoviária",
+    "embarques": [
+      "AV PIRAPORINHA 1767 AGENCIA MARCINHO TUR saída 13/12/2025 às 21h30",
+      "CARAPICUIBA saída 13/12/2025 às 22h30",
+      "BARRA FUNDA MEMORIAL DA AMERICA LATINA PORTÃO 8 saída 13/12/2025 às 23h00",
+      "TATUAPE RUA DOMINGO AGOSTINHO saída 13/12/2025 às 23h30"
+    ],
+    "url": "https://marcinhotur.com.br/pacote/copacabana-rj-data_13-12-2025h21_30p409/44041",
+    "booking_url": "https://marcinhotur.com.br/carrinho_compra/copacabana-rj-data_13-12-2025h21_30p409/44041",
+    "images": [
+      "https://img.suareservaonline.com.br/marcinhotur/shop/products/featured/37823ca7b1af479dd6357ded447c8b2f.jpeg"
+    ]
+  },
+  {
+    "title": "RÉVEILLON DOS SONHOS EM COPACABANA!",
+    "price": "Quarto compartilhado R$1,999 (valor por pessoa) / Quarto duplo ou casal ou triplo R$2,300 (por pessoa)",
+    "payment_conditions": "Valores anunciados para pagamento via pix ou boleto. Sinal R$300,00 + parcelas mensais sem taxas, ultima parcela até 10 dias antes do embarque. Cartão de crédito: Para reservas via cartão de credito ou Pix a vista: 80%' até 31 dias do início da viagem - multa de 20% do valor do pacote; 70%' A menos 30 dias do início da viagem - multa de 30% do valor do pacote; 50%' A menos 20 dias do inicio da viagem - multa de 50% do valor do pacote; 0%' A menos 10 dias do início da viagem - multa de 100% do valor do pacote.",
+    "description": "Pacote para celebrar o Réveillon no Rio de Janeiro, com hospedagem em Copacabana e shows na praia.",
+    "roteiro": "29 DE DEZEMBRO – Partida de São Paulo: Embarque nos locais e horários combinados. Início da viagem rumo ao Rio de Janeiro. Parada estratégica na Rede Graal para café e lanche.\n\n30 DE DEZEMBRO – Chegada ao Rio de Janeiro: Chegada prevista às 08h00. Ida para Copacabana. Check-in a partir das 14h. Dia livre para curtir as praias ou passeios opcionais. Sugestão: passeio opcional ao Cristo Redentor + City Tour completo.\n\n31 DE DEZEMBRO – Dia Livre: Café da manhã incluso. Dia livre para aproveitar o Rio ou fazer passeios com a agência, relaxar e se preparar para a virada. À noite: Show gratuito na praia de Copacabana, queima de fogos e muita celebração.\n\n01 DE JANEIRO: Café da manhã incluso. Manhã e Tarde livre.\n\n02 DE JANEIRO – Retorno para São Paulo: Café da manhã incluso. Check-out até 12h (malas serão guardadas). Tarde livre até o embarque. Retorno para São Paulo entre 15h e 16h.",
+    "inclusoes": "Transporte: Ida e volta em ônibus de alto padrão. Café da manhã incluso durante todo o período da estadia. Excelente localização hotel casa nova. Hotel com piscina, sala de jogos, sauna e academia. Brindes Exclusivos. Monitores acompanhando o grupo durante toda a viagem. Seguro ANTT incluso. Momentos inesquecíveis com novas amizades.",
+    "embarques": [
+      "AV PIRAPORINHA 1767 AGENCIA MARCINHO TUR – saída 29/12/2025 às 20h00",
+      "CARAPICUIBA – saída 29/12/2025 às 21h00",
+      "BARRA FUNDA MEMORIAL DA AMERICA LATINA PORTÃO 8 – saída 29/12/2025 às 22h00",
+      "TATUAPE RUA DOMINGO AGOSTINHO – saída 29/12/2025 às 22h30"
+    ],
+    "url": "https://marcinhotur.com.br/pacote/rio-de-janeiro-data_29-12-2025h20_00p396/44041",
+    "booking_url": "https://marcinhotur.com.br/carrinho_compra/rio-de-janeiro-data_29-12-2025h20_00p396/44041",
+    "images": [
+      "https://img.suareservaonline.com.br/marcinhotur/shop/products/featured/45229756ad7b449c802f6c1bf6328c58.jpeg"
+    ]
+  },
+  {
+    "title": "SANTA CATARINA / BALNEARIO BARRA SUL - Queima de fogos & show de drones",
+    "price": "A partir de R$1.890,00 /por pessoa",
+    "payment_conditions": "PIX: Entrada R$ 300 + parcelas mensais\nCartão: Até 12x (com taxas da maquininha)",
+    "description": "Pacote turístico para Santa Catarina, Balneário Barra Sul, para curtir a queima de fogos e show de drones no Ano Novo. A festa principal acontece na Praia Central, onde os fogos são disparados de oito balsas no mar, além de pontos fixos no Molhe da Barra Sul e no Pontal Norte. Em 2024, o espetáculo também incluiu um show inédito com 1 000 drones sobre a Barra Sul, criando desenhos e mensagens de Ano Novo antes da tradicional explosão de luzes.",
+    "roteiro": "30/12 – Embarques:\n* Caieiras: 17h30 | Barra Funda: 18h30 | Carapicuíba: 19h30\n31/12 – Chegada ao hotel + dia livre + queima de fogos\n01/01 – Dia livre na praia\n02/01 – Passeio a Balneário Camboriú\n03/01 – Dia inteiro no Beto Carrero\n04/01 – Retorno às 12h",
+    "inclusoes": "PACOTE INCLUI:\nTransporte semi leito\nHotel de frente pro mar com piscina\n01 ingresso Beto Carrero World\nPasseio em Balneário Camboriú\n04 cafés da manhã\nBrindes exclusivos da agência\nGuia acompanhando o grupo",
+    "embarques": [
+      "AV PIRAPORINHA 1767 AGENCIA MARCINHO TUR - 30/12/2025 às 17h00",
+      "CAIEIRAS - 30/12/2025 às 17h30",
+      "BARRA FUNDA MEMORIAL DA AMERICA LATINA PORTÃO 8 - 30/12/2025 às 18h30",
+      "CARAPICUIBA - 30/12/2025 às 19h30"
+    ],
+    "url": "https://marcinhotur.com.br/pacote/santa-catarina-balneario-barra-sul-data_30-12-2025h17_00p378/44041",
+    "booking_url": "https://marcinhotur.com.br/carrinho_compra/santa-catarina-balneario-barra-sul-data_30-12-2025h17_00p378/44041",
+    "images": [
+      "https://img.suareservaonline.com.br/marcinhotur/shop/products/featured/8e55026d0af253317b1b23bb1e51bd33.jpeg"
+    ]
+  },
+  {
+    "title": "ARRAIAL DO CABO & MACAE",
+    "price": "R$419,00 /por pessoa",
+    "payment_conditions": "Para reservas via cartão de credito ou Pix a vista ou parcelado:\n- 80%' até 31 dias do início da viagem - multa de 20% do valor do pacote.\n- 70%' A menos 30 dias do início da viagem - multa de 30% do valor do pacote.\n- 50%' A menos 20 dias do inicio da viagem - multa de 50% do valor do pacote\n- 0%' A menos 10 dias do início da viagem - multa de 100% do valor do pacote.",
+    "description": "Arraial do Cabo é uma cidade brasileira localizada na Região dos Lagos, no estado do Rio de Janeiro. Conhecida como 'Capital do Mergulho', 'Paraíso do Atlântico', 'Caribe Fluminense' e 'Caribe Brasileiro', oferece algumas das praias mais belas do mundo.",
+    "roteiro": "Sexta: Embarques.\nSábado: Chegada prevista às 6:30 da manhã no Graal Oasis para café e troca de roupa. 07:30 saída até Arraial (50 minutos). 08:30 chegada no portal da cidade. 08:50 chegada no estacionamento local e início do translado até o cais para o passeio de barco. 10:00 início do passeio de barco. 14:30 término e almoço. 16:30 retorno ao ônibus e seguimos sentido a cidade de Macaé - RJ (2h30 de viagem). 18:30 chegada prevista e noite livre.\nDomingo: 06:00 às 10:30 café da manhã incluso. Dia livre em Macaé. 16:00 checkout e retorno para SP. Chegada prevista entre 00:30 a 01:00 AM.",
+    "inclusoes": "Inclui: Transporte Ida e Volta, Hospedagem - Hotel Royal urban, Café da Manhã (domingo), Guia de turismo, City Tour.\nNão Inclui: Taxa municipal R$60,00, Passeio de barco R$ 180,00 por pessoa com as taxas. Quarto com vista suíte master fica a mais R$ 300.00",
+    "embarques": [
+      "19:00 DIADEMA",
+      "20:00 CARAPICUÍBA",
+      "20:30 BARRA FUNDA",
+      "21:00 TATUAPE",
+      "AV PIRAPORINHA 1767 AGENCIA MARCINHO TUR saída 30/01/2026 às 19h00",
+      "CARAPICUIBA saída 30/01/2026 às 19h50",
+      "BARRA FUNDA MEMORIAL DA AMERICA LATINA PORTÃO 8 saída 30/01/2026 às 20h15",
+      "TATUAPE RUA DOMINGO AGOSTINHO saída 30/01/2026 às 20h45"
+    ],
+    "url": "https://marcinhotur.com.br/pacote/arraial-do-cabo-macae-data_30-01-2026h19_00p414/44041",
+    "booking_url": "https://marcinhotur.com.br/carrinho_compra/arraial-do-cabo-macae-data_30-01-2026h19_00p414/44041",
+    "images": [
+      "https://img.suareservaonline.com.br/marcinhotur/shop/products/featured/6294c64bf0a97eb26e9d898bdf641bcf.jpg"
+    ]
+  },
+  {
+    "title": "PORTO SEGURO BAHIA",
+    "price": "R$3.399,00 /por pessoa",
+    "payment_conditions": "Não especificado no texto.",
+    "description": "Pacote turístico para Porto Seguro, Bahia. Inclui passeios pela cidade histórica, Arraial d'Ajuda e tempo livre para aproveitar as praias e a Passarela do Álcool.",
+    "roteiro": "1º DIA – CHEGADA EM PORTO SEGURO: Chegada ao aeroporto de Porto Seguro – BA. Transfer até o hotel e check-in. Noite livre para conhecer a Passarela do Álcool e curtir os bares locais.\n\n2º DIA – PRAIA DE TAPERAPUÃ: Café da manhã no hotel. Dia de lazer nas barracas mais famosas: Axé Moi, Tôa Tôa e Barramares. Música, dança e diversão o dia todo! Noite livre.\n\n3º DIA – CITY TOUR HISTÓRICO + ARRAIAL D’AJUDA: Passeio pela Cidade Histórica, com parada para fotos e mirante. Conheça o marco da descoberta do Brasil. Travessia de balsa até Arraial d’Ajuda. Tempo livre na Praia do Mucugê e na vila charmosa. Retorno ao hotel.\n\n4º DIA – PASSEIO OPCIONAL / DIA LIVRE: Aproveite para relaxar ou fazer um dos passeios opcionais: – Trancoso e Praia do Espelho – Coroa Alta (passeio de escuna) – Rota do Descobrimento. Noite livre para aproveitar a cidade.\n\n5º DIA – RETORNO: Café da manhã. Check-out e traslado para o aeroporto. Fim da viagem com muitas lembranças e novas amizades.",
+    "inclusoes": "Passagens aéreas ida e volta, Hospedagem com café da manhã, Transfers aeroporto / hotel / aeroporto, Passeio histórico e Arraial d’Ajuda, Monitor da equipe, Seguro viagem. NÃO INCLUSO: Almoços e jantares, Passeios opcionais e taxas locais",
+    "embarques": [
+      "AEROPORTO DE GUARULHOS saída 18/03/2026 às 15h00"
+    ],
+    "url": "https://marcinhotur.com.br/pacote/porto-seguro-bahia-data_18-03-2026h15_00p421/44041",
+    "booking_url": "https://marcinhotur.com.br/carrinho_compra/porto-seguro-bahia-data_18-03-2026h15_00p421/44041",
+    "images": [
+      "https://img.suareservaonline.com.br/marcinhotur/shop/products/featured/21293cbe4c3f74dc06cf3394969c8698.jpg"
+    ]
+  },
+  {
+    "title": "COPACABANA RJ",
+    "price": "R$215,00/por pessoa",
+    "payment_conditions": "Não especificado",
+    "description": "Pacote turístico para Copacabana, Rio de Janeiro. Inclui 1 dia livre para aproveitar o destino.",
+    "roteiro": "Saída: São Paulo – 03/01. Chegada prevista: Rio de Janeiro às 07h00 da manhã. Dia livre até 17h00 para aproveitar Copacabana, caminhar no calçadão, curtir a praia ou fazer passeios opcionais.",
+    "inclusoes": "Incluso no pacote: Transporte executivo ida e volta, Monitores acompanhando todo o trajeto, Seguro viagem, 1 dia livre para aproveitar o destino da melhor forma.",
+    "embarques": [
+      "AV PIRAPORINHA 1767 AGENCIA MARCINHO TUR saída 03/01/2026 às 21h30",
+      "CARAPICUIBA saída 03/01/2026 às 22h30",
+      "BARRA FUNDA MEMORIAL DA AMERICA LATINA PORTÃO 8 saída 03/01/2026 às 23h00",
+      "TATUAPE RUA DOMINGO AGOSTINHO saída 03/01/2026 às 23h30"
+    ],
+    "url": "https://marcinhotur.com.br/pacote/copacabana-rj-data_03-01-2026h21_30p422/44041",
+    "booking_url": "https://marcinhotur.com.br/carrinho_compra/copacabana-rj-data_03-01-2026h21_30p422/44041",
+    "images": [
+      "https://img.suareservaonline.com.br/marcinhotur/shop/products/featured/615b4c83d4251e170f95b2b2ff0ac467.jpg"
+    ]
+  },
+  {
+    "title": "ILHA BELA LITORAL NORTE",
+    "price": "R$169,00 /por pessoa",
+    "payment_conditions": "Não especificado",
+    "description": "Conhecida por suas praias paradisíacas, cachoeiras e clima de ilha tropical, Ilhabela é um dos destinos mais encantadores do litoral paulista. O local combina natureza exuberante, aventura e charme, atraindo tanto quem busca descanso quanto quem gosta de explorar.",
+    "roteiro": "22h00 – Saída de Diadema\n23h00 – Saída de Carapicuíba\n23h55 – Saída da Barra Funda\n05h30 – Chegada prevista em São Sebastião\n06h00 – Travessia da Balsa (20 minutos)\nApós a travessia → Passeio livre pela ilha\n⏰ 16h30 – Retorno ao ponto de encontro (local informado no dia)\n⏰ 17h30 – Saída do ônibus de volta para SP\n⏰ 00h00 – Chegada prevista em SP",
+    "inclusoes": "Transporte confortável ida e volta\nMonitores acompanhando todo o grupo\nSeguro Viagem incluso\n☀️ Dias livres para curtir e aproveitar como quiser",
+    "embarques": [
+      "AV PIRAPORINHA 1767 AGENCIA MARCINHO TUR saída 17/01/2026 às 22h00",
+      "CARAPICUIBA saída 17/01/2026 às 23h00",
+      "BARRA FUNDA MEMORIAL DA AMERICA LATINA PORTÃO 8 saída 17/01/2026 às 23h30",
+      "TATUAPE RUA DOMINGO AGOSTINHO saída 17/01/2026 às 23h55"
+    ],
+    "url": "https://marcinhotur.com.br/pacote/ilha-bela-litoral-norte-data_17-01-2026h22_00p426/44041",
+    "booking_url": "https://marcinhotur.com.br/carrinho_compra/ilha-bela-litoral-norte-data_17-01-2026h22_00p426/44041",
+    "images": [
+      "https://img.suareservaonline.com.br/marcinhotur/shop/products/featured/7f69f680a301bed47796e4cec7d1297c.jpg"
+    ]
+  },
+  {
+    "title": "PARATY E TRINDADE",
+    "price": "R$399,99",
+    "payment_conditions": "Não especificado",
+    "description": "Visite Paraty, uma das mais belas cidades do Brasil, com arquitetura colonial preservada, entre o mar e a montanha. Desfrute de história, cultura, gastronomia, praias, cachoeiras e aventura.",
+    "roteiro": "Sexta: 21:30 Diadema, 22:30 Carapicuíba, 23:30 Barra Funda, 23:50 Tatuapé.\nSábado: 06h30 chegada prevista em Paraty, 08:00 Check-in, 09:00 ida até o centro de Paraty. Passeio de escuna opcional (R$ 130,00 por pessoa). 17:00 Retorno para a pousada. Noite livre no centro histórico (custo adicional de R$ 30,00 por pessoa para translado).\nDomingo: Café 07:30 às 08:30, 08h40 Saída para Trindade (Van opcional R$ 25,00 não incluso). 15:00 Retorno à pousada, 18:00 Retorno a São Paulo, chegada prevista 23:30.",
+    "inclusoes": "INCLUSO: Transporte executivo ida e volta, hospedagem com piscina, 02 cafés da manhã, 01 transfer até o centro de Paraty (para quem for ao passeio de escuna), monitor da Agência, muita diversão e praia. NÃO INCLUSO: Passeio de escuna (R$ 130,00 por pessoa), translado até Trindade no domingo (R$ 25,00 por pessoa).",
+    "embarques": [
+      "AV PIRAPORINHA 1767 AGENCIA MARCINHO TUR - 27/03/2026 às 21h30",
+      "CARAPICUIBA - 27/03/2026 às 22h30",
+      "BARRA FUNDA MEMORIAL DA AMERICA LATINA PORTÃO 8 - 27/03/2026 às 23h30",
+      "TATUAPE RUA DOMINGO AGOSTINHO - 27/03/2026 às 23h45"
+    ],
+    "url": "https://marcinhotur.com.br/pacote/paraty-e-trindade-data_27-03-2026h21_30p428/44041",
+    "booking_url": "https://marcinhotur.com.br/carrinho_compra/paraty-e-trindade-data_27-03-2026h21_30p428/44041",
+    "images": [
+      "https://img.suareservaonline.com.br/marcinhotur/shop/products/featured/2cbfa92c12fccaf255771e17fa8f30f9.webp"
+    ]
+  },
+  {
+    "title": "Paraty & Trindade",
+    "price": "R$ 399,00 (compartilhado 5 a 6 pessoas) / R$ 450,00 (quarto quádruplo) / R$ 499,00 (quarto duplo ou triplo)",
+    "payment_conditions": "Pix ou transferência (sinal de R$150,00 e restante quitar até 05 dias antes da viagem). Crédito parcelado até em 12x com acréscimo da máquina.",
+    "description": "Visite Paraty, uma das mais belas cidades do Brasil, com arquitetura colonial preservada, entre o mar e a montanha. Desfrute de história, cultura, gastronomia, praias, cachoeiras e aventura.",
+    "roteiro": "Sexta: 21:30 Diadema / 22:30 Carapicuíba / 23:30 Barra Funda / 23:50 Tatuapé. Sábado: 06h30 Chegada prevista em Paraty / 08:00 Check-in / 09:00 Ida ao centro de Paraty (Passeio de escuna opcional - R$ 100,00 por pessoa) / 17:00 Retorno para a pousada / Noite livre no centro histórico (custo adicional de R$ 30,00 por pessoa para translado). Domingo: 07:30-08:30 Café da manhã / 08h40 Saída para Trindade (Opcional Van R$ 25,00 não incluso) / 15:00 Retorno à pousada / 18:00 Retorno a São Paulo (Chegada prevista 23:30).",
+    "inclusoes": "Incluso: Transporte executivo ida e volta, hospedagem com piscina, 02 cafés da manhã, 01 transfer até o centro de Paraty (para quem for ao passeio de escuna), monitor da Agência. Não incluso: Passeio de escuna no centro de Paraty (R$ 100,00 por pessoa), translado até o vilarejo de Trindade no domingo (R$ 25,00 por pessoa).",
+    "embarques": [
+      "Diadema (21:30)",
+      "Carapicuíba (22:30)",
+      "Barra Funda (23:30)",
+      "Tatuapé (23:50)"
+    ],
+    "url": "https://marcinhotur.com.br/pacote/paraty-trindade-data_05-12-2025h21_30p408/44041",
+    "booking_url": "https://marcinhotur.com.br/carrinho_compra/paraty-trindade-data_05-12-2025h21_30p408/44041",
+    "images": [
+      "https://img.suareservaonline.com.br/marcinhotur/shop/products/featured/a04bb63a722fa37292c4f84e108e0a9f.jpeg"
     ]
   },
   {
     "title": "PORTO DE GALINHAS - MARAGOGI PRIAS DOS CANEIROS",
     "price": "R$2650,00 (Triplo) / R$2750,00 (Casal ou Duplo)",
-    "description": "Pacote turístico para Porto de Galinhas e Maragogi, localizadas no litoral sul de Pernambuco. Inclui 5 noites de hospedagem, aéreo, transfer e passeios.",
-    "roteiro": "Dia 1: Embarque no aeroporto de Guarulhos ou Congonhas. Desembarque no aeroporto de Recife. Dia livre.\nDia 2: Café da manhã. Passeio de buggy ponta a ponta de Porto de Galinhas (custo R$150,00 por pessoa). Noite livre.\nDia 3: Café da manhã. Passeio Carneiros + Barco Catamarã (custo R$180,00 por pessoa). Noite livre.\nDia 4: Café da manhã. Passeio mergulho com cilindro (custo R$180,00 por pessoa).\nDia 5: Café da manhã. Passeio Maragogi + Catamarã (custo R$170,00 por pessoa).\nDia 6: Café da manhã. Dia livre. Traslado para aeroporto de Recife. Embarque para SP Guarulhos ou Congonhas.",
-    "inclusoes": "Aéreo ida e volta, Traslado aeroporto - hotel, Hospedagem com piscina, Café da manhã, Guia. Não incluso: Passeios opcionais (Buggy, Carneiros + Catamarã, Mergulho com cilindro, Maragogi + Catamarã).",
+    "payment_conditions": "Pacote em quarto triplo R$2650,00 valor por pessoa. Pacote em quarto casal ou duplo R$2750,00 valor por pessoa.",
+    "description": "Localizada no litoral sul de Pernambuco, Porto de Galinhas é uma antiga vila de pescadores que se tornou o balneário mais querido do Nordeste. Reúne maravilhas naturais e um rico ecossistema. Passeio com hospedagem incluída por 5 noites. Acesso a piscinas durante o passeio. Transporte aéreo incluído no pacote do passeio. Café da manhã na chegada. Serviço de transfer incluído para maior comodidade.",
+    "roteiro": "Dia 1: Embarque aeroporto de Guarulhos ou Congonhas. Desembarque aeroporto de Recife. Dia livre após entrega das chaves dos quartos. Aconselhamos conhecer a noite no centro de Porto de Galinhas repleta de cultura, gastronomia e música.\n\nDia 2: Café da manhã. 09h00min Encontro na recepção da hospedagem. Passeio de buggy ponta a ponta de Porto de Galinha com duração de 06 horas (custo R$150,00 por pessoa). 15h00min Retorno a hospedagem. Noite livre.\n\nDia 3: Café da manhã. 09h00min Encontro na recepção da hospedagem. Passeio Carneiros + Barco Catamarã (custo R$180,00 por pessoa). 15h00min Retorno a hospedagem. Noite livre.\n\nDia 4: Café da manhã. 09h00min Encontro na recepção da hospedagem. Passeio mergulho com cilindro (custo R$180,00 por pessoa).\n\nDia 5: Café da manhã. 09h00min Encontro na recepção da hospedagem. Passeio Maragogi + Catamarã (custo R$170,00 por pessoa). 15h00min Retorno a hospedagem\n\nDia 6: Café da manhã. Dia livre. 12h00min Encontro na recepção da hospedagem. Translado para aeroporto de Recife. Embarque para SP Guarulhos ou Congonhas.",
+    "inclusoes": "Aéreo ida e volta, Traslado aéroporto - hotel, Hospedagem com piscina, Café da manhã, Guia. Passeios opcionais: Passeio de buggy ponta a ponta de Porto de Galinha (R$150,00 por pessoa), Passeio Carneiros + Barco Catamarã (R$180,00 por pessoa), Passeio mergulho com cilindro (R$180,00 por pessoa), Passeio Maragogi + Catamarã (R$170,00 por pessoa).",
     "embarques": [
-      "AEROPORTO DE GUARULHOS OU CONGONHAS - saída 06/06/2026"
+      "AEROPORTO DE GUARULHOS OU CONGONHAS saída 06/06/2026"
     ],
-    "url": "https://marcinhotur.com.br/pacote/porto-de-galinhas-maragogi-prias-dos-caneiros-data_06-06-2026h00_00p382/47662",
-    "booking_url": "https://marcinhotur.com.br/carrinho_compra/porto-de-galinhas-maragogi-prias-dos-caneiros-data_06-06-2026h00_00p382/47662",
+    "url": "https://marcinhotur.com.br/pacote/porto-de-galinhas-maragogi-prias-dos-caneiros-data_06-06-2026h00_00p382/44041",
+    "booking_url": "https://marcinhotur.com.br/carrinho_compra/porto-de-galinhas-maragogi-prias-dos-caneiros-data_06-06-2026h00_00p382/44041",
     "images": [
       "https://img.suareservaonline.com.br/marcinhotur/shop/products/featured/0bf8244c7af373636da34f97961f8466.jpg"
+    ]
+  },
+  {
+    "title": "CHILE SANTIAGO",
+    "price": "R$4.500,00 /por pessoa",
+    "payment_conditions": "Sinal de R$ 500,00 saldo até 30 dias antes do embarque via Pix ou cartão de crédito (Pagamentos mensais até data limite).\nBoleto ou Pix a vista ou parcelado até 30 dias antes do embarque.\nCartão de crédito 1 a 12x com 1,9% ao mês.",
+    "description": "Pacote turístico para Santiago, Chile, com 4 noites de hospedagem, aéreo incluso e transfer.",
+    "roteiro": "Dia do voo: Chegada em Santiago, Check-in no Hotel só estará liberado após as 15:00h.\nDIA 1: Após o check-in, livres.\nDIA 2: Teremos passeios opcionais;\nDIA 3: Teremos passeios opcionais;\nDIA 4: Check-out no Hotel as 12:00h e ficaram livres até horário do voo.",
+    "inclusoes": "Aéreo ida e volta em classe econômica e bagagem de mão incluída;\nHospedagem (Ibis Budget Santiago Providencia) com café da manhã\nGuia Brasileiro desde o embarque;\nGuia Local bilíngue;\nCity Tour em Santiago a pé.\n\nNÃO INCLUSO: Os passeios opcionais e os traslados não estão inclusos no pacote, serão ofertados e liberados para compra quando estiver mais próximo da viagem. Está incluso apenas 1 bolsa de mão com itens pessoais. Caso o passageiro deseje despachar ou levar mala de até 10kg, o pagamento deverá ser feito diretamente no aeroporto à companhia aérea. A agência não se responsabiliza por esse custo adicional.",
+    "embarques": [
+      "AEROPORTO DE GUARULHOS saída 08/07/2026"
+    ],
+    "url": "https://marcinhotur.com.br/pacote/chile-santiago-data_12-08-2026h00_00p383/44041",
+    "booking_url": "https://marcinhotur.com.br/carrinho_compra/chile-santiago-data_12-08-2026h00_00p383/44041",
+    "images": [
+      "https://img.suareservaonline.com.br/marcinhotur/shop/products/featured/a1438320af449fb4793a9d4da5600a0b.jpg"
+    ]
+  },
+  {
+    "title": "CAPITOLIO MAR DE MINAS",
+    "price": "R$399,99 /por pessoa",
+    "payment_conditions": "Não especificado",
+    "description": "Viagem de fim de semana para Capitólio / Furnas – MG. Inclui visita à Usina Hidrelétrica de Furnas, Complexo do Mirante, passeio de lancha pelo Lago de Furnas e hospedagem.",
+    "roteiro": "Dia 1: Embarque noturno em ônibus executivo climatizado.\nDia 2: Chegada na região de Furnas, parada para café da manhã (pago à parte). Visita à Usina Hidrelétrica de Furnas. Visita ao Complexo do Mirante (R$ 130,00 por pessoa). Almoço (não incluso). Passeio de Lancha pelo Lago de Furnas (R$ 180,00 por pessoa).",
+    "inclusoes": "Transporte em veículo executivo climatizado com monitores especializados. Hospedagem em hotel com acomodações modernas e climatizadas, Wi-Fi, TV a cabo, piscina, área de lazer, recepção 24h e estacionamento (mediante disponibilidade). Café da manhã estilo buffet. Equipe de monitores e coordenação. Não inclui: Café da manhã no primeiro dia, Almoço.",
+    "embarques": [
+      "AV PIRAPORINHA 1767 AGENCIA MARCINHO TUR - saída 27/03/2026 às 21h00",
+      "TATUAPE RUA DOMINGO AGOSTINHO - saída 27/03/2026 às 22h00",
+      "BARRA FUNDA MEMORIAL DA AMERICA LATINA PORTÃO 8 - saída 27/03/2026 às 23h00",
+      "CARAPICUIBA - saída 27/03/2026 às 23h30"
+    ],
+    "url": "https://marcinhotur.com.br/pacote/capitolio-mar-de-minas-data_27-03-2026h21_00p430/44041",
+    "booking_url": "https://marcinhotur.com.br/carrinho_compra/capitolio-mar-de-minas-data_27-03-2026h21_00p430/44041",
+    "images": [
+      "https://img.suareservaonline.com.br/marcinhotur/shop/products/featured/06f0acc1777f4d099bd41f607419fe8a.webp"
+    ]
+  },
+  {
+    "title": "RIO DE JANEIRO - FINAL DE SEMANA INCRÍVEL!",
+    "price": "R$499,99 /por pessoa",
+    "payment_conditions": "Não especificado no texto.",
+    "description": "Pacote turístico para o Rio de Janeiro, com destino a Copacabana. Inclui transporte em ônibus executivo climatizado, hospedagem em hotel categoria turística e acompanhamento de monitores.",
+    "roteiro": "Sexta-feira: Embarque noturno em ônibus executivo climatizado com destino ao Rio de Janeiro.\nSábado: Chegada em Copacabana às 07h. Dia livre para atividades independentes. Opcional: City Tour Rio de Janeiro (R$ 230,00 por pessoa) visitando Cristo Redentor, Pão de Açúcar, Escadaria Selarón, Sambódromo, Maracanã (vista externa) e Mirante do Leme. Ponto de encontro às 14h para embarque ao hotel, check-in e acomodação.",
+    "inclusoes": "Inclui: Transporte rodoviário em veículo executivo climatizado, hospedagem em hotel (SCORIAL OU CASA NOVA) com acomodações modernas e climatizadas, Wi-Fi, TV a cabo, piscina, área de lazer, serviço de recepção 24h, estacionamento (mediante disponibilidade) e café da manhã estilo buffet. Não inclui: City Tour (R$230,00)",
+    "embarques": [
+      "AV PIRAPORINHA 1767 AGENCIA MARCINHO TUR - saída 06/03/2026 às 21h00",
+      "CARAPICUIBA - saída 06/03/2026 às 22h00",
+      "BARRA FUNDA MEMORIAL DA AMERICA LATINA PORTÃO 8 - saída 06/03/2026 às 23h00",
+      "TATUAPE RUA DOMINGO AGOSTINHO - saída 06/03/2026 às 23h30"
+    ],
+    "url": "https://marcinhotur.com.br/pacote/rio-de-janeiro-data_06-03-2026h21_30p432/44041",
+    "booking_url": "https://marcinhotur.com.br/carrinho_compra/rio-de-janeiro-data_06-03-2026h21_30p432/44041",
+    "images": [
+      "https://img.suareservaonline.com.br/marcinhotur/shop/products/featured/c908691b15fe60fafa6f92fb01ae3888.webp"
+    ]
+  },
+  {
+    "title": "FOZ DO IGUAÇU & PARAGUAI & ARGENTINA",
+    "price": "A partir de R$1.150,00 /por pessoa",
+    "payment_conditions": "Não especificado no texto.",
+    "description": "Pacote turístico para Foz do Iguaçu, Paraguai e Argentina. Inclui transporte, hospedagem, seguro viagem e monitores.",
+    "roteiro": "Dia 1 (19/11): Saída de São Paulo às 16:00.\nDia 2 (20/11): Chegada em Foz do Iguaçu (12:00), almoço opcional (R$ 90,00), check-in no hotel (Portinari), saída para Argentina – Puerto Iguazú (R$ 100,00). Noite Livre para compras e 40 minutos no Cassino.\nDia 3 (21/11): Café da manhã, saída para o Paraguai (R$ 100,00), tempo livre para compras, retorno ao hotel, saída para o Marco das 3 Fronteiras (R$ 75,00).\nDia 4 (22/11): Café da manhã, passeio nas Cataratas do Iguaçu (R$ 160,00), retorno para São Paulo (12:00).",
+    "inclusoes": "Inclui: Transporte ida e volta, Hospedagem em Foz do Iguaçu, Seguro viagem, Monitores acompanhantes, Brindes. \nNão Inclui: Almoço, Passeios opcionais (Argentina, Paraguai, Cataratas).",
+    "embarques": [
+      "AV PIRAPORINHA 1767 AGENCIA MARCINHO TUR - saída 19/11/2026 às 16h00",
+      "BARRA FUNDA MEMORIAL DA AMERICA LATINA PORTÃO 8 - saída 19/11/2026 às 17h00"
+    ],
+    "url": "https://marcinhotur.com.br/pacote/foz-do-iguacu-paraguai-argentina-data_19-11-2026h16_00p435/44041",
+    "booking_url": "https://marcinhotur.com.br/carrinho_compra/foz-do-iguacu-paraguai-argentina-data_19-11-2026h16_00p435/44041",
+    "images": [
+      "https://img.suareservaonline.com.br/marcinhotur/shop/products/featured/1589d04e2cd680ef423fad966a2df107.jpeg"
+    ]
+  },
+  {
+    "title": "SAN ANDRÉS COLOMBIA 2026",
+    "price": "R$5.200,00 /por pessoa",
+    "payment_conditions": "Não especificado no texto.",
+    "description": "Pacote turístico para San Andrés, Colômbia. Inclui passagens aéreas, hospedagem, transfer e seguro viagem.",
+    "roteiro": "Não especificado no texto.",
+    "inclusoes": "Passagens aéreas ida e volta, Hospedagem, Transfer aeroporto-hotel-aeroporto, Monitores/guias, Seguro viagem, Brindes",
+    "embarques": [
+      "AEROPORTO DE GUARULHOS - 25/06/2026"
+    ],
+    "url": "https://marcinhotur.com.br/pacote/san-andres-colombia-2026-data_25-07-2026h00_00p395/44041",
+    "booking_url": "https://marcinhotur.com.br/carrinho_compra/san-andres-colombia-2026-data_25-07-2026h00_00p395/44041",
+    "images": [
+      "https://img.suareservaonline.com.br/marcinhotur/shop/products/featured/17223636fa86848e2c35a54b383ad64a.png"
+    ]
+  },
+  {
+    "title": "PARIS, FRANCE NOVEMBRO 2026   2 EDIÇÃO",
+    "price": "SINGLE: R$13.499,99 (por pessoa) / CASAL: R$10.599,99 (por pessoa) / DUPLO: R$10.599,99 (por pessoa) / TRIPLO: R$10.599 (por pessoa) / COMPARTILHADO: R$10.999,99 (por pessoa)",
+    "payment_conditions": "PIX à vista / PIX parcelado (até o mês da viagem) / Boleto á vista / Cartão de crédito em até 12x (com acréscimo de juros da operadora de crédito).",
+    "description": "Paris é o destino que reúne tudo em um só lugar: charme, história e sofisticação. A Cidade Luz encanta com seus monumentos icônicos como a Torre Eiffel, o Arco do Triunfo e o Museu do Louvre. Passeios às margens do Rio Sena, cafés charmosos, bairros boêmios, compras em boutiques renomadas e uma gastronomia de dar água na boca transformam cada dia em um capítulo inesquecível.",
+    "roteiro": "⬇️ (06/11) ⬇️ - Embarque no Aeroporto de Guarulhos com destino a Paris.\n⬇️ (07/11) ⬇️\n- Chegada em Paris e traslado até o hotel.\n- Dia e noite livres para descanso e adaptação.\n⬇️ (08/11) ⬇️- Walking Tour pelos principais pontos turísticos: Torre Eiffel (parte externa), Arco do Triunfo, Catedral de Notre-Dame, Museu do Louvre (parte externa), Jardim de Luxemburgo, Ponte Alexandre III e região do Rio Sena.\n- À noite, cruzeiro pelo Rio Sena (incluso).\n⬇️ (09/11) ⬇️- Dia livre – Opcional: Palácio de Versalhes.\n⬇️ (10/11) ⬇️- Dia livre – Opcional: Disneyland Paris.\n⬇️ (11/11) ⬇️- Dia livre – Sugestão: Sacré-Cœur e bairro de Montmartre.\n⬇️ (12/11) ⬇️- Dia livre – Sugestão: Champs-Élysées e compras.\n⬇️ (13/11) ⬇️- Dia livre – Sugestão: Museu d’Orsay.\n↩️ (14/11) ⬇️-Dia livre para aproveitar a cidade, realizar compras, curtir as praias ou participar de passeios opcionais.\n↪️ No horário combinado, traslado para o aeroporto e retorno ao Brasil.",
+    "inclusoes": "- PASSAGEM AÉREA (IDA E VOLTA)\n- HOSPEDAGEM EM HOTEL\n- CAFÉ DA MANHÃ COMPLETO\n- MALA DE BORDO DE 10KG\n- PASSEIO DE CRUZEIRO PELO SENA\n- TRASLADO IDA E VOLTA P/HOTEL\n- SEGURO VIAGEM INTERNACIONAL\n- MONITORES\n- Bagagem despachada (mala de porão) não está incluída no pacote e, caso desejado, poderá ser contratada à parte.\n- A marcação de assentos não faz parte do pacote básico.",
+    "embarques": [
+      "AEROPORTO DE GUARULHOS - saída 06/11/2026"
+    ],
+    "url": "https://marcinhotur.com.br/pacote/paris-france-novembro-2026-2-edicao-data_06-11-2026h00_00p405/44041",
+    "booking_url": "https://marcinhotur.com.br/carrinho_compra/paris-france-novembro-2026-2-edicao-data_06-11-2026h00_00p405/44041",
+    "images": [
+      "https://img.suareservaonline.com.br/marcinhotur/shop/products/featured/acb39f8da01962e4fdbaaa299f5c9849.jpeg"
+    ]
+  },
+  {
+    "title": "CARNAVAL COPACABANA & MACAE",
+    "price": "A partir de R$1.099,00 /por pessoa",
+    "payment_conditions": "Valores pagos em boletos, cartões ou pix seguem os prazos bancários para estorno conforme o meio de pagamento utilizado.",
+    "description": "Pacote de viagem para o Carnaval 2026 em Copacabana e Macaé, incluindo transporte executivo, hospedagem no Macaé Royal Atlântico Hotel, café da manhã, equipe de monitores e brindes exclusivos.",
+    "roteiro": "13/02 (SEXTA-FEIRA): Embarque noturno em ônibus executivo de São Paulo para o Rio de Janeiro.\n14/02 (SÁBADO): Chegada em Copacabana. Dia livre para atividades na praia e arredores. Às 16h30, embarque para Macaé e hospedagem no Macaé Royal Atlântico Hotel.\n15/02 (DOMINGO): Café da manhã no hotel. Dia livre para aproveitar os bloquinhos de Carnaval de Macaé.\n16/02 (SEGUNDA-FEIRA): Café da manhã no hotel. Dia livre para lazer e descanso. Sugestões: Praia dos Cavaleiros, Praia Campista ou passeio pela Lagoa de Imboassica.\n17/02 (TERÇA-FEIRA): Café da manhã no hotel. Às 15h, entrega das chaves e embarque de retorno a São Paulo. Previsão de chegada na manhã seguinte.",
+    "inclusoes": "Inclui: Transporte rodoviário em veículo executivo, hospedagem no Macaé Royal Atlântico Hotel (com acomodações modernas e climatizadas, Wi-Fi, TV a cabo, piscina, área de lazer, recepção 24h e estacionamento mediante disponibilidade), café da manhã (buffet com variedade), equipe de monitores e kit de viagem personalizado. Não especifica itens não inclusos.",
+    "embarques": [
+      "AV PIRAPORINHA 1767 AGENCIA MARCINHO TUR - saída 13/02/2026 às 21h00",
+      "CARAPICUIBA - saída 13/02/2026 às 22h00",
+      "BARRA FUNDA MEMORIAL DA AMERICA LATINA PORTÃO 8 - saída 13/02/2026 às 23h00",
+      "TATUAPE RUA DOMINGO AGOSTINHO - saída 13/02/2026 às 23h30"
+    ],
+    "url": "https://marcinhotur.com.br/pacote/carnaval-copacabana-macae-data_13-02-2026h21_00p427/44041",
+    "booking_url": "https://marcinhotur.com.br/carrinho_compra/carnaval-copacabana-macae-data_13-02-2026h21_00p427/44041",
+    "images": [
+      "https://img.suareservaonline.com.br/marcinhotur/shop/products/featured/0abe21c6eb20b89d68140a7cd78be3c1.jpg"
+    ]
+  },
+  {
+    "title": "CHILE SANTIAGO",
+    "price": "R$4.500,00 /por pessoa",
+    "payment_conditions": "Sinal de R$ 500,00 saldo até 30 dias antes do embarque via Pix ou cartão de crédito (Pagamentos mensais até data limite).\nBoleto ou Pix a vista ou parcelado até 30 dias antes do embarque.\nCartão de crédito 1 a 12x com 1,9% ao mês.",
+    "description": "Pacote turístico para Santiago, Chile, com 4 noites de hospedagem, aéreo incluso e transfer.",
+    "roteiro": "Dia do voo: Chegada em Santiago, Check-in no Hotel só estará liberado após as 15:00h.\nDIA 1: Após o check-in, livres.\nDIA 2: Teremos passeios opcionais;\nDIA 3: Teremos passeios opcionais;\nDIA 4: Check-out no Hotel as 12:00h e ficaram livres até horário do voo.",
+    "inclusoes": "Aéreo ida e volta em classe econômica e bagagem de mão incluída;\nHospedagem (Ibis Budget Santiago Providencia) com café da manhã\nGuia Brasileiro desde o embarque;\nGuia Local bilíngue;\nCity Tour em Santiago; A pé\n\nNÃO INCLUSO: Os passeios opcionais e os traslados, não estão inclusos no pacote, serão ofertados e liberados para compra quando estiver mais próximo da viagem. Está incluso apenas 1 bolsa de mão com itens pessoais. Caso o passageiro deseje despachar ou levar mala de até 10kg, o pagamento deverá ser feito diretamente no aeroporto à companhia aérea. A agência não se responsabiliza por esse custo adicional.",
+    "embarques": [
+      "AEROPORTO DE GUARULHOS saída 08/07/2026"
+    ],
+    "url": "https://marcinhotur.com.br/pacote/chile-santiago-data_08-07-2026h00_00p383/44041",
+    "booking_url": "https://marcinhotur.com.br/carrinho_compra/chile-santiago-data_08-07-2026h00_00p383/44041",
+    "images": [
+      "https://img.suareservaonline.com.br/marcinhotur/shop/products/featured/a1438320af449fb4793a9d4da5600a0b.jpg"
+    ]
+  },
+  {
+    "title": "ILHA BELA LITORAL NORTE",
+    "price": "R$ 149,00",
+    "payment_conditions": "Pix ou Transferência em 2x sendo R$ 75,00 de sinal e o restante 5 dias antes da viagem. Cartão de crédito parcelado até 12x com acréscimo",
+    "description": "Bate e volta para Ilhabela, litoral norte de São Paulo. Inclui transporte executivo e travessia da balsa a pé.",
+    "roteiro": "20/12 (Sábado):\n22:00 - Saída de Diadema\n23h – Saída de Carapicuíba\n23h30 – Saída da Barra Funda\n\n21/12 (Domingo):\nChegada prevista para as 05h30 em São Sebastião.\n06h00 - Travessia da Balsa (20 minutos).\nDia livre em Ilhabela.\n16h30 - Retorno para o ponto de encontro.\n17h30 - Partida de volta para SP.\n00:00 - Chegada prevista em SP.",
+    "inclusoes": "Inclui: Transporte Executivo, Travessia da Balsa a pé, Muita Diversão. \nNão Inclui: Translado até às praias, Almoço ou qualquer tipo de alimentação, Qualquer item não mencionado acima.",
+    "embarques": [
+      "AV PIRAPORINHA 1767 AGENCIA MARCINHO TUR - saída 20/12/2025 às 22h00",
+      "CARAPICUIBA - saída 20/12/2025 às 23h00",
+      "BARRA FUNDA MEMORIAL DA AMERICA LATINA PORTÃO 8 - saída 20/12/2025 às 23h30",
+      "TATUAPE RUA DOMINGO AGOSTINHO - saída 20/12/2025 às 23h50"
+    ],
+    "url": "https://marcinhotur.com.br/pacote/ilha-bela-litoral-norte-data_20-12-2025h22_00p410/44041",
+    "booking_url": "https://marcinhotur.com.br/carrinho_compra/ilha-bela-litoral-norte-data_20-12-2025h22_00p410/44041",
+    "images": [
+      "https://img.suareservaonline.com.br/marcinhotur/shop/products/featured/860ebca30f5ee3d80fdb6e0d31509e83.jpeg"
+    ]
+  },
+  {
+    "title": "COPACABANA REVEILLON",
+    "price": "R$399,99 /por pessoa",
+    "payment_conditions": "Reserva com entrada de R$ 150,00, saldo restante até 10 dias antes da viagem ou no cartão de crédito (com acréscimo da máquina)",
+    "description": "Comemoração do réveillon (o ano Novo) no Rio de Janeiro é realmente uma experiência inesquecível, mais ainda em Copacabana. A festa, se você quiser, dura a noite inteira na praia, além da fantástica queima de fogos comemorando a entrada do Ano Novo. Há várias atrações musicais, em diversos palcos, que começam já às 18h do dia 31 de dezembro. Avança pela noite, até o amanhecer.",
+    "roteiro": "30/12 - Terça-feira: Saída de São Paulo. Horário e ponto de embarque a confirmar com a equipe de monitores.\n\n31/12 - Quarta-feira: Chegada no Rio de Janeiro pela manhã. Dia Livre. City Tour opcional com parada nos principais pontos turísticos da cidade (Cristo, Pão de Açúcar, Maracanã, Escadaria Selarón, entre outros). Copacabana possui banheiros subterrâneos públicos para tomar banho e trocar de roupa. Também há guarda-volumes disponíveis com valores entre R$ 40 a R$ 100.\n\n01/01/2026 - Quinta-feira: 04h00 - Ponto de Encontro. Reunião com nosso guia para retorno a São Paulo. Previsão de chegada: 12h00",
+    "inclusoes": "Transporte ida e volta, Monitores acompanhantes, Dia livre nas praias do RJ, Muita diversão garantida!",
+    "embarques": [
+      "AV PIRAPORINHA 1767 AGENCIA MARCINHO TUR – saída 30/12/2025 às 21h00",
+      "CARAPICUIBA – saída 30/12/2025 às 22h00",
+      "BARRA FUNDA MEMORIAL DA AMERICA LATINA PORTÃO 8 – saída 30/12/2025 às 23h00",
+      "TATUAPE RUA DOMINGO AGOSTINHO – saída 30/12/2025 às 23h45"
+    ],
+    "url": "https://marcinhotur.com.br/pacote/copacabana-reveillon-data_30-12-2025h21_00p377/44041",
+    "booking_url": "https://marcinhotur.com.br/carrinho_compra/copacabana-reveillon-data_30-12-2025h21_00p377/44041",
+    "images": [
+      "https://img.suareservaonline.com.br/marcinhotur/shop/products/featured/1da1cc3b6f7713589f85f47cfeecbca0.jpeg"
+    ]
+  },
+  {
+    "title": "PORTO DE GALINHAS - MARAGOGI -PRIAS DOS CANEIROS",
+    "price": "R$3249,00 (Triplo/Quádruplo) / R$3490,00 (Casal/Duplo)",
+    "payment_conditions": "Boleto parcelado mensal (última parcela até 30 dias antes do embarque). Sinal R$500,00, saldo até 30 dias antes do embarque via pix ou cartão de crédito. Cartão de crédito até 10x sem juros",
+    "description": "Pacote turístico para Porto de Galinhas, Maragogi e Praias dos Carneiros com 05 noites de hospedagem, aéreo incluso, transfer IN/OUT e café da manhã.",
+    "roteiro": "Dia 1: Embarque no aeroporto de Guarulhos ou Congonhas. Desembarque no aeroporto de Recife. Dia livre.\nDia 2: Passeio de buggy ponta a ponta de Porto de Galinhas (custo R$180,00 por pessoa).\nDia 3: Passeio Carneiros + Barco Catamarã (custo R$180,00 por pessoa).\nDia 4: Passeio Maragogi + Catamarã (custo R$199,99 por pessoa).\nDia 5: Translado para aeroporto de Recife. Embarque para SP Guarulhos ou Congonhas.",
+    "inclusoes": "Aéreo ida e volta, Traslado aeroporto - hotel, Hospedagem com piscina, Café da manhã, Guia. NÃO INCLUSO: Passeio de buggy (custo R$180,00 por pessoa), Passeio Carneiros + Barco Catamarã (custo R$180,00 por pessoa), Passeio Maragogi + Catamarã (custo R$199,99 por pessoa)",
+    "embarques": [
+      "AEROPORTO DE GUARULHOS - 14/01/2026 às 10h00"
+    ],
+    "url": "https://marcinhotur.com.br/pacote/porto-de-galinhas-maragogi-prias-dos-caneiros-data_14-01-2026h00_00p379/44041",
+    "booking_url": "https://marcinhotur.com.br/carrinho_compra/porto-de-galinhas-maragogi-prias-dos-caneiros-data_14-01-2026h00_00p379/44041",
+    "images": [
+      "https://img.suareservaonline.com.br/marcinhotur/shop/products/featured/a8de30d11f50c66903d4333641047b80.jpg"
     ]
   }
 ]

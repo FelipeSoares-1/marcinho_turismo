@@ -14,7 +14,7 @@ if GOOGLE_API_KEY:
 
 class AudioService:
     def __init__(self):
-        self.model = genai.GenerativeModel('gemini-2.0-flash')
+        self.model = genai.GenerativeModel('gemini-1.5-flash')
 
     def download_audio(self, audio_url: str) -> str:
         """
